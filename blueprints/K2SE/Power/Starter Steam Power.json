@@ -427,8 +427,8 @@
         "entity_number": 48,
         "name": "medium-electric-pole",
         "neighbours": [
-          43,
           37,
+          43,
           86
         ],
         "position": {
@@ -976,8 +976,8 @@
         "entity_number": 109,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          86,
           37,
+          86,
           130
         ],
         "position": {
@@ -1196,8 +1196,8 @@
         "entity_number": 134,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          133,
-          130
+          130,
+          133
         ],
         "position": {
           "x": 202.5,

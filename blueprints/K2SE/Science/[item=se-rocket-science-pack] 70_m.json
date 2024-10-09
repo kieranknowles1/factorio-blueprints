@@ -3707,8 +3707,8 @@
         "entity_number": 409,
         "name": "substation",
         "neighbours": [
-          313,
-          144
+          144,
+          313
         ],
         "position": {
           "x": 234,

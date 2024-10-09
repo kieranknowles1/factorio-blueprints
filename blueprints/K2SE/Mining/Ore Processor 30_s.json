@@ -1540,8 +1540,8 @@
         "entity_number": 172,
         "name": "medium-electric-pole",
         "neighbours": [
-          160,
           84,
+          160,
           186,
           304
         ],
@@ -1668,8 +1668,8 @@
         "entity_number": 186,
         "name": "medium-electric-pole",
         "neighbours": [
-          172,
           101,
+          172,
           198,
           312
         ],
@@ -1778,8 +1778,8 @@
         "entity_number": 198,
         "name": "medium-electric-pole",
         "neighbours": [
-          186,
           112,
+          186,
           318
         ],
         "position": {
@@ -2720,8 +2720,8 @@
         "entity_number": 304,
         "name": "medium-electric-pole",
         "neighbours": [
-          298,
           172,
+          298,
           312
         ],
         "position": {
@@ -2792,8 +2792,8 @@
         "entity_number": 312,
         "name": "medium-electric-pole",
         "neighbours": [
-          304,
           186,
+          304,
           318
         ],
         "position": {
@@ -2848,8 +2848,8 @@
         "entity_number": 318,
         "name": "medium-electric-pole",
         "neighbours": [
-          312,
-          198
+          198,
+          312
         ],
         "position": {
           "x": 577.5,
@@ -5146,8 +5146,8 @@
         "entity_number": 579,
         "name": "medium-electric-pole",
         "neighbours": [
-          567,
           425,
+          567,
           593
         ],
         "position": {
@@ -5276,8 +5276,8 @@
         "entity_number": 593,
         "name": "medium-electric-pole",
         "neighbours": [
-          579,
           440,
+          579,
           605
         ],
         "position": {
@@ -5388,8 +5388,8 @@
         "entity_number": 605,
         "name": "medium-electric-pole",
         "neighbours": [
-          593,
-          452
+          452,
+          593
         ],
         "position": {
           "x": 577.5,

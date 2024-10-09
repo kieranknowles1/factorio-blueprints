@@ -3255,8 +3255,8 @@
         "entity_number": 366,
         "name": "medium-electric-pole",
         "neighbours": [
-          342,
           283,
+          342,
           382
         ],
         "position": {

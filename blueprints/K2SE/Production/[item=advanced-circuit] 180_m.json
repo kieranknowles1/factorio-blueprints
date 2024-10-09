@@ -1085,8 +1085,8 @@
         "name": "medium-electric-pole",
         "neighbours": [
           47,
-          115,
           107,
+          115,
           205
         ],
         "position": {

@@ -689,10 +689,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 57
+                "entity_id": 54
               },
               {
-                "entity_id": 54
+                "entity_id": 57
               }
             ]
           }
@@ -929,10 +929,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 111
+                "entity_id": 67
               },
               {
-                "entity_id": 67
+                "entity_id": 111
               }
             ]
           }
@@ -1630,10 +1630,10 @@
                 "entity_id": 69
               },
               {
-                "entity_id": 117
+                "entity_id": 110
               },
               {
-                "entity_id": 110
+                "entity_id": 117
               }
             ]
           }

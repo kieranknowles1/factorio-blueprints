@@ -3800,8 +3800,8 @@
         "entity_number": 400,
         "name": "big-electric-pole",
         "neighbours": [
-          399,
           304,
+          399,
           403
         ],
         "position": {
@@ -3851,9 +3851,9 @@
         "entity_number": 403,
         "name": "big-electric-pole",
         "neighbours": [
-          400,
           304,
-          306
+          306,
+          400
         ],
         "position": {
           "x": 100,

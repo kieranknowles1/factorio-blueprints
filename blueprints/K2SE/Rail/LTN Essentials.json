@@ -802,8 +802,8 @@
         "entity_number": 90,
         "name": "medium-electric-pole",
         "neighbours": [
-          74,
           39,
+          74,
           134,
           140
         ],

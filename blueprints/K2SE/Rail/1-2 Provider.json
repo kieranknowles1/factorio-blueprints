@@ -429,10 +429,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 46
+                "entity_id": 43
               },
               {
-                "entity_id": 43
+                "entity_id": 46
               }
             ]
           }
@@ -485,10 +485,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 50
+                "entity_id": 46
               },
               {
-                "entity_id": 46
+                "entity_id": 50
               }
             ]
           }
@@ -582,10 +582,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 57
+                "entity_id": 54
               },
               {
-                "entity_id": 54
+                "entity_id": 57
               }
             ]
           }
@@ -638,10 +638,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 61
+                "entity_id": 57
               },
               {
-                "entity_id": 57
+                "entity_id": 61
               }
             ]
           }
@@ -694,10 +694,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 65
+                "entity_id": 61
               },
               {
-                "entity_id": 61
+                "entity_id": 65
               }
             ]
           }
@@ -1017,8 +1017,8 @@
         "entity_number": 93,
         "name": "medium-electric-pole",
         "neighbours": [
-          82,
           52,
+          82,
           108
         ],
         "position": {
@@ -1234,10 +1234,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 107
+                "entity_id": 67
               },
               {
-                "entity_id": 67
+                "entity_id": 107
               },
               {
                 "entity_id": 111
@@ -1248,8 +1248,8 @@
         "entity_number": 108,
         "name": "medium-electric-pole",
         "neighbours": [
-          93,
-          67
+          67,
+          93
         ],
         "position": {
           "x": 608.5,
@@ -1309,11 +1309,11 @@
           "1": {
             "red": [
               {
-                "circuit_id": 2,
-                "entity_id": 109
+                "entity_id": 108
               },
               {
-                "entity_id": 108
+                "circuit_id": 2,
+                "entity_id": 109
               },
               {
                 "entity_id": 142

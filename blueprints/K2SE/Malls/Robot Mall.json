@@ -208,10 +208,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 11
+                "entity_id": 10
               },
               {
-                "entity_id": 10
+                "entity_id": 11
               }
             ]
           }
@@ -1396,8 +1396,8 @@
         "entity_number": 148,
         "name": "medium-electric-pole",
         "neighbours": [
-          140,
           38,
+          140,
           159,
           189
         ],
@@ -1500,8 +1500,8 @@
         "entity_number": 159,
         "name": "medium-electric-pole",
         "neighbours": [
-          148,
-          47
+          47,
+          148
         ],
         "position": {
           "x": 272.5,

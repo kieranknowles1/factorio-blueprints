@@ -1365,11 +1365,11 @@
           "2": {
             "red": [
               {
-                "circuit_id": 2,
-                "entity_id": 129
+                "entity_id": 118
               },
               {
-                "entity_id": 118
+                "circuit_id": 2,
+                "entity_id": 129
               }
             ]
           }
@@ -1499,10 +1499,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 123
+                "entity_id": 6
               },
               {
-                "entity_id": 6
+                "entity_id": 123
               },
               {
                 "entity_id": 206
@@ -1923,8 +1923,8 @@
         "entity_number": 173,
         "name": "medium-electric-pole",
         "neighbours": [
-          171,
           159,
+          171,
           288
         ],
         "position": {
@@ -2144,10 +2144,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 191
+                "entity_id": 171
               },
               {
-                "entity_id": 171
+                "entity_id": 191
               }
             ]
           }
@@ -2205,10 +2205,10 @@
                 "entity_id": 155
               },
               {
-                "entity_id": 194
+                "entity_id": 189
               },
               {
-                "entity_id": 189
+                "entity_id": 194
               }
             ]
           }
@@ -2587,10 +2587,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 225
+                "entity_id": 191
               },
               {
-                "entity_id": 191
+                "entity_id": 225
               }
             ]
           }
@@ -2645,10 +2645,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 228
+                "entity_id": 194
               },
               {
-                "entity_id": 194
+                "entity_id": 228
               }
             ]
           }
@@ -3055,10 +3055,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 259
+                "entity_id": 228
               },
               {
-                "entity_id": 228
+                "entity_id": 259
               }
             ]
           }
@@ -3407,8 +3407,8 @@
         "entity_number": 288,
         "name": "medium-electric-pole",
         "neighbours": [
-          284,
           173,
+          284,
           450
         ],
         "position": {
@@ -4189,8 +4189,8 @@
         "entity_number": 358,
         "name": "medium-electric-pole",
         "neighbours": [
-          349,
-          276
+          276,
+          349
         ],
         "position": {
           "x": -629.5,
@@ -4347,10 +4347,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 371
+                "entity_id": 283
               },
               {
-                "entity_id": 283
+                "entity_id": 371
               }
             ]
           }
@@ -5306,8 +5306,8 @@
         "entity_number": 450,
         "name": "medium-electric-pole",
         "neighbours": [
-          445,
-          288
+          288,
+          445
         ],
         "position": {
           "x": -608.5,
@@ -5467,8 +5467,8 @@
         "entity_number": 466,
         "name": "medium-electric-pole",
         "neighbours": [
-          329,
-          272
+          272,
+          329
         ],
         "position": {
           "x": -658.5,
@@ -6408,10 +6408,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 549
+                "entity_id": 457
               },
               {
-                "entity_id": 457
+                "entity_id": 549
               },
               {
                 "entity_id": 622
@@ -7465,8 +7465,8 @@
         "entity_number": 665,
         "name": "medium-electric-pole",
         "neighbours": [
-          663,
-          622
+          622,
+          663
         ],
         "position": {
           "x": -695.5,
@@ -10414,8 +10414,8 @@
         "entity_number": 984,
         "name": "medium-electric-pole",
         "neighbours": [
-          966,
-          876
+          876,
+          966
         ],
         "position": {
           "x": -631.5,
@@ -13184,8 +13184,8 @@
         "entity_number": 1283,
         "name": "medium-electric-pole",
         "neighbours": [
-          1272,
           966,
+          1272,
           1356
         ],
         "position": {
@@ -14817,10 +14817,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1451
+                "entity_id": 1415
               },
               {
-                "entity_id": 1415
+                "entity_id": 1451
               }
             ]
           }
@@ -15040,8 +15040,8 @@
         "entity_number": 1472,
         "name": "medium-electric-pole",
         "neighbours": [
-          1463,
           1300,
+          1463,
           1476,
           1623
         ],
@@ -15091,8 +15091,8 @@
         "entity_number": 1476,
         "name": "medium-electric-pole",
         "neighbours": [
-          1472,
           1302,
+          1472,
           1482,
           1627
         ],
@@ -16557,8 +16557,8 @@
         "entity_number": 1627,
         "name": "medium-electric-pole",
         "neighbours": [
-          1623,
-          1476
+          1476,
+          1623
         ],
         "position": {
           "x": -608.5,
@@ -17692,10 +17692,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1716
+                "entity_id": 1712
               },
               {
-                "entity_id": 1712
+                "entity_id": 1716
               }
             ]
           }
@@ -18212,10 +18212,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1738
+                "entity_id": 1734
               },
               {
-                "entity_id": 1734
+                "entity_id": 1738
               }
             ]
           }
@@ -18302,10 +18302,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 1743
+                "entity_id": 1737
               },
               {
-                "entity_id": 1737
+                "entity_id": 1743
               }
             ]
           }
@@ -19541,11 +19541,11 @@
           "1": {
             "red": [
               {
-                "circuit_id": 2,
-                "entity_id": 1818
+                "entity_id": 1814
               },
               {
-                "entity_id": 1814
+                "circuit_id": 2,
+                "entity_id": 1818
               },
               {
                 "entity_id": 1892
@@ -19704,10 +19704,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1828
+                "entity_id": 1825
               },
               {
-                "entity_id": 1825
+                "entity_id": 1828
               }
             ]
           }
@@ -19753,10 +19753,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 1830
+                "entity_id": 1827
               },
               {
-                "entity_id": 1827
+                "entity_id": 1830
               }
             ]
           }
@@ -20239,10 +20239,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1847
+                "entity_id": 1749
               },
               {
-                "entity_id": 1749
+                "entity_id": 1847
               },
               {
                 "entity_id": 1856
@@ -21860,8 +21860,8 @@
         "entity_number": 2004,
         "name": "big-electric-pole",
         "neighbours": [
-          2002,
           1801,
+          2002,
           2006
         ],
         "position": {
@@ -21944,8 +21944,8 @@
         "name": "big-electric-pole",
         "neighbours": [
           1463,
-          2006,
           1851,
+          2006,
           2011
         ],
         "position": {

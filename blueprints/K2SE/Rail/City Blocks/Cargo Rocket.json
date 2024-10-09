@@ -1344,8 +1344,8 @@
         "entity_number": 135,
         "name": "big-electric-pole",
         "neighbours": [
-          119,
-          117
+          117,
+          119
         ],
         "position": {
           "x": -585,
@@ -3641,10 +3641,10 @@
                 "entity_id": 197
               },
               {
-                "entity_id": 239
+                "entity_id": 228
               },
               {
-                "entity_id": 228
+                "entity_id": 239
               },
               {
                 "entity_id": 537
@@ -3655,8 +3655,8 @@
         "entity_number": 358,
         "name": "substation",
         "neighbours": [
-          228,
           197,
+          228,
           537
         ],
         "position": {
@@ -4174,10 +4174,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 413
+                "entity_id": 338
               },
               {
-                "entity_id": 338
+                "entity_id": 413
               }
             ]
           }
@@ -5420,8 +5420,8 @@
         "entity_number": 537,
         "name": "big-electric-pole",
         "neighbours": [
-          358,
           122,
+          358,
           538,
           963
         ],
@@ -5435,13 +5435,13 @@
           "1": {
             "green": [
               {
-                "entity_id": 537
-              },
-              {
                 "entity_id": 230
               },
               {
                 "entity_id": 472
+              },
+              {
+                "entity_id": 537
               },
               {
                 "entity_id": 601
@@ -5452,9 +5452,9 @@
         "entity_number": 538,
         "name": "substation",
         "neighbours": [
+          230,
           419,
-          537,
-          230
+          537
         ],
         "position": {
           "x": -512,
@@ -6154,10 +6154,10 @@
                 "entity_id": 478
               },
               {
-                "entity_id": 543
+                "entity_id": 542
               },
               {
-                "entity_id": 542
+                "entity_id": 543
               }
             ]
           }
@@ -9636,8 +9636,8 @@
         "entity_number": 989,
         "name": "medium-electric-pole",
         "neighbours": [
-          963,
           887,
+          963,
           1089
         ],
         "position": {

@@ -703,8 +703,8 @@
         "entity_number": 78,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          71,
           30,
+          71,
           85,
           152
         ],
@@ -769,8 +769,8 @@
         "entity_number": 85,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          78,
           37,
+          78,
           92,
           155
         ],
@@ -835,8 +835,8 @@
         "entity_number": 92,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          85,
           44,
+          85,
           159
         ],
         "position": {
@@ -1385,8 +1385,8 @@
         "entity_number": 152,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          149,
           78,
+          149,
           155
         ],
         "position": {
@@ -1416,8 +1416,8 @@
         "entity_number": 155,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          152,
           85,
+          152,
           159
         ],
         "position": {
@@ -1456,8 +1456,8 @@
         "entity_number": 159,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          155,
-          92
+          92,
+          155
         ],
         "position": {
           "x": 71.5,

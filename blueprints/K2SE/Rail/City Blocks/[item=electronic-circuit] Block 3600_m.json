@@ -1715,10 +1715,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 158
+                "entity_id": 157
               },
               {
-                "entity_id": 157
+                "entity_id": 158
               }
             ]
           }
@@ -1868,8 +1868,8 @@
         "entity_number": 170,
         "name": "medium-electric-pole",
         "neighbours": [
-          157,
           127,
+          157,
           181
         ],
         "position": {
@@ -2026,8 +2026,8 @@
         "entity_number": 181,
         "name": "medium-electric-pole",
         "neighbours": [
-          170,
-          138
+          138,
+          170
         ],
         "position": {
           "x": -338.5,
@@ -6930,8 +6930,8 @@
         "entity_number": 747,
         "name": "substation",
         "neighbours": [
-          741,
           552,
+          741,
           1049
         ],
         "position": {
@@ -13449,10 +13449,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1477
+                "entity_id": 1474
               },
               {
-                "entity_id": 1474
+                "entity_id": 1477
               }
             ]
           }
@@ -13713,10 +13713,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1488
+                "entity_id": 1485
               },
               {
-                "entity_id": 1485
+                "entity_id": 1488
               }
             ]
           }
@@ -14127,10 +14127,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 1510
+                "entity_id": 1506
               },
               {
-                "entity_id": 1506
+                "entity_id": 1510
               }
             ]
           }
@@ -14540,10 +14540,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 1527
+                "entity_id": 1524
               },
               {
-                "entity_id": 1524
+                "entity_id": 1527
               }
             ]
           }
@@ -15100,10 +15100,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 1575
+                "entity_id": 1571
               },
               {
-                "entity_id": 1571
+                "entity_id": 1575
               }
             ]
           }
@@ -16006,10 +16006,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 1616
+                "entity_id": 1612
               },
               {
-                "entity_id": 1612
+                "entity_id": 1616
               }
             ]
           }
@@ -18048,8 +18048,8 @@
         "entity_number": 1792,
         "name": "big-electric-pole",
         "neighbours": [
-          1790,
           1583,
+          1790,
           1794
         ],
         "position": {
@@ -18092,8 +18092,8 @@
         "name": "big-electric-pole",
         "neighbours": [
           1330,
-          1794,
           1635,
+          1794,
           1799
         ],
         "position": {

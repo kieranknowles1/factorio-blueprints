@@ -1,0 +1,17 @@
+{
+  "blueprint_book": {
+    "icons": [
+      {
+        "index": 1,
+        "signal": {
+          "name": "se-space-assembling-machine",
+          "type": "item"
+        }
+      }
+    ],
+    "item": "blueprint-book",
+    "label": "Production",
+    "version": 281479278886912
+  },
+  "index": 0
+}

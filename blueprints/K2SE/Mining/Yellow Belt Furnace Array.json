@@ -2370,8 +2370,8 @@
         "entity_number": 260,
         "name": "small-iron-electric-pole",
         "neighbours": [
-          253,
-          119
+          119,
+          253
         ],
         "position": {
           "x": -6.5,

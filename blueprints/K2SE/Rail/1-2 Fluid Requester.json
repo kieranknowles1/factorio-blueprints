@@ -245,11 +245,11 @@
           "1": {
             "red": [
               {
-                "entity_id": 20
-              },
-              {
                 "circuit_id": 2,
                 "entity_id": 19
+              },
+              {
+                "entity_id": 20
               },
               {
                 "entity_id": 30
@@ -363,10 +363,10 @@
           "1": {
             "red": [
               {
-                "entity_id": 27
+                "entity_id": 20
               },
               {
-                "entity_id": 20
+                "entity_id": 27
               }
             ]
           }

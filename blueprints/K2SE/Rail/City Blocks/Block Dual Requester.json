@@ -2463,10 +2463,10 @@
           "1": {
             "green": [
               {
-                "entity_id": 198
+                "entity_id": 195
               },
               {
-                "entity_id": 195
+                "entity_id": 198
               }
             ]
           }
@@ -3079,11 +3079,11 @@
           "1": {
             "red": [
               {
-                "circuit_id": 2,
-                "entity_id": 225
+                "entity_id": 221
               },
               {
-                "entity_id": 221
+                "circuit_id": 2,
+                "entity_id": 225
               },
               {
                 "entity_id": 299
@@ -3838,11 +3838,11 @@
           "1": {
             "red": [
               {
-                "circuit_id": 2,
-                "entity_id": 262
+                "entity_id": 258
               },
               {
-                "entity_id": 258
+                "circuit_id": 2,
+                "entity_id": 262
               },
               {
                 "entity_id": 333
@@ -5247,8 +5247,8 @@
         "entity_number": 411,
         "name": "big-electric-pole",
         "neighbours": [
-          409,
-          258
+          258,
+          409
         ],
         "position": {
           "x": -322,
