@@ -63,6 +63,22 @@
         "url": "https://git.clan.lol/clan/clan-core"
       }
     },
+    "factorio-blueprints": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728506820,
+        "narHash": "sha256-UPJloucBzQqNRK86OvkIKLJE8BFclvj/x9vArEUsKyo=",
+        "owner": "kieranknowles1",
+        "repo": "factorio-blueprints",
+        "rev": "071b55995f3b6b8e2d2eab97f7ecee9a3b26cfe1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kieranknowles1",
+        "repo": "factorio-blueprints",
+        "type": "github"
+      }
+    },
     "firefox-addons": {
       "inputs": {
         "flake-utils": [
@@ -246,6 +262,7 @@
     "nixcfg": {
       "inputs": {
         "clan-core": "clan-core",
+        "factorio-blueprints": "factorio-blueprints",
         "firefox-addons": "firefox-addons",
         "flake-parts": [
           "flake-parts"
@@ -271,11 +288,11 @@
         "vscode-extensions": "vscode-extensions"
       },
       "locked": {
-        "lastModified": 1728505712,
-        "narHash": "sha256-9s3csbiFWoNJgK0ghXmQqE76Abs+w7qoDv44HrY4eIA=",
+        "lastModified": 1728508230,
+        "narHash": "sha256-5oSPK409SiD5Qw6kGnzIFq1Q4xhX75Y+nci3vk2DogA=",
         "owner": "kieranknowles1",
         "repo": "nixcfg",
-        "rev": "0ffc26e5d12d77c933791fa2c26a04d2681e4a52",
+        "rev": "a35ab4c0d2da0ff4fc88851736f1ef009b04d3e9",
         "type": "github"
       },
       "original": {
@@ -532,11 +549,11 @@
     "src-factorio-blueprint-decoder": {
       "flake": false,
       "locked": {
-        "lastModified": 1721133589,
-        "narHash": "sha256-MC4/87sUdC9WN1R6WuRtZ8r+Gxj7LbfFwmdftnL/7FY=",
+        "lastModified": 1728508168,
+        "narHash": "sha256-qU2MXz7S2/rJ80JCiu/kjpusY0qBk8M1K7RtaDJMl6g=",
         "owner": "kieranknowles1",
         "repo": "factorio-blueprint-decoder",
-        "rev": "6ac7ff494799b1fd24c30fba410ffd40ce3bbbb0",
+        "rev": "741959ae60f5e8b1a449365f58dcf7bc21f3ae1c",
         "type": "github"
       },
       "original": {
