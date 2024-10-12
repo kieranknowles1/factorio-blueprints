@@ -1,0 +1,17 @@
+{
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "Dropped Item",
+    "settings": {
+      "entity_filters": [
+        {
+          "index": 0,
+          "name": "item-on-ground"
+        }
+      ],
+      "tile_selection_mode": 2
+    },
+    "version": 281479278886912
+  },
+  "index": 4
+}
