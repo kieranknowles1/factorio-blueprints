@@ -1,0 +1,340 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 8,
+      "y": 18
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "electric-mining-drill"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 3,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 5,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 4.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 9,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 4.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 10,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 8.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 13,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 7.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 8.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 16,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 7.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 17,
+        "name": "small-lamp",
+        "position": {
+          "x": 0.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 10.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 19,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 10.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 10.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 22,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 11.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 23,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 12.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 24,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 0.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 13.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 13.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 14.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 28,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 13.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 8.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 2.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 31,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 15.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 16.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "electric-mining-drill",
+        "position": {
+          "x": 6.5,
+          "y": 16.5
+        },
+        "direction": 12
+      }
+    ],
+    "wires": [
+      [
+        5,
+        5,
+        10,
+        5
+      ],
+      [
+        5,
+        5,
+        24,
+        5
+      ],
+      [
+        10,
+        5,
+        29,
+        5
+      ],
+      [
+        24,
+        5,
+        29,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Drill Tile",
+    "version": 562949954273281
+  },
+  "index": 1
+}
