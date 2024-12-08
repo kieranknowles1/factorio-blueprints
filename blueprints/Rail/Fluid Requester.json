@@ -1,0 +1,395 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "storage-tank"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 549,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 551,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 553,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 555,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 557,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 559,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 561,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 563,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 565,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 567,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 569,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 571,
+          "y": -529
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 13,
+        "name": "rail-signal",
+        "position": {
+          "x": 550.5,
+          "y": -527.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "pump",
+        "position": {
+          "x": 552.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 15,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 555.5,
+          "y": -527.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pump",
+        "position": {
+          "x": 554.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 17,
+        "name": "small-lamp",
+        "position": {
+          "x": 555.5,
+          "y": -526.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pump",
+        "position": {
+          "x": 556.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "pump",
+        "position": {
+          "x": 558.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "pump",
+        "position": {
+          "x": 560.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 563.5,
+          "y": -527.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pump",
+        "position": {
+          "x": 562.5,
+          "y": -527
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 23,
+        "name": "train-stop",
+        "position": {
+          "x": 571,
+          "y": -527
+        },
+        "direction": 4,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "name": "parameter-0"
+            },
+            "constant": 50000,
+            "comparator": "<"
+          },
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "[item=parameter-0] Requester"
+      },
+      {
+        "entity_number": 24,
+        "name": "rail-signal",
+        "position": {
+          "x": 572.5,
+          "y": -527.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 25,
+        "name": "storage-tank",
+        "position": {
+          "x": 551.5,
+          "y": -524.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "pipe",
+        "position": {
+          "x": 553.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": 554.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": 555.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": 557.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe",
+        "position": {
+          "x": 556.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "pipe",
+        "position": {
+          "x": 559.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": 558.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "pipe",
+        "position": {
+          "x": 561.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "pipe",
+        "position": {
+          "x": 560.5,
+          "y": -525.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "storage-tank",
+        "position": {
+          "x": 563.5,
+          "y": -524.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "storage-tank",
+        "position": {
+          "x": 554.5,
+          "y": -523.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 37,
+        "name": "storage-tank",
+        "position": {
+          "x": 560.5,
+          "y": -523.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        15,
+        5,
+        21,
+        5
+      ],
+      [
+        23,
+        1,
+        35,
+        1
+      ],
+      [
+        25,
+        1,
+        36,
+        1
+      ],
+      [
+        35,
+        1,
+        37,
+        1
+      ],
+      [
+        36,
+        1,
+        37,
+        1
+      ]
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Fluid",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Fluid Requester",
+    "version": 562949954928640
+  },
+  "index": 13
+}

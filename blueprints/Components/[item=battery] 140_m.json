@@ -1,0 +1,1683 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "battery"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "transport-belt",
+        "position": {
+          "x": 335.5,
+          "y": -65.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 2,
+        "name": "transport-belt",
+        "position": {
+          "x": 335.5,
+          "y": -64.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 3,
+        "name": "transport-belt",
+        "position": {
+          "x": 341.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "transport-belt",
+        "position": {
+          "x": 343.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "transport-belt",
+        "position": {
+          "x": 342.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": 345.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 344.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 347.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "transport-belt",
+        "position": {
+          "x": 346.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "transport-belt",
+        "position": {
+          "x": 349.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "transport-belt",
+        "position": {
+          "x": 348.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": 351.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 350.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": 353.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 15,
+        "name": "transport-belt",
+        "position": {
+          "x": 352.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 16,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -64.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": 354.5,
+          "y": -64.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 330.5,
+          "y": -63.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 330.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 331.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "transport-belt",
+        "position": {
+          "x": 335.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": 335.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "splitter",
+        "position": {
+          "x": 336.5,
+          "y": -63
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 24,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 25,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "inserter",
+        "position": {
+          "x": 339.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 338.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 28,
+        "name": "transport-belt",
+        "position": {
+          "x": 339.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 340.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 341.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 31,
+        "name": "transport-belt",
+        "position": {
+          "x": 340.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": 341.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 33,
+        "name": "inserter",
+        "position": {
+          "x": 342.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "transport-belt",
+        "position": {
+          "x": 342.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 35,
+        "name": "transport-belt",
+        "position": {
+          "x": 343.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 36,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 344.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 37,
+        "name": "inserter",
+        "position": {
+          "x": 345.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "transport-belt",
+        "position": {
+          "x": 344.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 39,
+        "name": "transport-belt",
+        "position": {
+          "x": 345.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 40,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 346.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 347.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 42,
+        "name": "transport-belt",
+        "position": {
+          "x": 346.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 43,
+        "name": "transport-belt",
+        "position": {
+          "x": 347.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 44,
+        "name": "inserter",
+        "position": {
+          "x": 348.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 348.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": 349.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 47,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 350.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 48,
+        "name": "inserter",
+        "position": {
+          "x": 351.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "transport-belt",
+        "position": {
+          "x": 350.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 50,
+        "name": "transport-belt",
+        "position": {
+          "x": 351.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 51,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 352.5,
+          "y": -62.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 353.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 53,
+        "name": "transport-belt",
+        "position": {
+          "x": 352.5,
+          "y": -63.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 54,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -62.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 55,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -63.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 56,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 330.5,
+          "y": -60.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 57,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 330.5,
+          "y": -61.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "pipe",
+        "position": {
+          "x": 331.5,
+          "y": -60.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "chemical-plant",
+        "position": {
+          "x": 333.5,
+          "y": -61.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 60,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 335.5,
+          "y": -61.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "fast-inserter",
+        "position": {
+          "x": 335.5,
+          "y": -60.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 62,
+        "name": "fast-inserter",
+        "position": {
+          "x": 336.5,
+          "y": -61.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "underground-belt",
+        "position": {
+          "x": 337.5,
+          "y": -61.5
+        },
+        "direction": 8,
+        "type": "input"
+      },
+      {
+        "entity_number": 64,
+        "name": "chemical-plant",
+        "position": {
+          "x": 340.5,
+          "y": -60.5
+        },
+        "direction": 8,
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 65,
+        "name": "chemical-plant",
+        "position": {
+          "x": 343.5,
+          "y": -60.5
+        },
+        "direction": 8,
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 66,
+        "name": "chemical-plant",
+        "position": {
+          "x": 346.5,
+          "y": -60.5
+        },
+        "direction": 8,
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 67,
+        "name": "chemical-plant",
+        "position": {
+          "x": 349.5,
+          "y": -60.5
+        },
+        "direction": 8,
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 68,
+        "name": "chemical-plant",
+        "position": {
+          "x": 352.5,
+          "y": -60.5
+        },
+        "direction": 8,
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 69,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -60.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 70,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -61.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 71,
+        "name": "pipe",
+        "position": {
+          "x": 330.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 330.5,
+          "y": -59.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 73,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 331.5,
+          "y": -58.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 74,
+        "name": "pipe",
+        "position": {
+          "x": 331.5,
+          "y": -59.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "chemical-plant",
+        "position": {
+          "x": 333.5,
+          "y": -58.5
+        },
+        "direction": 12,
+        "recipe": "sulfur",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 76,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 335.5,
+          "y": -58.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 77,
+        "name": "fast-inserter",
+        "position": {
+          "x": 335.5,
+          "y": -59.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 78,
+        "name": "chemical-plant",
+        "position": {
+          "x": 337.5,
+          "y": -59.5
+        },
+        "direction": 12,
+        "recipe": "sulfuric-acid",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 79,
+        "name": "pipe",
+        "position": {
+          "x": 339.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "pipe",
+        "position": {
+          "x": 340.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "pipe",
+        "position": {
+          "x": 341.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "pipe",
+        "position": {
+          "x": 343.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "pipe",
+        "position": {
+          "x": 342.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "pipe",
+        "position": {
+          "x": 345.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "pipe",
+        "position": {
+          "x": 344.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "pipe",
+        "position": {
+          "x": 347.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "pipe",
+        "position": {
+          "x": 346.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "pipe",
+        "position": {
+          "x": 349.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "pipe",
+        "position": {
+          "x": 348.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "pipe",
+        "position": {
+          "x": 351.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "pipe",
+        "position": {
+          "x": 350.5,
+          "y": -58.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -58.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 93,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -59.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 94,
+        "name": "pipe",
+        "position": {
+          "x": 330.5,
+          "y": -57.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe",
+        "position": {
+          "x": 331.5,
+          "y": -57.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -56.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 97,
+        "name": "underground-belt",
+        "position": {
+          "x": 337.5,
+          "y": -57.5
+        },
+        "direction": 8,
+        "type": "output"
+      },
+      {
+        "entity_number": 98,
+        "name": "chemical-plant",
+        "position": {
+          "x": 340.5,
+          "y": -56.5
+        },
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 99,
+        "name": "chemical-plant",
+        "position": {
+          "x": 343.5,
+          "y": -56.5
+        },
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 100,
+        "name": "chemical-plant",
+        "position": {
+          "x": 346.5,
+          "y": -56.5
+        },
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 101,
+        "name": "chemical-plant",
+        "position": {
+          "x": 349.5,
+          "y": -56.5
+        },
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 102,
+        "name": "chemical-plant",
+        "position": {
+          "x": 352.5,
+          "y": -56.5
+        },
+        "recipe": "battery",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 103,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -56.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 104,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -57.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 105,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 106,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -55.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 107,
+        "name": "inserter",
+        "position": {
+          "x": 339.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 108,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 340.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 341.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "inserter",
+        "position": {
+          "x": 342.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 111,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 344.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "inserter",
+        "position": {
+          "x": 345.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 113,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 346.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 114,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 347.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "inserter",
+        "position": {
+          "x": 348.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 116,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 350.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "inserter",
+        "position": {
+          "x": 351.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 118,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 352.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 353.5,
+          "y": -54.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -54.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 121,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -55.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 122,
+        "name": "transport-belt",
+        "position": {
+          "x": 337.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 123,
+        "name": "transport-belt",
+        "position": {
+          "x": 339.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 124,
+        "name": "transport-belt",
+        "position": {
+          "x": 338.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 125,
+        "name": "transport-belt",
+        "position": {
+          "x": 341.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 126,
+        "name": "transport-belt",
+        "position": {
+          "x": 341.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 127,
+        "name": "transport-belt",
+        "position": {
+          "x": 340.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 128,
+        "name": "transport-belt",
+        "position": {
+          "x": 342.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 129,
+        "name": "transport-belt",
+        "position": {
+          "x": 343.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 130,
+        "name": "transport-belt",
+        "position": {
+          "x": 343.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 131,
+        "name": "transport-belt",
+        "position": {
+          "x": 342.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 132,
+        "name": "transport-belt",
+        "position": {
+          "x": 344.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 133,
+        "name": "transport-belt",
+        "position": {
+          "x": 345.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 134,
+        "name": "transport-belt",
+        "position": {
+          "x": 345.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 135,
+        "name": "transport-belt",
+        "position": {
+          "x": 344.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 136,
+        "name": "transport-belt",
+        "position": {
+          "x": 346.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 137,
+        "name": "transport-belt",
+        "position": {
+          "x": 347.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 138,
+        "name": "transport-belt",
+        "position": {
+          "x": 347.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 139,
+        "name": "transport-belt",
+        "position": {
+          "x": 346.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 140,
+        "name": "transport-belt",
+        "position": {
+          "x": 348.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 141,
+        "name": "transport-belt",
+        "position": {
+          "x": 349.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 142,
+        "name": "transport-belt",
+        "position": {
+          "x": 349.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 143,
+        "name": "transport-belt",
+        "position": {
+          "x": 348.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 144,
+        "name": "transport-belt",
+        "position": {
+          "x": 350.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 145,
+        "name": "transport-belt",
+        "position": {
+          "x": 351.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 146,
+        "name": "transport-belt",
+        "position": {
+          "x": 351.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 147,
+        "name": "transport-belt",
+        "position": {
+          "x": 350.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 148,
+        "name": "transport-belt",
+        "position": {
+          "x": 352.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 149,
+        "name": "transport-belt",
+        "position": {
+          "x": 353.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 150,
+        "name": "transport-belt",
+        "position": {
+          "x": 352.5,
+          "y": -53.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 151,
+        "name": "transport-belt",
+        "position": {
+          "x": 354.5,
+          "y": -52.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 152,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -52.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 153,
+        "name": "transport-belt",
+        "position": {
+          "x": 355.5,
+          "y": -53.5
+        },
+        "direction": 8
+      }
+    ],
+    "wires": [
+      [
+        29,
+        5,
+        40,
+        5
+      ],
+      [
+        29,
+        5,
+        60,
+        5
+      ],
+      [
+        29,
+        5,
+        108,
+        5
+      ],
+      [
+        40,
+        5,
+        51,
+        5
+      ],
+      [
+        40,
+        5,
+        113,
+        5
+      ],
+      [
+        51,
+        5,
+        118,
+        5
+      ],
+      [
+        108,
+        5,
+        113,
+        5
+      ],
+      [
+        113,
+        5,
+        118,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "[item=battery] 140/m",
+    "version": 562949954928640
+  },
+  "index": 1
+}

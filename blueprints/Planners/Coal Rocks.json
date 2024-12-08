@@ -1,0 +1,27 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "entity_filters": [
+        {
+          "name": "huge-rock",
+          "quality": "normal",
+          "comparator": "=",
+          "index": 0
+        }
+      ],
+      "tile_selection_mode": 2,
+      "icons": [
+        {
+          "signal": {
+            "name": "coal"
+          },
+          "index": 1
+        }
+      ]
+    },
+    "item": "deconstruction-planner",
+    "label": "Coal Rocks",
+    "version": 562949954928640
+  },
+  "index": 0
+}

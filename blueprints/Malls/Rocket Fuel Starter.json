@@ -1,0 +1,531 @@
+{
+  "blueprint": {
+    "description": "Produces a small amount of rocket fuel, good enough for initial launches/fuel",
+    "icons": [
+      {
+        "signal": {
+          "name": "assembling-machine-2"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "transport-belt"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 199.5,
+          "y": -138.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 194.5,
+          "y": -136.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe",
+        "position": {
+          "x": 194.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": 195.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe",
+        "position": {
+          "x": 196.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": 197.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 196.5,
+          "y": -136.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "pipe",
+        "position": {
+          "x": 198.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pipe",
+        "position": {
+          "x": 199.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": 200.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": 201.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 200.5,
+          "y": -136.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe",
+        "position": {
+          "x": 202.5,
+          "y": -137.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe",
+        "position": {
+          "x": 202.5,
+          "y": -136.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 194.5,
+          "y": -134.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 16,
+        "name": "inserter",
+        "position": {
+          "x": 196.5,
+          "y": -134.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 17,
+        "name": "chemical-plant",
+        "position": {
+          "x": 198.5,
+          "y": -135.5
+        },
+        "recipe": "solid-fuel-from-light-oil",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 200.5,
+          "y": -134.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 19,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 202.5,
+          "y": -134.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "rare",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 20,
+        "name": "inserter",
+        "position": {
+          "x": 194.5,
+          "y": -132.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "inserter",
+        "position": {
+          "x": 197.5,
+          "y": -133.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 196.5,
+          "y": -133.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 23,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 198.5,
+          "y": -133.5
+        },
+        "quality": "uncommon"
+      },
+      {
+        "entity_number": 24,
+        "name": "inserter",
+        "position": {
+          "x": 199.5,
+          "y": -133.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 200.5,
+          "y": -133.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 26,
+        "name": "inserter",
+        "position": {
+          "x": 202.5,
+          "y": -132.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": -130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 28,
+        "name": "transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": -131.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 29,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 196.5,
+          "y": -131.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 30,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 200.5,
+          "y": -131.5
+        },
+        "recipe": "rocket-fuel",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 31,
+        "name": "transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": -130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": -131.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "transport-belt",
+        "position": {
+          "x": 195.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 34,
+        "name": "transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 35,
+        "name": "transport-belt",
+        "position": {
+          "x": 194.5,
+          "y": -129.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 36,
+        "name": "transport-belt",
+        "position": {
+          "x": 197.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 37,
+        "name": "transport-belt",
+        "position": {
+          "x": 196.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 38,
+        "name": "inserter",
+        "position": {
+          "x": 196.5,
+          "y": -129.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "transport-belt",
+        "position": {
+          "x": 199.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 40,
+        "name": "transport-belt",
+        "position": {
+          "x": 198.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 41,
+        "name": "transport-belt",
+        "position": {
+          "x": 201.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 42,
+        "name": "transport-belt",
+        "position": {
+          "x": 200.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 43,
+        "name": "inserter",
+        "position": {
+          "x": 200.5,
+          "y": -129.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "splitter",
+        "position": {
+          "x": 203.5,
+          "y": -129
+        },
+        "direction": 4,
+        "filter": {
+          "quality": "normal",
+          "comparator": ">"
+        },
+        "output_priority": "left"
+      },
+      {
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 46,
+        "name": "transport-belt",
+        "position": {
+          "x": 202.5,
+          "y": -129.5
+        },
+        "direction": 8
+      }
+    ],
+    "item": "blueprint",
+    "label": "Rocket Fuel Starter",
+    "version": 562949954928640
+  },
+  "index": 2
+}

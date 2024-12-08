@@ -1,0 +1,1397 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "steam-engine"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "small-electric-pole"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "steam-engine",
+        "position": {
+          "x": 15.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "steam-engine",
+        "position": {
+          "x": 18.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "steam-engine",
+        "position": {
+          "x": 21.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "steam-engine",
+        "position": {
+          "x": 24.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "steam-engine",
+        "position": {
+          "x": 27.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "steam-engine",
+        "position": {
+          "x": 30.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "steam-engine",
+        "position": {
+          "x": 33.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "steam-engine",
+        "position": {
+          "x": 36.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "steam-engine",
+        "position": {
+          "x": 39.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "steam-engine",
+        "position": {
+          "x": 42.5,
+          "y": -32.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 16.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe",
+        "position": {
+          "x": 21.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 22.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe",
+        "position": {
+          "x": 27.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 28.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 30.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 33.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 34.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": 36.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": 39.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 40.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": 42.5,
+          "y": -29.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "steam-engine",
+        "position": {
+          "x": 15.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "steam-engine",
+        "position": {
+          "x": 18.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "steam-engine",
+        "position": {
+          "x": 21.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "steam-engine",
+        "position": {
+          "x": 24.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "steam-engine",
+        "position": {
+          "x": 27.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "steam-engine",
+        "position": {
+          "x": 30.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "steam-engine",
+        "position": {
+          "x": 33.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "steam-engine",
+        "position": {
+          "x": 36.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "steam-engine",
+        "position": {
+          "x": 39.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "steam-engine",
+        "position": {
+          "x": 42.5,
+          "y": -26.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "boiler",
+        "position": {
+          "x": 15.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "boiler",
+        "position": {
+          "x": 18.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "boiler",
+        "position": {
+          "x": 21.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "boiler",
+        "position": {
+          "x": 24.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "boiler",
+        "position": {
+          "x": 27.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "boiler",
+        "position": {
+          "x": 30.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "boiler",
+        "position": {
+          "x": 33.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "boiler",
+        "position": {
+          "x": 36.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "boiler",
+        "position": {
+          "x": 39.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "boiler",
+        "position": {
+          "x": 42.5,
+          "y": -23
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 44.5,
+          "y": -23.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": 44.5,
+          "y": -22.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "transport-belt",
+        "position": {
+          "x": 13.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 49,
+        "name": "inserter",
+        "position": {
+          "x": 15.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 50,
+        "name": "transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 51,
+        "name": "transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 52,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 16.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "transport-belt",
+        "position": {
+          "x": 17.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 54,
+        "name": "transport-belt",
+        "position": {
+          "x": 16.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 55,
+        "name": "inserter",
+        "position": {
+          "x": 18.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 56,
+        "name": "transport-belt",
+        "position": {
+          "x": 19.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 57,
+        "name": "transport-belt",
+        "position": {
+          "x": 18.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 58,
+        "name": "inserter",
+        "position": {
+          "x": 21.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 59,
+        "name": "transport-belt",
+        "position": {
+          "x": 21.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 60,
+        "name": "transport-belt",
+        "position": {
+          "x": 20.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 61,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 22.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "transport-belt",
+        "position": {
+          "x": 23.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 63,
+        "name": "transport-belt",
+        "position": {
+          "x": 22.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 64,
+        "name": "inserter",
+        "position": {
+          "x": 24.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 65,
+        "name": "transport-belt",
+        "position": {
+          "x": 25.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 66,
+        "name": "transport-belt",
+        "position": {
+          "x": 24.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 67,
+        "name": "inserter",
+        "position": {
+          "x": 27.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 68,
+        "name": "transport-belt",
+        "position": {
+          "x": 27.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 69,
+        "name": "transport-belt",
+        "position": {
+          "x": 26.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 70,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 28.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 72,
+        "name": "transport-belt",
+        "position": {
+          "x": 28.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 73,
+        "name": "inserter",
+        "position": {
+          "x": 30.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 74,
+        "name": "transport-belt",
+        "position": {
+          "x": 31.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 75,
+        "name": "transport-belt",
+        "position": {
+          "x": 30.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 76,
+        "name": "inserter",
+        "position": {
+          "x": 33.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 77,
+        "name": "transport-belt",
+        "position": {
+          "x": 33.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 78,
+        "name": "transport-belt",
+        "position": {
+          "x": 32.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 79,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 34.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "transport-belt",
+        "position": {
+          "x": 35.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 81,
+        "name": "transport-belt",
+        "position": {
+          "x": 34.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 82,
+        "name": "inserter",
+        "position": {
+          "x": 36.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 83,
+        "name": "transport-belt",
+        "position": {
+          "x": 37.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 84,
+        "name": "transport-belt",
+        "position": {
+          "x": 36.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 85,
+        "name": "inserter",
+        "position": {
+          "x": 39.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 86,
+        "name": "transport-belt",
+        "position": {
+          "x": 39.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 87,
+        "name": "transport-belt",
+        "position": {
+          "x": 38.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 88,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 40.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "transport-belt",
+        "position": {
+          "x": 41.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 90,
+        "name": "transport-belt",
+        "position": {
+          "x": 40.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 91,
+        "name": "inserter",
+        "position": {
+          "x": 42.5,
+          "y": -21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 92,
+        "name": "transport-belt",
+        "position": {
+          "x": 42.5,
+          "y": -20.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 93,
+        "name": "pipe",
+        "position": {
+          "x": 44.5,
+          "y": -21.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "pipe",
+        "position": {
+          "x": 44.5,
+          "y": -20.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 45.5,
+          "y": -20.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 96,
+        "name": "inserter",
+        "position": {
+          "x": 15.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "inserter",
+        "position": {
+          "x": 18.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "inserter",
+        "position": {
+          "x": 21.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "inserter",
+        "position": {
+          "x": 24.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "inserter",
+        "position": {
+          "x": 27.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "inserter",
+        "position": {
+          "x": 30.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "inserter",
+        "position": {
+          "x": 33.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "inserter",
+        "position": {
+          "x": 36.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "inserter",
+        "position": {
+          "x": 39.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "inserter",
+        "position": {
+          "x": 42.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "pipe",
+        "position": {
+          "x": 44.5,
+          "y": -18.5
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "pipe",
+        "position": {
+          "x": 44.5,
+          "y": -19.5
+        }
+      },
+      {
+        "entity_number": 108,
+        "name": "boiler",
+        "position": {
+          "x": 15.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 109,
+        "name": "boiler",
+        "position": {
+          "x": 18.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 110,
+        "name": "boiler",
+        "position": {
+          "x": 21.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 111,
+        "name": "boiler",
+        "position": {
+          "x": 24.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 112,
+        "name": "boiler",
+        "position": {
+          "x": 27.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 113,
+        "name": "boiler",
+        "position": {
+          "x": 30.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 114,
+        "name": "boiler",
+        "position": {
+          "x": 33.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 115,
+        "name": "boiler",
+        "position": {
+          "x": 36.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 116,
+        "name": "boiler",
+        "position": {
+          "x": 39.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 117,
+        "name": "boiler",
+        "position": {
+          "x": 42.5,
+          "y": -18
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 118,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 44.5,
+          "y": -16.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "steam-engine",
+        "position": {
+          "x": 15.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "steam-engine",
+        "position": {
+          "x": 18.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 121,
+        "name": "steam-engine",
+        "position": {
+          "x": 21.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 122,
+        "name": "steam-engine",
+        "position": {
+          "x": 24.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "steam-engine",
+        "position": {
+          "x": 27.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "steam-engine",
+        "position": {
+          "x": 30.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "steam-engine",
+        "position": {
+          "x": 33.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "steam-engine",
+        "position": {
+          "x": 36.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 127,
+        "name": "steam-engine",
+        "position": {
+          "x": 39.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 128,
+        "name": "steam-engine",
+        "position": {
+          "x": 42.5,
+          "y": -14.5
+        }
+      },
+      {
+        "entity_number": 129,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 130,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 16.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "pipe",
+        "position": {
+          "x": 18.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "pipe",
+        "position": {
+          "x": 21.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 22.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "pipe",
+        "position": {
+          "x": 27.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 136,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 28.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 137,
+        "name": "pipe",
+        "position": {
+          "x": 30.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 138,
+        "name": "pipe",
+        "position": {
+          "x": 33.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 139,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 34.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 140,
+        "name": "pipe",
+        "position": {
+          "x": 36.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 141,
+        "name": "pipe",
+        "position": {
+          "x": 39.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 142,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 40.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 143,
+        "name": "pipe",
+        "position": {
+          "x": 42.5,
+          "y": -11.5
+        }
+      },
+      {
+        "entity_number": 144,
+        "name": "steam-engine",
+        "position": {
+          "x": 15.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "steam-engine",
+        "position": {
+          "x": 18.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "steam-engine",
+        "position": {
+          "x": 21.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "steam-engine",
+        "position": {
+          "x": 24.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 148,
+        "name": "steam-engine",
+        "position": {
+          "x": 27.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 149,
+        "name": "steam-engine",
+        "position": {
+          "x": 30.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 150,
+        "name": "steam-engine",
+        "position": {
+          "x": 33.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 151,
+        "name": "steam-engine",
+        "position": {
+          "x": 36.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 152,
+        "name": "steam-engine",
+        "position": {
+          "x": 39.5,
+          "y": -8.5
+        }
+      },
+      {
+        "entity_number": 153,
+        "name": "steam-engine",
+        "position": {
+          "x": 42.5,
+          "y": -8.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        12,
+        5,
+        15,
+        5
+      ],
+      [
+        15,
+        5,
+        18,
+        5
+      ],
+      [
+        18,
+        5,
+        21,
+        5
+      ],
+      [
+        21,
+        5,
+        24,
+        5
+      ],
+      [
+        24,
+        5,
+        46,
+        5
+      ],
+      [
+        46,
+        5,
+        88,
+        5
+      ],
+      [
+        46,
+        5,
+        118,
+        5
+      ],
+      [
+        52,
+        5,
+        61,
+        5
+      ],
+      [
+        61,
+        5,
+        70,
+        5
+      ],
+      [
+        70,
+        5,
+        79,
+        5
+      ],
+      [
+        79,
+        5,
+        88,
+        5
+      ],
+      [
+        118,
+        5,
+        142,
+        5
+      ],
+      [
+        130,
+        5,
+        133,
+        5
+      ],
+      [
+        133,
+        5,
+        136,
+        5
+      ],
+      [
+        136,
+        5,
+        139,
+        5
+      ],
+      [
+        139,
+        5,
+        142,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Wood Pole Steam Array",
+    "version": 562949954928640
+  },
+  "index": 0
+}

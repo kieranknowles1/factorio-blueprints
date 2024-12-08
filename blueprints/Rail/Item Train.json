@@ -1,0 +1,165 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "cargo-wagon"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -78.00390625,
+          "y": -287
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -71,
+          "y": -287
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "locomotive",
+        "position": {
+          "x": -64.00390625,
+          "y": -287
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          3
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Item Provider",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "full"
+                }
+              ]
+            }
+          ],
+          "group": "Item Trains",
+          "interrupts": [
+            {
+              "name": "Item Requester",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "item_count",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-item-parameter"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[virtual-signal=signal-item-parameter] Requester",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "empty"
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": false
+            },
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 20,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_item_count_all",
+                      "condition": {
+                        "first_signal": {
+                          "type": "virtual",
+                          "name": "signal-fuel-parameter"
+                        },
+                        "constant": 20,
+                        "comparator": "\u2265"
+                      }
+                    },
+                    {
+                      "compare_type": "and",
+                      "type": "inactivity",
+                      "ticks": 120
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 1,
+        "front": 2
+      },
+      {
+        "stock": 2,
+        "front": 3,
+        "back": 1
+      },
+      {
+        "stock": 3,
+        "back": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "Item Train",
+    "version": 562949954928640
+  },
+  "index": 8
+}

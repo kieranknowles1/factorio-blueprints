@@ -1,0 +1,353 @@
+{
+  "blueprint": {
+    "description": "Removes excess items from a sushi belt",
+    "icons": [
+      {
+        "signal": {
+          "name": "fast-transport-belt"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 164.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 165.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 145.5,
+          "y": 165.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 145.5,
+          "y": 164.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 164.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 6,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 165.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 7,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 166.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 167.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 145.5,
+          "y": 167.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 145.5,
+          "y": 166.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 166.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 12,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 167.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 13,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 168.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 169.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 145.5,
+          "y": 168.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 144.5,
+          "y": 168.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "use_filters": true
+      },
+      {
+        "entity_number": 17,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 170.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 171.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 172.5
+        },
+        "control_behavior": {
+          "circuit_read_hand_contents": true,
+          "circuit_contents_read_mode": 2
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 173.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "decider-combinator",
+        "position": {
+          "x": 144.5,
+          "y": 172
+        },
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "second_signal": {
+                  "type": "virtual",
+                  "name": "signal-T"
+                },
+                "comparator": ">"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "copy_count_from_input": false
+              }
+            ]
+          }
+        },
+        "player_description": "Remove items exceeding threshold"
+      },
+      {
+        "entity_number": 22,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 143.5,
+          "y": 174.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 145.5,
+          "y": 174
+        },
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-T"
+            },
+            "second_constant": 4,
+            "operation": "/",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-T"
+            }
+          }
+        },
+        "player_description": "Generate removal threshold"
+      },
+      {
+        "entity_number": 24,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 144.5,
+          "y": 174
+        },
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "second_constant": 1,
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-T"
+            }
+          }
+        },
+        "player_description": "Get total number of items"
+      }
+    ],
+    "wires": [
+      [
+        5,
+        1,
+        6,
+        1
+      ],
+      [
+        6,
+        1,
+        11,
+        1
+      ],
+      [
+        11,
+        1,
+        12,
+        1
+      ],
+      [
+        12,
+        1,
+        16,
+        1
+      ],
+      [
+        16,
+        1,
+        21,
+        3
+      ],
+      [
+        19,
+        1,
+        21,
+        1
+      ],
+      [
+        19,
+        1,
+        24,
+        1
+      ],
+      [
+        21,
+        1,
+        23,
+        3
+      ],
+      [
+        23,
+        1,
+        24,
+        3
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Sushi belt filter",
+    "version": 562949954928640
+  },
+  "index": 1
+}

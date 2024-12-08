@@ -1,0 +1,257 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "construction-robot"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "logistic-robot"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "roboport",
+        "position": {
+          "x": 134,
+          "y": 231
+        },
+        "control_behavior": {
+          "read_items_mode": 0,
+          "read_robot_stats": true,
+          "available_logistic_output_signal": {
+            "name": "logistic-robot"
+          },
+          "available_construction_output_signal": {
+            "name": "construction-robot"
+          }
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "transport-belt",
+        "position": {
+          "x": 129.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "transport-belt",
+        "position": {
+          "x": 131.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "transport-belt",
+        "position": {
+          "x": 130.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "transport-belt",
+        "position": {
+          "x": 133.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": 132.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 135.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 134.5,
+          "y": 233.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 133.5,
+          "y": 234.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 132.5,
+          "y": 234.5
+        },
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "name": "logistic-robot"
+            },
+            "constant": 50,
+            "comparator": "<"
+          }
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 135.5,
+          "y": 234.5
+        },
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "name": "construction-robot"
+            },
+            "constant": 50,
+            "comparator": "<"
+          }
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "inserter",
+        "position": {
+          "x": 134.5,
+          "y": 234.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 129.5,
+          "y": 237.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "inserter",
+        "position": {
+          "x": 130.5,
+          "y": 237.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 15,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 132.5,
+          "y": 236.5
+        },
+        "recipe": "construction-robot",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 16,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 135.5,
+          "y": 236.5
+        },
+        "recipe": "logistic-robot",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 17,
+        "name": "transport-belt",
+        "position": {
+          "x": 129.5,
+          "y": 238.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 131.5,
+          "y": 238.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "inserter",
+        "position": {
+          "x": 132.5,
+          "y": 238.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "inserter",
+        "position": {
+          "x": 134.5,
+          "y": 238.5
+        },
+        "direction": 8
+      }
+    ],
+    "wires": [
+      [
+        1,
+        1,
+        10,
+        1
+      ],
+      [
+        9,
+        5,
+        18,
+        5
+      ],
+      [
+        10,
+        1,
+        11,
+        1
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Robot Deployer",
+    "version": 562949954928640
+  },
+  "index": 4
+}

@@ -1,0 +1,57 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "type": "entity",
+            "name": "wooden-chest",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "passive-provider-chest",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 0
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "iron-chest",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "passive-provider-chest",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 4
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "steel-chest",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "passive-provider-chest",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 8
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "label": "Chests -> Providers",
+    "version": 562949954928640
+  },
+  "index": 3
+}

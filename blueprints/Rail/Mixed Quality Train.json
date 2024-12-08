@@ -1,0 +1,172 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-any-quality"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "cargo-wagon"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 94,
+          "y": -845
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 101,
+          "y": -845
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "locomotive",
+        "position": {
+          "x": 108,
+          "y": -845
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "items": [
+          {
+            "id": {
+              "name": "rocket-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0,
+                  "count": 18
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          3
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Mixed Quality Provider",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "circuit",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-info"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                },
+                {
+                  "compare_type": "and",
+                  "type": "inactivity",
+                  "ticks": 300
+                }
+              ]
+            }
+          ],
+          "group": "Mixed Quality",
+          "interrupts": [
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 20,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_item_count_all",
+                      "condition": {
+                        "first_signal": {
+                          "type": "virtual",
+                          "name": "signal-fuel-parameter"
+                        },
+                        "constant": 20,
+                        "comparator": "\u2265"
+                      }
+                    },
+                    {
+                      "compare_type": "and",
+                      "type": "inactivity",
+                      "ticks": 120
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 1,
+        "front": 2
+      },
+      {
+        "stock": 2,
+        "front": 3,
+        "back": 1
+      },
+      {
+        "stock": 3,
+        "back": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "Mixed Quality Train",
+    "version": 562949954928640
+  },
+  "index": 9
+}

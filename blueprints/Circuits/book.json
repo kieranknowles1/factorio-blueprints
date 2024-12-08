@@ -1,8 +1,8 @@
 {
   "blueprint_book": {
     "item": "blueprint-book",
-    "label": "Mining",
+    "label": "Circuits",
     "version": 562949954928640
   },
-  "index": 0
+  "index": 10
 }

@@ -1,0 +1,189 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "fluid-wagon"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "locomotive",
+        "position": {
+          "x": 154.00390625,
+          "y": -219
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "items": [
+          {
+            "id": {
+              "name": "rocket-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0,
+                  "count": 19
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1,
+                  "count": 20
+                },
+                {
+                  "inventory": 1,
+                  "stack": 2,
+                  "count": 20
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 2,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 161,
+          "y": -219
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75
+      },
+      {
+        "entity_number": 3,
+        "name": "fluid-wagon",
+        "position": {
+          "x": 168.00390625,
+          "y": -219
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          1
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Fluid Provider",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "full"
+                }
+              ]
+            }
+          ],
+          "group": "Fluid Trains",
+          "interrupts": [
+            {
+              "name": "Fluid Dropoff",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fluid_count",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fluid-parameter"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[virtual-signal=signal-fluid-parameter] Requester",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "empty"
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": false
+            },
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 20,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_item_count_all",
+                      "condition": {
+                        "first_signal": {
+                          "type": "virtual",
+                          "name": "signal-fuel-parameter"
+                        },
+                        "constant": 20,
+                        "comparator": "\u2265"
+                      }
+                    },
+                    {
+                      "compare_type": "and",
+                      "type": "inactivity",
+                      "ticks": 120
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 1,
+        "back": 2
+      },
+      {
+        "stock": 2,
+        "front": 1,
+        "back": 3
+      },
+      {
+        "stock": 3,
+        "front": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "Fluid Train",
+    "version": 562949954928640
+  },
+  "index": 14
+}

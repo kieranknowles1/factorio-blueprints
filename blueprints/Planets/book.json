@@ -1,0 +1,17 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Planets",
+    "icons": [
+      {
+        "signal": {
+          "type": "space-location",
+          "name": "nauvis"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949954928640
+  },
+  "index": 8
+}

@@ -1,0 +1,72 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "type": "item",
+            "name": "empty-module-slot",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "item",
+            "name": "quality-module",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 0
+        },
+        {
+          "from": {
+            "type": "item",
+            "name": "speed-module",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "item",
+            "name": "quality-module",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 4
+        },
+        {
+          "from": {
+            "type": "item",
+            "name": "efficiency-module",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "item",
+            "name": "quality-module",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 8
+        },
+        {
+          "from": {
+            "type": "item",
+            "name": "productivity-module",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "item",
+            "name": "quality-module",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 12
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "label": "Install Quality",
+    "version": 562949954928640
+  },
+  "index": 1
+}

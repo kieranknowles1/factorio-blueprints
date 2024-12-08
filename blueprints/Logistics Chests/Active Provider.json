@@ -1,0 +1,26 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "active-provider-chest"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "active-provider-chest",
+        "position": {
+          "x": 375.5,
+          "y": -372.5
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Active Provider",
+    "version": 562949954928640
+  },
+  "index": 0
+}
