@@ -1,17 +1,17 @@
 {
   "blueprint_book": {
     "item": "blueprint-book",
-    "label": "Fulgora",
+    "label": "Vulcanus",
     "icons": [
       {
         "signal": {
           "type": "space-location",
-          "name": "fulgora"
+          "name": "vulcanus"
         },
         "index": 1
       }
     ],
     "version": 562949955059714
   },
-  "index": 0
+  "index": 1
 }
