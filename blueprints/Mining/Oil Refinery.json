@@ -1,5 +1,14 @@
 {
   "blueprint": {
+    "snap-to-grid": {
+      "x": 17,
+      "y": 16
+    },
+    "absolute-snapping": true,
+    "position-relative-to-grid": {
+      "x": 2,
+      "y": 0
+    },
     "icons": [
       {
         "signal": {
@@ -13,744 +22,840 @@
         "entity_number": 1,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -132.5
+          "x": 0.5,
+          "y": 0.5
         }
       },
       {
         "entity_number": 2,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -133.5
+          "x": 2.5,
+          "y": 0.5
         }
       },
       {
         "entity_number": 3,
         "name": "pipe-to-ground",
         "position": {
-          "x": 170.5,
-          "y": -132.5
+          "x": 11.5,
+          "y": 0.5
         },
         "direction": 12
       },
       {
         "entity_number": 4,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -133.5
-        }
+          "x": 15.5,
+          "y": 0.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 5,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -132.5
+          "x": 14.5,
+          "y": 0.5
         }
       },
       {
         "entity_number": 6,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 172.5,
-          "y": -132.5
-        },
-        "direction": 4
+          "x": 16.5,
+          "y": 0.5
+        }
       },
       {
         "entity_number": 7,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -133.5
+          "x": 16.5,
+          "y": -0.5
         },
-        "direction": 12
+        "direction": 8
       },
       {
         "entity_number": 8,
         "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -133.5
+          "x": 0.5,
+          "y": 2.5
         }
       },
       {
         "entity_number": 9,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -132.5
-        },
-        "direction": 8
+          "x": 0.5,
+          "y": 1.5
+        }
       },
       {
         "entity_number": 10,
         "name": "pipe-to-ground",
         "position": {
-          "x": 183.5,
-          "y": -132.5
-        }
+          "x": 1.5,
+          "y": 1.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 11,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -133.5
-        },
-        "direction": 4
+          "x": 2.5,
+          "y": 1.5
+        }
       },
       {
         "entity_number": 12,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -130.5
+          "x": 2.5,
+          "y": 2.5
         }
       },
       {
         "entity_number": 13,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 169.5,
-          "y": -131.5
-        }
+          "x": 5.5,
+          "y": 1.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 14,
-        "name": "pipe",
-        "position": {
-          "x": 171.5,
-          "y": -131.5
-        }
-      },
-      {
-        "entity_number": 15,
-        "name": "pipe",
-        "position": {
-          "x": 171.5,
-          "y": -130.5
-        }
-      },
-      {
-        "entity_number": 16,
-        "name": "pipe",
-        "position": {
-          "x": 172.5,
-          "y": -130.5
-        }
-      },
-      {
-        "entity_number": 17,
         "name": "oil-refinery",
         "position": {
-          "x": 175.5,
-          "y": -131.5
+          "x": 8.5,
+          "y": 2.5
         },
         "direction": 4,
         "recipe": "advanced-oil-processing",
         "recipe_quality": "normal"
       },
       {
+        "entity_number": 15,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 15.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
         "entity_number": 18,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -131.5
+          "x": 14.5,
+          "y": 2.5
         },
-        "direction": 12
+        "direction": 4
       },
       {
         "entity_number": 19,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -131.5
-        },
-        "direction": 4
+          "x": 16.5,
+          "y": 1.5
+        }
       },
       {
         "entity_number": 20,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 181.5,
-          "y": -130.5
-        },
-        "direction": 8
+          "x": 0.5,
+          "y": 4.5
+        }
       },
       {
         "entity_number": 21,
         "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -131.5
+          "x": 0.5,
+          "y": 3.5
         }
       },
       {
         "entity_number": 22,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -130.5
+          "x": 2.5,
+          "y": 3.5
         }
       },
       {
         "entity_number": 23,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -128.5
+          "x": 2.5,
+          "y": 4.5
         }
       },
       {
         "entity_number": 24,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 169.5,
-          "y": -129.5
-        }
+          "x": 3.5,
+          "y": 3.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 25,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -129.5
-        }
+          "x": 5.5,
+          "y": 3.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 26,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -128.5
-        }
+          "x": 11.5,
+          "y": 4.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 27,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -128.5
+          "x": 13.5,
+          "y": 4.5
         },
-        "direction": 12
+        "direction": 4
       },
       {
         "entity_number": 28,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -129.5
-        },
-        "direction": 12
+          "x": 15.5,
+          "y": 3.5
+        }
       },
       {
         "entity_number": 29,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 180.5,
-          "y": -129.5
-        },
-        "direction": 4
+          "x": 14.5,
+          "y": 4.5
+        }
       },
       {
         "entity_number": 30,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -128.5
-        }
+          "x": 14.5,
+          "y": 3.5
+        },
+        "direction": 8
       },
       {
         "entity_number": 31,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -129.5
-        }
+          "x": 16.5,
+          "y": 4.5
+        },
+        "direction": 8
       },
       {
         "entity_number": 32,
         "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -128.5
+          "x": 0.5,
+          "y": 6.5
         }
       },
       {
         "entity_number": 33,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -129.5
-        },
-        "direction": 8
+          "x": 0.5,
+          "y": 5.5
+        }
       },
       {
         "entity_number": 34,
         "name": "pipe-to-ground",
         "position": {
-          "x": 182.5,
-          "y": -128.5
+          "x": 1.5,
+          "y": 6.5
         },
-        "direction": 4
+        "direction": 12
       },
       {
         "entity_number": 35,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -126.5
+          "x": 2.5,
+          "y": 5.5
         }
       },
       {
         "entity_number": 36,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -127.5
+          "x": 2.5,
+          "y": 6.5
         }
       },
       {
         "entity_number": 37,
         "name": "pipe-to-ground",
         "position": {
-          "x": 170.5,
-          "y": -127.5
+          "x": 5.5,
+          "y": 6.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
         },
         "direction": 12
       },
       {
-        "entity_number": 38,
-        "name": "pipe",
-        "position": {
-          "x": 171.5,
-          "y": -127.5
-        }
-      },
-      {
         "entity_number": 39,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -126.5
-        }
+          "x": 15.5,
+          "y": 5.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 40,
-        "name": "medium-electric-pole",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 172.5,
-          "y": -126.5
+          "x": 15.5,
+          "y": 6.5
         },
-        "quality": "uncommon"
+        "direction": 8
       },
       {
         "entity_number": 41,
         "name": "pipe-to-ground",
         "position": {
-          "x": 172.5,
-          "y": -127.5
+          "x": 14.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 8.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 49,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 5.5,
+          "y": 8.5
         },
         "direction": 4
       },
       {
-        "entity_number": 42,
+        "entity_number": 51,
         "name": "oil-refinery",
         "position": {
-          "x": 175.5,
-          "y": -126.5
+          "x": 8.5,
+          "y": 7.5
         },
         "direction": 4,
         "recipe": "advanced-oil-processing",
         "recipe_quality": "normal"
       },
       {
-        "entity_number": 43,
+        "entity_number": 52,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -126.5
+          "x": 11.5,
+          "y": 7.5
         },
         "direction": 12
-      },
-      {
-        "entity_number": 44,
-        "name": "pipe-to-ground",
-        "position": {
-          "x": 181.5,
-          "y": -126.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 45,
-        "name": "pipe-to-ground",
-        "position": {
-          "x": 182.5,
-          "y": -127.5
-        },
-        "direction": 8
-      },
-      {
-        "entity_number": 46,
-        "name": "pipe",
-        "position": {
-          "x": 182.5,
-          "y": -126.5
-        }
-      },
-      {
-        "entity_number": 47,
-        "name": "pipe-to-ground",
-        "position": {
-          "x": 183.5,
-          "y": -127.5
-        }
-      },
-      {
-        "entity_number": 48,
-        "name": "pipe",
-        "position": {
-          "x": 169.5,
-          "y": -124.5
-        }
-      },
-      {
-        "entity_number": 49,
-        "name": "pipe",
-        "position": {
-          "x": 169.5,
-          "y": -125.5
-        }
-      },
-      {
-        "entity_number": 50,
-        "name": "pipe",
-        "position": {
-          "x": 171.5,
-          "y": -125.5
-        }
-      },
-      {
-        "entity_number": 51,
-        "name": "pipe",
-        "position": {
-          "x": 171.5,
-          "y": -124.5
-        }
-      },
-      {
-        "entity_number": 52,
-        "name": "pipe",
-        "position": {
-          "x": 172.5,
-          "y": -125.5
-        }
       },
       {
         "entity_number": 53,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 178.5,
-          "y": -124.5
-        },
-        "direction": 12
+          "x": 15.5,
+          "y": 7.5
+        }
       },
       {
         "entity_number": 54,
         "name": "pipe-to-ground",
         "position": {
-          "x": 180.5,
-          "y": -124.5
-        },
-        "direction": 4
+          "x": 15.5,
+          "y": 8.5
+        }
       },
       {
         "entity_number": 55,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -125.5
+          "x": 14.5,
+          "y": 7.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 56,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 14.5,
+          "y": 8.5
         },
         "direction": 8
       },
       {
-        "entity_number": 56,
+        "entity_number": 57,
         "name": "pipe",
         "position": {
-          "x": 181.5,
-          "y": -124.5
-        }
-      },
-      {
-        "entity_number": 57,
-        "name": "pipe-to-ground",
-        "position": {
-          "x": 182.5,
-          "y": -125.5
+          "x": 0.5,
+          "y": 10.5
         }
       },
       {
         "entity_number": 58,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -124.5
-        },
-        "direction": 8
+          "x": 0.5,
+          "y": 9.5
+        }
       },
       {
         "entity_number": 59,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -122.5
+          "x": 2.5,
+          "y": 9.5
         }
       },
       {
         "entity_number": 60,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -123.5
+          "x": 2.5,
+          "y": 10.5
         }
       },
       {
         "entity_number": 61,
         "name": "pipe-to-ground",
         "position": {
-          "x": 170.5,
-          "y": -122.5
+          "x": 11.5,
+          "y": 10.5
         },
         "direction": 12
       },
       {
         "entity_number": 62,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -123.5
-        }
+          "x": 11.5,
+          "y": 9.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 63,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -122.5
-        }
+          "x": 13.5,
+          "y": 9.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 64,
         "name": "pipe-to-ground",
         "position": {
-          "x": 172.5,
-          "y": -122.5
+          "x": 15.5,
+          "y": 10.5
         },
         "direction": 4
       },
       {
         "entity_number": 65,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 178.5,
-          "y": -123.5
-        },
-        "direction": 12
+          "x": 14.5,
+          "y": 9.5
+        }
       },
       {
         "entity_number": 66,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -123.5
+          "x": 14.5,
+          "y": 10.5
         }
       },
       {
         "entity_number": 67,
         "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -123.5
+          "x": 16.5,
+          "y": 10.5
         }
       },
       {
         "entity_number": 68,
         "name": "pipe-to-ground",
         "position": {
-          "x": 182.5,
-          "y": -122.5
+          "x": 16.5,
+          "y": 9.5
         },
         "direction": 8
       },
       {
         "entity_number": 69,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 183.5,
-          "y": -122.5
+          "x": 0.5,
+          "y": 12.5
         }
       },
       {
         "entity_number": 70,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -123.5
-        },
-        "direction": 4
+          "x": 0.5,
+          "y": 11.5
+        }
       },
       {
         "entity_number": 71,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 169.5,
-          "y": -120.5
-        }
+          "x": 1.5,
+          "y": 11.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 72,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -121.5
+          "x": 2.5,
+          "y": 11.5
         }
       },
       {
         "entity_number": 73,
         "name": "pipe",
         "position": {
-          "x": 171.5,
-          "y": -121.5
+          "x": 2.5,
+          "y": 12.5
         }
       },
       {
         "entity_number": 74,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 171.5,
-          "y": -120.5
-        }
+          "x": 5.5,
+          "y": 11.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 75,
-        "name": "pipe",
-        "position": {
-          "x": 172.5,
-          "y": -120.5
-        }
-      },
-      {
-        "entity_number": 76,
         "name": "oil-refinery",
         "position": {
-          "x": 175.5,
-          "y": -121.5
+          "x": 8.5,
+          "y": 12.5
         },
         "direction": 4,
         "recipe": "advanced-oil-processing",
         "recipe_quality": "normal"
       },
       {
-        "entity_number": 77,
+        "entity_number": 76,
         "name": "pipe-to-ground",
         "position": {
-          "x": 178.5,
-          "y": -121.5
+          "x": 11.5,
+          "y": 12.5
         },
         "direction": 12
+      },
+      {
+        "entity_number": 77,
+        "name": "pipe",
+        "position": {
+          "x": 15.5,
+          "y": 12.5
+        }
       },
       {
         "entity_number": 78,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -121.5
+          "x": 15.5,
+          "y": 11.5
         },
-        "direction": 4
+        "direction": 8
       },
       {
         "entity_number": 79,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -120.5
+          "x": 14.5,
+          "y": 12.5
         },
-        "direction": 8
+        "direction": 4
       },
       {
         "entity_number": 80,
-        "name": "pipe",
+        "name": "pipe-to-ground",
         "position": {
-          "x": 182.5,
-          "y": -121.5
+          "x": 16.5,
+          "y": 11.5
         }
       },
       {
         "entity_number": 81,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 182.5,
-          "y": -120.5
+          "x": 0.5,
+          "y": 14.5
         }
       },
       {
         "entity_number": 82,
         "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -119.5
+          "x": 0.5,
+          "y": 13.5
         }
       },
       {
         "entity_number": 83,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 171.5,
-          "y": -119.5
+          "x": 2.5,
+          "y": 13.5
         }
       },
       {
         "entity_number": 84,
-        "name": "pipe-to-ground",
+        "name": "pipe",
         "position": {
-          "x": 178.5,
-          "y": -119.5
-        },
-        "direction": 12
+          "x": 2.5,
+          "y": 14.5
+        }
       },
       {
         "entity_number": 85,
         "name": "pipe-to-ground",
         "position": {
-          "x": 181.5,
-          "y": -118.5
-        }
+          "x": 3.5,
+          "y": 13.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 86,
         "name": "pipe-to-ground",
         "position": {
-          "x": 180.5,
-          "y": -119.5
+          "x": 5.5,
+          "y": 13.5
         },
         "direction": 4
       },
       {
         "entity_number": 87,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 11.5,
+          "y": 14.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 88,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 14.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 89,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 15.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 90,
         "name": "pipe",
         "position": {
-          "x": 181.5,
-          "y": -119.5
+          "x": 14.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 14.5,
+          "y": 13.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 92,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 14.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 93,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 15.5,
+          "y": 15.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 96,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 14.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 98,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 16.5
         }
       }
     ],
     "item": "blueprint",
     "label": "Oil Refinery",
-    "version": 562949955059714
+    "version": 562949955256321
   },
   "index": 3
 }

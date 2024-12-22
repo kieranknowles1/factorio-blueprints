@@ -2,7 +2,15 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Mining",
-    "version": 562949955059714
+    "icons": [
+      {
+        "signal": {
+          "name": "electric-mining-drill"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
   },
-  "index": 0
+  "index": 1
 }

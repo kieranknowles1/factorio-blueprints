@@ -1,41 +1,39 @@
 {
   "blueprint": {
-    "description": "Requires no config for any fluid.",
     "icons": [
       {
         "signal": {
-          "name": "storage-tank"
+          "type": "recipe",
+          "name": "crude-oil-barrel"
         },
-        "index": 2
+        "index": 1
       }
     ],
     "entities": [
       {
         "entity_number": 1,
-        "name": "rail-signal",
+        "name": "straight-rail",
         "position": {
-          "x": 149.5,
-          "y": -220.5
+          "x": 119,
+          "y": -205
         },
         "direction": 4
       },
       {
         "entity_number": 2,
-        "name": "train-stop",
+        "name": "straight-rail",
         "position": {
-          "x": 151,
-          "y": -221
+          "x": 121,
+          "y": -205
         },
-        "direction": 12,
-        "station": "Fluid Provider",
-        "manual_trains_limit": 1
+        "direction": 4
       },
       {
         "entity_number": 3,
-        "name": "rail-signal",
+        "name": "straight-rail",
         "position": {
-          "x": 172.5,
-          "y": -220.5
+          "x": 123,
+          "y": -205
         },
         "direction": 4
       },
@@ -43,8 +41,8 @@
         "entity_number": 4,
         "name": "straight-rail",
         "position": {
-          "x": 149,
-          "y": -219
+          "x": 125,
+          "y": -205
         },
         "direction": 4
       },
@@ -52,8 +50,8 @@
         "entity_number": 5,
         "name": "straight-rail",
         "position": {
-          "x": 151,
-          "y": -219
+          "x": 127,
+          "y": -205
         },
         "direction": 4
       },
@@ -61,8 +59,8 @@
         "entity_number": 6,
         "name": "straight-rail",
         "position": {
-          "x": 153,
-          "y": -219
+          "x": 129,
+          "y": -205
         },
         "direction": 4
       },
@@ -70,8 +68,8 @@
         "entity_number": 7,
         "name": "straight-rail",
         "position": {
-          "x": 155,
-          "y": -219
+          "x": 131,
+          "y": -205
         },
         "direction": 4
       },
@@ -79,8 +77,8 @@
         "entity_number": 8,
         "name": "straight-rail",
         "position": {
-          "x": 157,
-          "y": -219
+          "x": 133,
+          "y": -205
         },
         "direction": 4
       },
@@ -88,8 +86,8 @@
         "entity_number": 9,
         "name": "straight-rail",
         "position": {
-          "x": 159,
-          "y": -219
+          "x": 135,
+          "y": -205
         },
         "direction": 4
       },
@@ -97,8 +95,8 @@
         "entity_number": 10,
         "name": "straight-rail",
         "position": {
-          "x": 161,
-          "y": -219
+          "x": 137,
+          "y": -205
         },
         "direction": 4
       },
@@ -106,238 +104,195 @@
         "entity_number": 11,
         "name": "straight-rail",
         "position": {
-          "x": 163,
-          "y": -219
+          "x": 139,
+          "y": -205
         },
         "direction": 4
       },
       {
         "entity_number": 12,
-        "name": "straight-rail",
+        "name": "pump",
         "position": {
-          "x": 165,
-          "y": -219
-        },
-        "direction": 4
+          "x": 118.5,
+          "y": -203
+        }
       },
       {
         "entity_number": 13,
-        "name": "straight-rail",
+        "name": "medium-electric-pole",
         "position": {
-          "x": 167,
-          "y": -219
-        },
-        "direction": 4
+          "x": 121.5,
+          "y": -202.5
+        }
       },
       {
         "entity_number": 14,
-        "name": "straight-rail",
+        "name": "pump",
         "position": {
-          "x": 169,
-          "y": -219
-        },
-        "direction": 4
+          "x": 120.5,
+          "y": -203
+        }
       },
       {
         "entity_number": 15,
-        "name": "straight-rail",
+        "name": "pump",
         "position": {
-          "x": 171,
-          "y": -219
-        },
-        "direction": 4
+          "x": 122.5,
+          "y": -203
+        }
       },
       {
         "entity_number": 16,
         "name": "pump",
         "position": {
-          "x": 159.5,
-          "y": -217
+          "x": 124.5,
+          "y": -203
         }
       },
       {
         "entity_number": 17,
-        "name": "pump",
+        "name": "medium-electric-pole",
         "position": {
-          "x": 161.5,
-          "y": -217
+          "x": 127.5,
+          "y": -202.5
         }
       },
       {
         "entity_number": 18,
-        "name": "medium-electric-pole",
+        "name": "pump",
         "position": {
-          "x": 162.5,
-          "y": -217.5
+          "x": 126.5,
+          "y": -203
         }
       },
       {
         "entity_number": 19,
         "name": "pump",
         "position": {
-          "x": 163.5,
-          "y": -217
+          "x": 128.5,
+          "y": -203
         }
       },
       {
         "entity_number": 20,
-        "name": "pump",
+        "name": "train-stop",
         "position": {
-          "x": 165.5,
-          "y": -217
-        }
+          "x": 137,
+          "y": -203
+        },
+        "direction": 4,
+        "station": "Fluid Provider",
+        "manual_trains_limit": 1
       },
       {
         "entity_number": 21,
-        "name": "pump",
+        "name": "rail-signal",
         "position": {
-          "x": 167.5,
-          "y": -217
-        }
+          "x": 138.5,
+          "y": -203.5
+        },
+        "direction": 12
       },
       {
         "entity_number": 22,
-        "name": "medium-electric-pole",
+        "name": "pipe",
         "position": {
-          "x": 168.5,
-          "y": -217.5
+          "x": 119.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 23,
-        "name": "pump",
+        "name": "pipe",
         "position": {
-          "x": 169.5,
-          "y": -217
+          "x": 118.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 24,
-        "name": "storage-tank",
+        "name": "pipe",
         "position": {
-          "x": 158.5,
-          "y": -214.5
-        },
-        "direction": 4
+          "x": 121.5,
+          "y": -201.5
+        }
       },
       {
         "entity_number": 25,
         "name": "pipe",
         "position": {
-          "x": 160.5,
-          "y": -215.5
+          "x": 120.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 26,
         "name": "pipe",
         "position": {
-          "x": 161.5,
-          "y": -215.5
+          "x": 123.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 27,
         "name": "pipe",
         "position": {
-          "x": 162.5,
-          "y": -215.5
+          "x": 122.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 28,
         "name": "pipe",
         "position": {
-          "x": 163.5,
-          "y": -215.5
+          "x": 125.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 29,
         "name": "pipe",
         "position": {
-          "x": 164.5,
-          "y": -215.5
+          "x": 124.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 30,
         "name": "pipe",
         "position": {
-          "x": 165.5,
-          "y": -215.5
+          "x": 127.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 31,
         "name": "pipe",
         "position": {
-          "x": 166.5,
-          "y": -215.5
+          "x": 126.5,
+          "y": -201.5
         }
       },
       {
         "entity_number": 32,
         "name": "pipe",
         "position": {
-          "x": 167.5,
-          "y": -215.5
+          "x": 128.5,
+          "y": -201.5
         }
-      },
-      {
-        "entity_number": 33,
-        "name": "pipe",
-        "position": {
-          "x": 168.5,
-          "y": -215.5
-        }
-      },
-      {
-        "entity_number": 34,
-        "name": "storage-tank",
-        "position": {
-          "x": 170.5,
-          "y": -214.5
-        }
-      },
-      {
-        "entity_number": 35,
-        "name": "storage-tank",
-        "position": {
-          "x": 161.5,
-          "y": -213.5
-        }
-      },
-      {
-        "entity_number": 36,
-        "name": "storage-tank",
-        "position": {
-          "x": 167.5,
-          "y": -213.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 37,
-        "name": "pipe-to-ground",
-        "position": {
-          "x": 172.5,
-          "y": -213.5
-        },
-        "direction": 12
       }
     ],
     "wires": [
       [
-        18,
+        13,
         5,
-        22,
+        17,
         5
       ]
     ],
     "item": "blueprint",
     "label": "Fluid Provider",
-    "version": 562949955059714
+    "version": 562949955256321
   },
   "index": 12
 }

@@ -1,0 +1,473 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "transport-belt"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "iron-chest",
+        "position": {
+          "x": 76.5,
+          "y": -131.5
+        },
+        "bar": 10
+      },
+      {
+        "entity_number": 2,
+        "name": "inserter",
+        "position": {
+          "x": 76.5,
+          "y": -130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 3,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 78.5,
+          "y": -130.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "iron-chest",
+        "position": {
+          "x": 80.5,
+          "y": -131.5
+        },
+        "bar": 10
+      },
+      {
+        "entity_number": 5,
+        "name": "inserter",
+        "position": {
+          "x": 80.5,
+          "y": -130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 6,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "transport-belt",
+        "position": {
+          "x": 73.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "transport-belt",
+        "position": {
+          "x": 72.5,
+          "y": -128.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "inserter",
+        "position": {
+          "x": 74.5,
+          "y": -128.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 10,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 76.5,
+          "y": -128.5
+        },
+        "recipe": "splitter",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 11,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 80.5,
+          "y": -128.5
+        },
+        "recipe": "underground-belt",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 12,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -127.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -126.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 74.5,
+          "y": -126.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": 76.5,
+          "y": -126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 16,
+        "name": "inserter",
+        "position": {
+          "x": 77.5,
+          "y": -126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 17,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 78.5,
+          "y": -126.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "inserter",
+        "position": {
+          "x": 79.5,
+          "y": -126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "inserter",
+        "position": {
+          "x": 80.5,
+          "y": -126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -125.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -124.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 74.5,
+          "y": -124.5
+        },
+        "recipe": "iron-gear-wheel",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 23,
+        "name": "underground-belt",
+        "position": {
+          "x": 76.5,
+          "y": -125.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 24,
+        "name": "inserter",
+        "position": {
+          "x": 76.5,
+          "y": -124.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 25,
+        "name": "assembling-machine-1",
+        "position": {
+          "x": 78.5,
+          "y": -124.5
+        },
+        "recipe": "transport-belt",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 26,
+        "name": "transport-belt",
+        "position": {
+          "x": 80.5,
+          "y": -125.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "transport-belt",
+        "position": {
+          "x": 80.5,
+          "y": -124.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -123.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 73.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "inserter",
+        "position": {
+          "x": 74.5,
+          "y": -122.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "small-electric-pole",
+        "position": {
+          "x": 77.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "transport-belt",
+        "position": {
+          "x": 76.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "underground-belt",
+        "position": {
+          "x": 76.5,
+          "y": -123.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 35,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 79.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "inserter",
+        "position": {
+          "x": 78.5,
+          "y": -122.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 37,
+        "name": "transport-belt",
+        "position": {
+          "x": 80.5,
+          "y": -123.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "transport-belt",
+        "position": {
+          "x": 80.5,
+          "y": -122.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -121.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "transport-belt",
+        "position": {
+          "x": 71.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "transport-belt",
+        "position": {
+          "x": 74.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "transport-belt",
+        "position": {
+          "x": 74.5,
+          "y": -121.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 43,
+        "name": "splitter",
+        "position": {
+          "x": 75.5,
+          "y": -122
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 44,
+        "name": "transport-belt",
+        "position": {
+          "x": 77.5,
+          "y": -121.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 45,
+        "name": "transport-belt",
+        "position": {
+          "x": 76.5,
+          "y": -121.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 46,
+        "name": "iron-chest",
+        "position": {
+          "x": 79.5,
+          "y": -120.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "transport-belt",
+        "position": {
+          "x": 79.5,
+          "y": -121.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 48,
+        "name": "transport-belt",
+        "position": {
+          "x": 78.5,
+          "y": -121.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 49,
+        "name": "transport-belt",
+        "position": {
+          "x": 80.5,
+          "y": -121.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        3,
+        5,
+        17,
+        5
+      ],
+      [
+        14,
+        5,
+        17,
+        5
+      ],
+      [
+        14,
+        5,
+        30,
+        5
+      ],
+      [
+        17,
+        5,
+        32,
+        5
+      ],
+      [
+        30,
+        5,
+        32,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Yellow Belts",
+    "version": 562949955256321
+  },
+  "index": 0
+}

@@ -4,14 +4,14 @@
       "mappers": [
         {
           "from": {
-            "type": "item",
-            "name": "empty-module-slot",
+            "type": "entity",
+            "name": "stone-furnace",
             "quality": "normal",
             "comparator": "="
           },
           "to": {
-            "type": "item",
-            "name": "quality-module",
+            "type": "entity",
+            "name": "steel-furnace",
             "module_limit": 0,
             "module_slots": []
           },
@@ -19,14 +19,14 @@
         },
         {
           "from": {
-            "type": "item",
-            "name": "speed-module",
+            "type": "entity",
+            "name": "transport-belt",
             "quality": "normal",
             "comparator": "="
           },
           "to": {
-            "type": "item",
-            "name": "quality-module",
+            "type": "entity",
+            "name": "fast-transport-belt",
             "module_limit": 0,
             "module_slots": []
           },
@@ -34,14 +34,14 @@
         },
         {
           "from": {
-            "type": "item",
-            "name": "efficiency-module",
+            "type": "entity",
+            "name": "underground-belt",
             "quality": "normal",
             "comparator": "="
           },
           "to": {
-            "type": "item",
-            "name": "quality-module",
+            "type": "entity",
+            "name": "fast-underground-belt",
             "module_limit": 0,
             "module_slots": []
           },
@@ -49,24 +49,32 @@
         },
         {
           "from": {
-            "type": "item",
-            "name": "productivity-module",
+            "type": "entity",
+            "name": "splitter",
             "quality": "normal",
             "comparator": "="
           },
           "to": {
-            "type": "item",
-            "name": "quality-module",
+            "type": "entity",
+            "name": "fast-splitter",
             "module_limit": 0,
             "module_slots": []
           },
           "index": 12
         }
+      ],
+      "icons": [
+        {
+          "signal": {
+            "name": "steel-furnace"
+          },
+          "index": 1
+        }
       ]
     },
     "item": "upgrade-planner",
-    "label": "Install Quality",
-    "version": 562949955059714
+    "label": "[item=stone-furnace] -> [item=steel-furnace]",
+    "version": 562949955256321
   },
-  "index": 1
+  "index": 8
 }

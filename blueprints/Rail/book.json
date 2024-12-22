@@ -2,7 +2,15 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Rail",
-    "version": 562949955059714
+    "icons": [
+      {
+        "signal": {
+          "name": "train-stop"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
   },
-  "index": 6
+  "index": 5
 }

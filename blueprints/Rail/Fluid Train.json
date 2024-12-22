@@ -11,71 +11,45 @@
     "entities": [
       {
         "entity_number": 1,
-        "name": "locomotive",
+        "name": "fluid-wagon",
         "position": {
-          "x": 154.00390625,
-          "y": -219
+          "x": 120,
+          "y": -205
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.75,
-        "color": {
-          "r": 0.949999988079071,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        },
-        "items": [
-          {
-            "id": {
-              "name": "rocket-fuel"
-            },
-            "items": {
-              "in_inventory": [
-                {
-                  "inventory": 1,
-                  "stack": 0,
-                  "count": 19
-                },
-                {
-                  "inventory": 1,
-                  "stack": 1,
-                  "count": 20
-                },
-                {
-                  "inventory": 1,
-                  "stack": 2,
-                  "count": 20
-                }
-              ]
-            }
-          }
-        ]
+        "orientation": 0.25
       },
       {
         "entity_number": 2,
         "name": "fluid-wagon",
         "position": {
-          "x": 161,
-          "y": -219
+          "x": 127,
+          "y": -205
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.75
+        "orientation": 0.25
       },
       {
         "entity_number": 3,
-        "name": "fluid-wagon",
+        "name": "locomotive",
         "position": {
-          "x": 168.00390625,
-          "y": -219
+          "x": 134,
+          "y": -205
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.75
+        "orientation": 0.25,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
       }
     ],
     "schedules": [
       {
         "locomotives": [
-          1
+          3
         ],
         "schedule": {
           "records": [
@@ -89,10 +63,10 @@
               ]
             }
           ],
-          "group": "Fluid Trains",
+          "group": "Fluids",
           "interrupts": [
             {
-              "name": "Fluid Dropoff",
+              "name": "Fluid Requester",
               "conditions": [
                 {
                   "compare_type": "and",
@@ -131,7 +105,7 @@
                       "type": "virtual",
                       "name": "signal-fuel-parameter"
                     },
-                    "constant": 20,
+                    "constant": 10,
                     "comparator": "<"
                   }
                 }
@@ -142,20 +116,7 @@
                   "wait_conditions": [
                     {
                       "compare_type": "and",
-                      "type": "fuel_item_count_all",
-                      "condition": {
-                        "first_signal": {
-                          "type": "virtual",
-                          "name": "signal-fuel-parameter"
-                        },
-                        "constant": 20,
-                        "comparator": "\u2265"
-                      }
-                    },
-                    {
-                      "compare_type": "and",
-                      "type": "inactivity",
-                      "ticks": 120
+                      "type": "fuel_full"
                     }
                   ]
                 }
@@ -169,21 +130,21 @@
     "stock_connections": [
       {
         "stock": 1,
-        "back": 2
+        "front": 2
       },
       {
         "stock": 2,
-        "front": 1,
-        "back": 3
+        "front": 3,
+        "back": 1
       },
       {
         "stock": 3,
-        "front": 2
+        "back": 2
       }
     ],
     "item": "blueprint",
     "label": "Fluid Train",
-    "version": 562949955059714
+    "version": 562949955256321
   },
   "index": 14
 }

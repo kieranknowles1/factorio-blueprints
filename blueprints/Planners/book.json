@@ -2,7 +2,21 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Planners",
-    "version": 562949955059714
+    "icons": [
+      {
+        "signal": {
+          "name": "upgrade-planner"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "deconstruction-planner"
+        },
+        "index": 2
+      }
+    ],
+    "version": 562949955256321
   },
-  "index": 5
+  "index": 11
 }

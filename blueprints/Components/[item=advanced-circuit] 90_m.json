@@ -1055,14 +1055,6 @@
       },
       {
         "entity_number": 118,
-        "name": "medium-electric-pole",
-        "position": {
-          "x": 716.5,
-          "y": -568.5
-        }
-      },
-      {
-        "entity_number": 119,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1070,7 +1062,7 @@
         }
       },
       {
-        "entity_number": 120,
+        "entity_number": 119,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1078,7 +1070,7 @@
         }
       },
       {
-        "entity_number": 121,
+        "entity_number": 120,
         "name": "fast-inserter",
         "position": {
           "x": 722.5,
@@ -1087,7 +1079,7 @@
         "direction": 8
       },
       {
-        "entity_number": 122,
+        "entity_number": 121,
         "name": "medium-electric-pole",
         "position": {
           "x": 723.5,
@@ -1095,7 +1087,7 @@
         }
       },
       {
-        "entity_number": 123,
+        "entity_number": 122,
         "name": "fast-inserter",
         "position": {
           "x": 725.5,
@@ -1104,10 +1096,19 @@
         "direction": 8
       },
       {
-        "entity_number": 124,
+        "entity_number": 123,
         "name": "transport-belt",
         "position": {
           "x": 728.5,
+          "y": -569.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 124,
+        "name": "transport-belt",
+        "position": {
+          "x": 729.5,
           "y": -569.5
         },
         "direction": 4
@@ -1116,21 +1117,12 @@
         "entity_number": 125,
         "name": "transport-belt",
         "position": {
-          "x": 729.5,
-          "y": -569.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 126,
-        "name": "transport-belt",
-        "position": {
           "x": 728.5,
           "y": -568.5
         }
       },
       {
-        "entity_number": 127,
+        "entity_number": 126,
         "name": "long-handed-inserter",
         "position": {
           "x": 729.5,
@@ -1138,7 +1130,7 @@
         }
       },
       {
-        "entity_number": 128,
+        "entity_number": 127,
         "name": "inserter",
         "position": {
           "x": 731.5,
@@ -1146,7 +1138,7 @@
         }
       },
       {
-        "entity_number": 129,
+        "entity_number": 128,
         "name": "transport-belt",
         "position": {
           "x": 730.5,
@@ -1155,7 +1147,7 @@
         "direction": 4
       },
       {
-        "entity_number": 130,
+        "entity_number": 129,
         "name": "transport-belt",
         "position": {
           "x": 731.5,
@@ -1164,7 +1156,7 @@
         "direction": 4
       },
       {
-        "entity_number": 131,
+        "entity_number": 130,
         "name": "transport-belt",
         "position": {
           "x": 733.5,
@@ -1173,7 +1165,7 @@
         "direction": 4
       },
       {
-        "entity_number": 132,
+        "entity_number": 131,
         "name": "transport-belt",
         "position": {
           "x": 732.5,
@@ -1182,7 +1174,7 @@
         "direction": 4
       },
       {
-        "entity_number": 133,
+        "entity_number": 132,
         "name": "long-handed-inserter",
         "position": {
           "x": 732.5,
@@ -1190,7 +1182,7 @@
         }
       },
       {
-        "entity_number": 134,
+        "entity_number": 133,
         "name": "inserter",
         "position": {
           "x": 734.5,
@@ -1198,25 +1190,25 @@
         }
       },
       {
-        "entity_number": 135,
+        "entity_number": 134,
         "name": "transport-belt",
         "position": {
           "x": 735.5,
+          "y": -569.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 135,
+        "name": "transport-belt",
+        "position": {
+          "x": 734.5,
           "y": -569.5
         },
         "direction": 4
       },
       {
         "entity_number": 136,
-        "name": "transport-belt",
-        "position": {
-          "x": 734.5,
-          "y": -569.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 137,
         "name": "long-handed-inserter",
         "position": {
           "x": 735.5,
@@ -1224,7 +1216,7 @@
         }
       },
       {
-        "entity_number": 138,
+        "entity_number": 137,
         "name": "inserter",
         "position": {
           "x": 737.5,
@@ -1232,7 +1224,7 @@
         }
       },
       {
-        "entity_number": 139,
+        "entity_number": 138,
         "name": "transport-belt",
         "position": {
           "x": 737.5,
@@ -1241,7 +1233,7 @@
         "direction": 4
       },
       {
-        "entity_number": 140,
+        "entity_number": 139,
         "name": "transport-belt",
         "position": {
           "x": 736.5,
@@ -1250,7 +1242,7 @@
         "direction": 4
       },
       {
-        "entity_number": 141,
+        "entity_number": 140,
         "name": "transport-belt",
         "position": {
           "x": 739.5,
@@ -1259,7 +1251,7 @@
         "direction": 4
       },
       {
-        "entity_number": 142,
+        "entity_number": 141,
         "name": "transport-belt",
         "position": {
           "x": 738.5,
@@ -1268,7 +1260,7 @@
         "direction": 4
       },
       {
-        "entity_number": 143,
+        "entity_number": 142,
         "name": "long-handed-inserter",
         "position": {
           "x": 738.5,
@@ -1276,7 +1268,7 @@
         }
       },
       {
-        "entity_number": 144,
+        "entity_number": 143,
         "name": "inserter",
         "position": {
           "x": 740.5,
@@ -1284,25 +1276,25 @@
         }
       },
       {
-        "entity_number": 145,
+        "entity_number": 144,
         "name": "transport-belt",
         "position": {
           "x": 740.5,
+          "y": -569.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 145,
+        "name": "transport-belt",
+        "position": {
+          "x": 741.5,
           "y": -569.5
         },
         "direction": 4
       },
       {
         "entity_number": 146,
-        "name": "transport-belt",
-        "position": {
-          "x": 741.5,
-          "y": -569.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 147,
         "name": "long-handed-inserter",
         "position": {
           "x": 741.5,
@@ -1310,7 +1302,7 @@
         }
       },
       {
-        "entity_number": 148,
+        "entity_number": 147,
         "name": "transport-belt",
         "position": {
           "x": 743.5,
@@ -1319,7 +1311,7 @@
         "direction": 4
       },
       {
-        "entity_number": 149,
+        "entity_number": 148,
         "name": "inserter",
         "position": {
           "x": 743.5,
@@ -1327,7 +1319,7 @@
         }
       },
       {
-        "entity_number": 150,
+        "entity_number": 149,
         "name": "transport-belt",
         "position": {
           "x": 742.5,
@@ -1336,7 +1328,7 @@
         "direction": 4
       },
       {
-        "entity_number": 151,
+        "entity_number": 150,
         "name": "inserter",
         "position": {
           "x": 745.5,
@@ -1344,7 +1336,7 @@
         }
       },
       {
-        "entity_number": 152,
+        "entity_number": 151,
         "name": "transport-belt",
         "position": {
           "x": 745.5,
@@ -1353,7 +1345,7 @@
         "direction": 4
       },
       {
-        "entity_number": 153,
+        "entity_number": 152,
         "name": "transport-belt",
         "position": {
           "x": 744.5,
@@ -1362,7 +1354,7 @@
         "direction": 4
       },
       {
-        "entity_number": 154,
+        "entity_number": 153,
         "name": "long-handed-inserter",
         "position": {
           "x": 744.5,
@@ -1370,7 +1362,7 @@
         }
       },
       {
-        "entity_number": 155,
+        "entity_number": 154,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1379,7 +1371,7 @@
         "direction": 8
       },
       {
-        "entity_number": 156,
+        "entity_number": 155,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1388,7 +1380,7 @@
         "direction": 8
       },
       {
-        "entity_number": 157,
+        "entity_number": 156,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1396,7 +1388,7 @@
         }
       },
       {
-        "entity_number": 158,
+        "entity_number": 157,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1404,7 +1396,7 @@
         }
       },
       {
-        "entity_number": 159,
+        "entity_number": 158,
         "name": "assembling-machine-2",
         "position": {
           "x": 722.5,
@@ -1414,7 +1406,7 @@
         "recipe_quality": "normal"
       },
       {
-        "entity_number": 160,
+        "entity_number": 159,
         "name": "assembling-machine-2",
         "position": {
           "x": 725.5,
@@ -1424,7 +1416,7 @@
         "recipe_quality": "normal"
       },
       {
-        "entity_number": 161,
+        "entity_number": 160,
         "name": "transport-belt",
         "position": {
           "x": 728.5,
@@ -1432,7 +1424,7 @@
         }
       },
       {
-        "entity_number": 162,
+        "entity_number": 161,
         "name": "transport-belt",
         "position": {
           "x": 728.5,
@@ -1440,10 +1432,20 @@
         }
       },
       {
-        "entity_number": 163,
+        "entity_number": 162,
         "name": "assembling-machine-2",
         "position": {
           "x": 730.5,
+          "y": -566.5
+        },
+        "recipe": "advanced-circuit",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 163,
+        "name": "assembling-machine-2",
+        "position": {
+          "x": 733.5,
           "y": -566.5
         },
         "recipe": "advanced-circuit",
@@ -1453,7 +1455,7 @@
         "entity_number": 164,
         "name": "assembling-machine-2",
         "position": {
-          "x": 733.5,
+          "x": 736.5,
           "y": -566.5
         },
         "recipe": "advanced-circuit",
@@ -1463,7 +1465,7 @@
         "entity_number": 165,
         "name": "assembling-machine-2",
         "position": {
-          "x": 736.5,
+          "x": 739.5,
           "y": -566.5
         },
         "recipe": "advanced-circuit",
@@ -1473,7 +1475,7 @@
         "entity_number": 166,
         "name": "assembling-machine-2",
         "position": {
-          "x": 739.5,
+          "x": 742.5,
           "y": -566.5
         },
         "recipe": "advanced-circuit",
@@ -1483,16 +1485,6 @@
         "entity_number": 167,
         "name": "assembling-machine-2",
         "position": {
-          "x": 742.5,
-          "y": -566.5
-        },
-        "recipe": "advanced-circuit",
-        "recipe_quality": "normal"
-      },
-      {
-        "entity_number": 168,
-        "name": "assembling-machine-2",
-        "position": {
           "x": 745.5,
           "y": -566.5
         },
@@ -1500,7 +1492,7 @@
         "recipe_quality": "normal"
       },
       {
-        "entity_number": 169,
+        "entity_number": 168,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1509,7 +1501,7 @@
         "direction": 8
       },
       {
-        "entity_number": 170,
+        "entity_number": 169,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1518,7 +1510,7 @@
         "direction": 8
       },
       {
-        "entity_number": 171,
+        "entity_number": 170,
         "name": "splitter",
         "position": {
           "x": 717.5,
@@ -1527,7 +1519,7 @@
         "direction": 4
       },
       {
-        "entity_number": 172,
+        "entity_number": 171,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1535,7 +1527,7 @@
         }
       },
       {
-        "entity_number": 173,
+        "entity_number": 172,
         "name": "transport-belt",
         "position": {
           "x": 718.5,
@@ -1544,7 +1536,7 @@
         "direction": 4
       },
       {
-        "entity_number": 174,
+        "entity_number": 173,
         "name": "transport-belt",
         "position": {
           "x": 719.5,
@@ -1553,7 +1545,7 @@
         "direction": 4
       },
       {
-        "entity_number": 175,
+        "entity_number": 174,
         "name": "transport-belt",
         "position": {
           "x": 721.5,
@@ -1562,7 +1554,7 @@
         "direction": 4
       },
       {
-        "entity_number": 176,
+        "entity_number": 175,
         "name": "transport-belt",
         "position": {
           "x": 720.5,
@@ -1571,7 +1563,7 @@
         "direction": 4
       },
       {
-        "entity_number": 177,
+        "entity_number": 176,
         "name": "transport-belt",
         "position": {
           "x": 722.5,
@@ -1580,7 +1572,7 @@
         "direction": 4
       },
       {
-        "entity_number": 178,
+        "entity_number": 177,
         "name": "transport-belt",
         "position": {
           "x": 723.5,
@@ -1589,7 +1581,7 @@
         "direction": 4
       },
       {
-        "entity_number": 179,
+        "entity_number": 178,
         "name": "fast-inserter",
         "position": {
           "x": 722.5,
@@ -1598,7 +1590,7 @@
         "direction": 8
       },
       {
-        "entity_number": 180,
+        "entity_number": 179,
         "name": "medium-electric-pole",
         "position": {
           "x": 723.5,
@@ -1606,7 +1598,7 @@
         }
       },
       {
-        "entity_number": 181,
+        "entity_number": 180,
         "name": "transport-belt",
         "position": {
           "x": 725.5,
@@ -1615,7 +1607,7 @@
         "direction": 4
       },
       {
-        "entity_number": 182,
+        "entity_number": 181,
         "name": "transport-belt",
         "position": {
           "x": 724.5,
@@ -1624,7 +1616,7 @@
         "direction": 4
       },
       {
-        "entity_number": 183,
+        "entity_number": 182,
         "name": "fast-inserter",
         "position": {
           "x": 725.5,
@@ -1633,7 +1625,7 @@
         "direction": 8
       },
       {
-        "entity_number": 184,
+        "entity_number": 183,
         "name": "transport-belt",
         "position": {
           "x": 728.5,
@@ -1641,7 +1633,7 @@
         }
       },
       {
-        "entity_number": 185,
+        "entity_number": 184,
         "name": "transport-belt",
         "position": {
           "x": 728.5,
@@ -1649,7 +1641,7 @@
         }
       },
       {
-        "entity_number": 186,
+        "entity_number": 185,
         "name": "inserter",
         "position": {
           "x": 731.5,
@@ -1657,7 +1649,7 @@
         }
       },
       {
-        "entity_number": 187,
+        "entity_number": 186,
         "name": "inserter",
         "position": {
           "x": 733.5,
@@ -1665,7 +1657,7 @@
         }
       },
       {
-        "entity_number": 188,
+        "entity_number": 187,
         "name": "medium-electric-pole",
         "position": {
           "x": 734.5,
@@ -1673,7 +1665,7 @@
         }
       },
       {
-        "entity_number": 189,
+        "entity_number": 188,
         "name": "inserter",
         "position": {
           "x": 736.5,
@@ -1681,7 +1673,7 @@
         }
       },
       {
-        "entity_number": 190,
+        "entity_number": 189,
         "name": "inserter",
         "position": {
           "x": 740.5,
@@ -1689,7 +1681,7 @@
         }
       },
       {
-        "entity_number": 191,
+        "entity_number": 190,
         "name": "inserter",
         "position": {
           "x": 742.5,
@@ -1697,7 +1689,7 @@
         }
       },
       {
-        "entity_number": 192,
+        "entity_number": 191,
         "name": "medium-electric-pole",
         "position": {
           "x": 743.5,
@@ -1705,7 +1697,7 @@
         }
       },
       {
-        "entity_number": 193,
+        "entity_number": 192,
         "name": "inserter",
         "position": {
           "x": 745.5,
@@ -1713,7 +1705,7 @@
         }
       },
       {
-        "entity_number": 194,
+        "entity_number": 193,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1722,7 +1714,7 @@
         "direction": 8
       },
       {
-        "entity_number": 195,
+        "entity_number": 194,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1731,7 +1723,7 @@
         "direction": 8
       },
       {
-        "entity_number": 196,
+        "entity_number": 195,
         "name": "transport-belt",
         "position": {
           "x": 731.5,
@@ -1740,7 +1732,7 @@
         "direction": 4
       },
       {
-        "entity_number": 197,
+        "entity_number": 196,
         "name": "transport-belt",
         "position": {
           "x": 732.5,
@@ -1749,7 +1741,7 @@
         "direction": 4
       },
       {
-        "entity_number": 198,
+        "entity_number": 197,
         "name": "transport-belt",
         "position": {
           "x": 733.5,
@@ -1758,7 +1750,7 @@
         "direction": 4
       },
       {
-        "entity_number": 199,
+        "entity_number": 198,
         "name": "transport-belt",
         "position": {
           "x": 735.5,
@@ -1767,7 +1759,7 @@
         "direction": 4
       },
       {
-        "entity_number": 200,
+        "entity_number": 199,
         "name": "transport-belt",
         "position": {
           "x": 734.5,
@@ -1776,7 +1768,7 @@
         "direction": 4
       },
       {
-        "entity_number": 201,
+        "entity_number": 200,
         "name": "transport-belt",
         "position": {
           "x": 736.5,
@@ -1785,7 +1777,7 @@
         "direction": 4
       },
       {
-        "entity_number": 202,
+        "entity_number": 201,
         "name": "transport-belt",
         "position": {
           "x": 737.5,
@@ -1794,7 +1786,7 @@
         "direction": 4
       },
       {
-        "entity_number": 203,
+        "entity_number": 202,
         "name": "transport-belt",
         "position": {
           "x": 739.5,
@@ -1803,7 +1795,7 @@
         "direction": 4
       },
       {
-        "entity_number": 204,
+        "entity_number": 203,
         "name": "transport-belt",
         "position": {
           "x": 738.5,
@@ -1812,7 +1804,7 @@
         "direction": 4
       },
       {
-        "entity_number": 205,
+        "entity_number": 204,
         "name": "transport-belt",
         "position": {
           "x": 740.5,
@@ -1821,7 +1813,7 @@
         "direction": 4
       },
       {
-        "entity_number": 206,
+        "entity_number": 205,
         "name": "transport-belt",
         "position": {
           "x": 741.5,
@@ -1830,7 +1822,7 @@
         "direction": 4
       },
       {
-        "entity_number": 207,
+        "entity_number": 206,
         "name": "transport-belt",
         "position": {
           "x": 742.5,
@@ -1839,7 +1831,7 @@
         "direction": 4
       },
       {
-        "entity_number": 208,
+        "entity_number": 207,
         "name": "transport-belt",
         "position": {
           "x": 743.5,
@@ -1848,7 +1840,7 @@
         "direction": 4
       },
       {
-        "entity_number": 209,
+        "entity_number": 208,
         "name": "transport-belt",
         "position": {
           "x": 744.5,
@@ -1857,7 +1849,7 @@
         "direction": 4
       },
       {
-        "entity_number": 210,
+        "entity_number": 209,
         "name": "transport-belt",
         "position": {
           "x": 745.5,
@@ -1866,7 +1858,7 @@
         "direction": 4
       },
       {
-        "entity_number": 211,
+        "entity_number": 210,
         "name": "transport-belt",
         "position": {
           "x": 747.5,
@@ -1875,7 +1867,7 @@
         "direction": 4
       },
       {
-        "entity_number": 212,
+        "entity_number": 211,
         "name": "transport-belt",
         "position": {
           "x": 746.5,
@@ -1884,7 +1876,7 @@
         "direction": 4
       },
       {
-        "entity_number": 213,
+        "entity_number": 212,
         "name": "transport-belt",
         "position": {
           "x": 748.5,
@@ -1909,7 +1901,7 @@
       [
         39,
         5,
-        122,
+        121,
         5
       ],
       [
@@ -1927,7 +1919,7 @@
       [
         46,
         5,
-        122,
+        121,
         5
       ],
       [
@@ -1963,37 +1955,31 @@
       [
         99,
         5,
-        188,
+        187,
         5
       ],
       [
         111,
         5,
-        192,
+        191,
         5
       ],
       [
-        118,
+        121,
         5,
-        122,
+        179,
         5
       ],
       [
-        122,
+        187,
         5,
-        180,
-        5
-      ],
-      [
-        188,
-        5,
-        192,
+        191,
         5
       ]
     ],
     "item": "blueprint",
     "label": "[item=advanced-circuit] 90/m",
-    "version": 562949955059714
+    "version": 562949955256321
   },
-  "index": 0
+  "index": 1
 }

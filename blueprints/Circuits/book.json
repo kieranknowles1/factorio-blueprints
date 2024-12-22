@@ -2,7 +2,15 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Circuits",
-    "version": 562949955059714
+    "icons": [
+      {
+        "signal": {
+          "name": "arithmetic-combinator"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
   },
-  "index": 10
+  "index": 6
 }

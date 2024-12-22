@@ -1,0 +1,219 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "rocket-fuel"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 119,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 121,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 123,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 125,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 127,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 129,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 131,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 133,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 135,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 137,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 139,
+          "y": -193
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "rail-signal",
+        "position": {
+          "x": 118.5,
+          "y": -191.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 134.5,
+          "y": -191.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 14,
+        "name": "transport-belt",
+        "position": {
+          "x": 134.5,
+          "y": -190.5
+        },
+        "control_behavior": {
+          "circuit_read_hand_contents": true,
+          "circuit_contents_read_mode": 1
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "iron-chest",
+        "position": {
+          "x": 137.5,
+          "y": -190.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 137.5,
+          "y": -191.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "filter_mode": "blacklist",
+        "use_filters": true
+      },
+      {
+        "entity_number": 17,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 136.5,
+          "y": -190.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "train-stop",
+        "position": {
+          "x": 139,
+          "y": -191
+        },
+        "direction": 4,
+        "control_behavior": {
+          "read_from_train": true,
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "",
+        "manual_trains_limit": 1
+      },
+      {
+        "entity_number": 19,
+        "name": "rail-signal",
+        "position": {
+          "x": 140.5,
+          "y": -191.5
+        },
+        "direction": 12
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Fuel type",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Fuel Provider",
+    "version": 562949955256321
+  },
+  "index": 18
+}

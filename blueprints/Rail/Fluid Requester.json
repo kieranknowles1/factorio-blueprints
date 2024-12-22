@@ -3,9 +3,10 @@
     "icons": [
       {
         "signal": {
-          "name": "storage-tank"
+          "type": "recipe",
+          "name": "empty-crude-oil-barrel"
         },
-        "index": 2
+        "index": 1
       }
     ],
     "entities": [
@@ -13,8 +14,8 @@
         "entity_number": 1,
         "name": "straight-rail",
         "position": {
-          "x": 549,
-          "y": -529
+          "x": 649,
+          "y": 539
         },
         "direction": 4
       },
@@ -22,8 +23,8 @@
         "entity_number": 2,
         "name": "straight-rail",
         "position": {
-          "x": 551,
-          "y": -529
+          "x": 651,
+          "y": 539
         },
         "direction": 4
       },
@@ -31,8 +32,8 @@
         "entity_number": 3,
         "name": "straight-rail",
         "position": {
-          "x": 553,
-          "y": -529
+          "x": 653,
+          "y": 539
         },
         "direction": 4
       },
@@ -40,8 +41,8 @@
         "entity_number": 4,
         "name": "straight-rail",
         "position": {
-          "x": 555,
-          "y": -529
+          "x": 655,
+          "y": 539
         },
         "direction": 4
       },
@@ -49,8 +50,8 @@
         "entity_number": 5,
         "name": "straight-rail",
         "position": {
-          "x": 557,
-          "y": -529
+          "x": 657,
+          "y": 539
         },
         "direction": 4
       },
@@ -58,8 +59,8 @@
         "entity_number": 6,
         "name": "straight-rail",
         "position": {
-          "x": 559,
-          "y": -529
+          "x": 659,
+          "y": 539
         },
         "direction": 4
       },
@@ -67,8 +68,8 @@
         "entity_number": 7,
         "name": "straight-rail",
         "position": {
-          "x": 561,
-          "y": -529
+          "x": 661,
+          "y": 539
         },
         "direction": 4
       },
@@ -76,8 +77,8 @@
         "entity_number": 8,
         "name": "straight-rail",
         "position": {
-          "x": 563,
-          "y": -529
+          "x": 663,
+          "y": 539
         },
         "direction": 4
       },
@@ -85,8 +86,8 @@
         "entity_number": 9,
         "name": "straight-rail",
         "position": {
-          "x": 565,
-          "y": -529
+          "x": 665,
+          "y": 539
         },
         "direction": 4
       },
@@ -94,8 +95,8 @@
         "entity_number": 10,
         "name": "straight-rail",
         "position": {
-          "x": 567,
-          "y": -529
+          "x": 667,
+          "y": 539
         },
         "direction": 4
       },
@@ -103,113 +104,95 @@
         "entity_number": 11,
         "name": "straight-rail",
         "position": {
-          "x": 569,
-          "y": -529
+          "x": 669,
+          "y": 539
         },
         "direction": 4
       },
       {
         "entity_number": 12,
-        "name": "straight-rail",
-        "position": {
-          "x": 571,
-          "y": -529
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 13,
         "name": "rail-signal",
         "position": {
-          "x": 550.5,
-          "y": -527.5
+          "x": 648.5,
+          "y": 540.5
         },
         "direction": 12
       },
       {
-        "entity_number": 14,
+        "entity_number": 13,
         "name": "pump",
         "position": {
-          "x": 552.5,
-          "y": -527
+          "x": 652.5,
+          "y": 541
         },
         "direction": 8
       },
       {
-        "entity_number": 15,
+        "entity_number": 14,
         "name": "medium-electric-pole",
         "position": {
-          "x": 555.5,
-          "y": -527.5
+          "x": 653.5,
+          "y": 541.5
         }
+      },
+      {
+        "entity_number": 15,
+        "name": "pump",
+        "position": {
+          "x": 654.5,
+          "y": 541
+        },
+        "direction": 8
       },
       {
         "entity_number": 16,
         "name": "pump",
         "position": {
-          "x": 554.5,
-          "y": -527
+          "x": 656.5,
+          "y": 541
         },
         "direction": 8
       },
       {
         "entity_number": 17,
-        "name": "small-lamp",
+        "name": "pump",
         "position": {
-          "x": 555.5,
-          "y": -526.5
-        }
+          "x": 659.5,
+          "y": 541
+        },
+        "direction": 8
       },
       {
         "entity_number": 18,
-        "name": "pump",
+        "name": "medium-electric-pole",
         "position": {
-          "x": 556.5,
-          "y": -527
-        },
-        "direction": 8
+          "x": 658.5,
+          "y": 541.5
+        }
       },
       {
         "entity_number": 19,
         "name": "pump",
         "position": {
-          "x": 558.5,
-          "y": -527
+          "x": 660.5,
+          "y": 541
         },
         "direction": 8
       },
       {
         "entity_number": 20,
-        "name": "pump",
-        "position": {
-          "x": 560.5,
-          "y": -527
-        },
-        "direction": 8
-      },
-      {
-        "entity_number": 21,
         "name": "medium-electric-pole",
         "position": {
-          "x": 563.5,
-          "y": -527.5
+          "x": 665.5,
+          "y": 541.5
         }
       },
       {
-        "entity_number": 22,
-        "name": "pump",
-        "position": {
-          "x": 562.5,
-          "y": -527
-        },
-        "direction": 8
-      },
-      {
-        "entity_number": 23,
+        "entity_number": 21,
         "name": "train-stop",
         "position": {
-          "x": 571,
-          "y": -527
+          "x": 669,
+          "y": 541
         },
         "direction": 4,
         "control_behavior": {
@@ -218,7 +201,7 @@
             "first_signal": {
               "name": "parameter-0"
             },
-            "constant": 50000,
+            "constant": 75000,
             "comparator": "<"
           },
           "train_stopped_signal": {
@@ -226,153 +209,183 @@
             "name": "signal-T"
           }
         },
-        "station": "[item=parameter-0] Requester"
+        "station": ""
       },
       {
-        "entity_number": 24,
+        "entity_number": 22,
         "name": "rail-signal",
         "position": {
-          "x": 572.5,
-          "y": -527.5
+          "x": 670.5,
+          "y": 540.5
         },
         "direction": 12
       },
       {
-        "entity_number": 25,
+        "entity_number": 23,
         "name": "storage-tank",
         "position": {
-          "x": 551.5,
-          "y": -524.5
+          "x": 650.5,
+          "y": 543.5
         },
         "direction": 4
+      },
+      {
+        "entity_number": 24,
+        "name": "storage-tank",
+        "position": {
+          "x": 653.5,
+          "y": 543.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": 656.5,
+          "y": 543.5
+        }
       },
       {
         "entity_number": 26,
         "name": "pipe",
         "position": {
-          "x": 553.5,
-          "y": -525.5
+          "x": 656.5,
+          "y": 542.5
         }
       },
       {
         "entity_number": 27,
-        "name": "pipe",
+        "name": "storage-tank",
         "position": {
-          "x": 554.5,
-          "y": -525.5
-        }
+          "x": 658.5,
+          "y": 543.5
+        },
+        "direction": 4
       },
       {
         "entity_number": 28,
-        "name": "pipe",
+        "name": "storage-tank",
         "position": {
-          "x": 555.5,
-          "y": -525.5
+          "x": 661.5,
+          "y": 543.5
         }
       },
       {
         "entity_number": 29,
         "name": "pipe",
         "position": {
-          "x": 557.5,
-          "y": -525.5
+          "x": 655.5,
+          "y": 544.5
         }
       },
       {
         "entity_number": 30,
         "name": "pipe",
         "position": {
-          "x": 556.5,
-          "y": -525.5
+          "x": 656.5,
+          "y": 544.5
         }
       },
       {
         "entity_number": 31,
-        "name": "pipe",
+        "name": "storage-tank",
         "position": {
-          "x": 559.5,
-          "y": -525.5
+          "x": 650.5,
+          "y": 546.5
         }
       },
       {
         "entity_number": 32,
-        "name": "pipe",
-        "position": {
-          "x": 558.5,
-          "y": -525.5
-        }
-      },
-      {
-        "entity_number": 33,
-        "name": "pipe",
-        "position": {
-          "x": 561.5,
-          "y": -525.5
-        }
-      },
-      {
-        "entity_number": 34,
-        "name": "pipe",
-        "position": {
-          "x": 560.5,
-          "y": -525.5
-        }
-      },
-      {
-        "entity_number": 35,
         "name": "storage-tank",
         "position": {
-          "x": 563.5,
-          "y": -524.5
-        }
-      },
-      {
-        "entity_number": 36,
-        "name": "storage-tank",
-        "position": {
-          "x": 554.5,
-          "y": -523.5
+          "x": 653.5,
+          "y": 546.5
         },
         "direction": 4
       },
       {
-        "entity_number": 37,
+        "entity_number": 33,
         "name": "storage-tank",
         "position": {
-          "x": 560.5,
-          "y": -523.5
+          "x": 658.5,
+          "y": 546.5
         }
+      },
+      {
+        "entity_number": 34,
+        "name": "storage-tank",
+        "position": {
+          "x": 661.5,
+          "y": 546.5
+        },
+        "direction": 4
       }
     ],
     "wires": [
       [
-        15,
+        14,
         5,
-        21,
+        18,
         5
+      ],
+      [
+        18,
+        5,
+        20,
+        5
+      ],
+      [
+        20,
+        1,
+        21,
+        1
+      ],
+      [
+        20,
+        1,
+        28,
+        1
       ],
       [
         23,
         1,
-        35,
+        24,
         1
       ],
       [
-        25,
+        24,
         1,
-        36,
+        27,
         1
       ],
       [
-        35,
+        27,
         1,
-        37,
+        28,
         1
       ],
       [
-        36,
+        28,
         1,
-        37,
+        34,
+        1
+      ],
+      [
+        31,
+        1,
+        32,
+        1
+      ],
+      [
+        32,
+        1,
+        33,
+        1
+      ],
+      [
+        33,
+        1,
+        34,
         1
       ]
     ],
@@ -385,11 +398,16 @@
           "quality": "normal",
           "comparator": "="
         }
+      },
+      {
+        "type": "number",
+        "number": "75000",
+        "name": "Request Threshold"
       }
     ],
     "item": "blueprint",
     "label": "Fluid Requester",
-    "version": 562949955059714
+    "version": 562949955256321
   },
   "index": 13
 }

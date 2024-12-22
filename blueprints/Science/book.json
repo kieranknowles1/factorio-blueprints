@@ -2,7 +2,15 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Science",
-    "version": 562949955059714
+    "icons": [
+      {
+        "signal": {
+          "name": "lab"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
   },
-  "index": 1
+  "index": 4
 }

@@ -2,7 +2,7 @@
   "blueprint_book": {
     "item": "blueprint-book",
     "label": "Root Blueprint Book",
-    "description": "Root book containing all other blueprints",
-    "version": 562949955059714
+    "version": 562949955256321,
+    "description": "Root book containing all other blueprints"
   }
 }
