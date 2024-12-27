@@ -1,0 +1,124 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 5,
+      "y": 9
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "laser-turret"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "stone-wall"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "laser-turret",
+        "position": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "laser-turret",
+        "position": {
+          "x": 2,
+          "y": 6
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Laser Wall",
+    "version": 562949955256321
+  },
+  "index": 0
+}

@@ -1,5 +1,6 @@
 {
   "blueprint": {
+    "description": "Display an integer and pass it left",
     "icons": [
       {
         "signal": {

@@ -1,0 +1,16 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Defense",
+    "icons": [
+      {
+        "signal": {
+          "name": "gun-turret"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
+  },
+  "index": 7
+}

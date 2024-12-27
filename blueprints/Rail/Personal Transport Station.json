@@ -1,0 +1,324 @@
+{
+  "blueprint": {
+    "description": "Train will wait indefinitely and will return after a trip",
+    "icons": [
+      {
+        "signal": {
+          "type": "entity",
+          "name": "character"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -649
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 453,
+          "y": -648
+        },
+        "direction": 10
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -647
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -645
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "half-diagonal-rail",
+        "position": {
+          "x": 451,
+          "y": -643
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -643
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "rail-signal",
+        "position": {
+          "x": 451.5,
+          "y": -641.5
+        },
+        "direction": 9
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -641
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -639
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 449,
+          "y": -638
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -637
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": 449,
+          "y": -635
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "train-stop",
+        "position": {
+          "x": 451,
+          "y": -635
+        },
+        "station": "Personal Transport",
+        "manual_trains_limit": 1
+      },
+      {
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -635
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "locomotive",
+        "position": {
+          "x": 449.3046875,
+          "y": -632.03125
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.9755156636238098,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "items": [
+          {
+            "id": {
+              "name": "rocket-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0,
+                  "count": 20
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -633
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 449,
+          "y": -632
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 18,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -631
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "rail-signal",
+        "position": {
+          "x": 451.5,
+          "y": -628.5
+        },
+        "direction": 7
+      },
+      {
+        "entity_number": 20,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -629
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "half-diagonal-rail",
+        "position": {
+          "x": 451,
+          "y": -627
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -627
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -625
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -623
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "curved-rail-a",
+        "position": {
+          "x": 453,
+          "y": -622
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "straight-rail",
+        "position": {
+          "x": 453,
+          "y": -621
+        }
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          15
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Personal Transport"
+            }
+          ],
+          "group": "Personal Transport",
+          "interrupts": [
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 20,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_item_count_all",
+                      "condition": {
+                        "first_signal": {
+                          "type": "virtual",
+                          "name": "signal-fuel-parameter"
+                        },
+                        "constant": 20,
+                        "comparator": "\u2265"
+                      }
+                    },
+                    {
+                      "compare_type": "and",
+                      "type": "inactivity",
+                      "ticks": 120
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 15
+      }
+    ],
+    "item": "blueprint",
+    "label": "Personal Transport Station",
+    "version": 562949955256321
+  },
+  "index": 19
+}

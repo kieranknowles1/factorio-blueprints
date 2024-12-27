@@ -1,0 +1,35 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "type": "entity",
+            "name": "fast-inserter",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "bulk-inserter",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 0
+        }
+      ],
+      "icons": [
+        {
+          "signal": {
+            "name": "bulk-inserter"
+          },
+          "index": 1
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "label": "Inserters -> Bulk",
+    "version": 562949955256321
+  },
+  "index": 8
+}

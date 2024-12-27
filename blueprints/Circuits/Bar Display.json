@@ -1,0 +1,911 @@
+{
+  "blueprint": {
+    "description": "Display a value ranging from 0 to 1000",
+    "icons": [
+      {
+        "signal": {
+          "name": "small-lamp"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -106.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 10,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 2,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -106.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 10,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 3,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -105.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 9,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 4,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -104.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 8,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 5,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -105.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 9,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 6,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -104.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 8,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 7,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 156.5,
+          "y": -103.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -103.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 7,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 9,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -102.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 6,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 10,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -102.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 6,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 11,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -103.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 7,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 12,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -101.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 5,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 13,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -100.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 4,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 14,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -100.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 4,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 15,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -101.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 5,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 16,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -99.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 3,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 17,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -98.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 2,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 18,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -98.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 2,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 19,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -99.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 3,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 20,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 156.5,
+          "y": -96.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "small-lamp",
+        "position": {
+          "x": 159.5,
+          "y": -97.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 1,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 22,
+        "name": "small-lamp",
+        "position": {
+          "x": 158.5,
+          "y": -97.5
+        },
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "constant": 1,
+            "comparator": "\u2265"
+          },
+          "use_colors": true,
+          "color_mode": 1
+        },
+        "always_on": true
+      },
+      {
+        "entity_number": 23,
+        "name": "constant-combinator",
+        "position": {
+          "x": 151.5,
+          "y": -95.5
+        },
+        "direction": 8,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "index": 1,
+                    "name": "parameter-0",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 250
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 154,
+          "y": -94.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_constant": 10,
+            "second_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "operation": "-",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            }
+          }
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 154,
+          "y": -95.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "name": "parameter-0"
+            },
+            "second_constant": 100,
+            "operation": "/",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            }
+          }
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "constant-combinator",
+        "position": {
+          "x": 156.5,
+          "y": -94.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "index": 1,
+                    "type": "virtual",
+                    "name": "signal-red",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 25
+                  },
+                  {
+                    "index": 2,
+                    "type": "virtual",
+                    "name": "signal-green",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 0
+                  },
+                  {
+                    "index": 3,
+                    "type": "virtual",
+                    "name": "signal-blue",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "constant-combinator",
+        "position": {
+          "x": 156.5,
+          "y": -95.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "index": 1,
+                    "type": "virtual",
+                    "name": "signal-red",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 0
+                  },
+                  {
+                    "index": 2,
+                    "type": "virtual",
+                    "name": "signal-green",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 25
+                  },
+                  {
+                    "index": 3,
+                    "type": "virtual",
+                    "name": "signal-blue",
+                    "quality": "normal",
+                    "comparator": "=",
+                    "count": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 158,
+          "y": -94.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "second_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "first_signal_networks": {
+              "red": true,
+              "green": false
+            }
+          }
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 158,
+          "y": -95.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "second_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "first_signal_networks": {
+              "red": true,
+              "green": false
+            }
+          }
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 158,
+          "y": -93.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            },
+            "second_constant": 1,
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-S"
+            }
+          }
+        }
+      }
+    ],
+    "wires": [
+      [
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        5,
+        1
+      ],
+      [
+        3,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        1,
+        8,
+        1
+      ],
+      [
+        5,
+        1,
+        6,
+        1
+      ],
+      [
+        6,
+        1,
+        11,
+        1
+      ],
+      [
+        7,
+        5,
+        20,
+        5
+      ],
+      [
+        8,
+        1,
+        9,
+        1
+      ],
+      [
+        9,
+        1,
+        12,
+        1
+      ],
+      [
+        10,
+        1,
+        11,
+        1
+      ],
+      [
+        10,
+        1,
+        15,
+        1
+      ],
+      [
+        12,
+        1,
+        13,
+        1
+      ],
+      [
+        13,
+        1,
+        16,
+        1
+      ],
+      [
+        14,
+        1,
+        15,
+        1
+      ],
+      [
+        14,
+        1,
+        19,
+        1
+      ],
+      [
+        16,
+        1,
+        17,
+        1
+      ],
+      [
+        17,
+        1,
+        21,
+        1
+      ],
+      [
+        18,
+        1,
+        19,
+        1
+      ],
+      [
+        18,
+        1,
+        22,
+        1
+      ],
+      [
+        21,
+        1,
+        22,
+        1
+      ],
+      [
+        22,
+        1,
+        29,
+        3
+      ],
+      [
+        23,
+        1,
+        25,
+        1
+      ],
+      [
+        24,
+        2,
+        25,
+        4
+      ],
+      [
+        24,
+        4,
+        28,
+        2
+      ],
+      [
+        25,
+        4,
+        29,
+        2
+      ],
+      [
+        25,
+        4,
+        30,
+        2
+      ],
+      [
+        26,
+        1,
+        28,
+        1
+      ],
+      [
+        27,
+        1,
+        29,
+        1
+      ],
+      [
+        28,
+        3,
+        29,
+        3
+      ],
+      [
+        28,
+        3,
+        30,
+        3
+      ]
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Input Value",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Bar Display",
+    "version": 562949955256321
+  },
+  "index": 1
+}
