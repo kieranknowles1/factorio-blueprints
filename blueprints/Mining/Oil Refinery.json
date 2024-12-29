@@ -4,11 +4,6 @@
       "x": 17,
       "y": 16
     },
-    "absolute-snapping": true,
-    "position-relative-to-grid": {
-      "x": 2,
-      "y": 0
-    },
     "icons": [
       {
         "signal": {

@@ -1,0 +1,16 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Platforms",
+    "icons": [
+      {
+        "signal": {
+          "name": "space-platform-starter-pack"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955256321
+  },
+  "index": 8
+}

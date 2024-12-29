@@ -11,7 +11,7 @@
     "entities": [
       {
         "entity_number": 1,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 119.5,
           "y": -245.5
@@ -20,7 +20,7 @@
       },
       {
         "entity_number": 2,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 119.5,
           "y": -244.5
@@ -29,7 +29,7 @@
       },
       {
         "entity_number": 3,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 121.5,
           "y": -245.5
@@ -38,7 +38,7 @@
       },
       {
         "entity_number": 4,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 120.5,
           "y": -245.5
@@ -47,7 +47,7 @@
       },
       {
         "entity_number": 5,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 121.5,
           "y": -244.5
@@ -56,7 +56,7 @@
       },
       {
         "entity_number": 6,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 120.5,
           "y": -244.5
@@ -65,7 +65,7 @@
       },
       {
         "entity_number": 7,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 123.5,
           "y": -245.5
@@ -74,7 +74,7 @@
       },
       {
         "entity_number": 8,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 122.5,
           "y": -245.5
@@ -83,7 +83,7 @@
       },
       {
         "entity_number": 9,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 123.5,
           "y": -244.5
@@ -92,7 +92,7 @@
       },
       {
         "entity_number": 10,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 122.5,
           "y": -244.5
@@ -101,7 +101,7 @@
       },
       {
         "entity_number": 11,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 125.5,
           "y": -245.5
@@ -109,7 +109,7 @@
       },
       {
         "entity_number": 12,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 124.5,
           "y": -245.5
@@ -118,7 +118,7 @@
       },
       {
         "entity_number": 13,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 124.5,
           "y": -244.5
@@ -127,7 +127,7 @@
       },
       {
         "entity_number": 14,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 127.5,
           "y": -245.5
@@ -136,7 +136,7 @@
       },
       {
         "entity_number": 15,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 126.5,
           "y": -245.5
@@ -145,7 +145,7 @@
       },
       {
         "entity_number": 16,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 127.5,
           "y": -244.5
@@ -154,7 +154,7 @@
       },
       {
         "entity_number": 17,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 126.5,
           "y": -244.5
@@ -163,7 +163,7 @@
       },
       {
         "entity_number": 18,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 129.5,
           "y": -245.5
@@ -172,7 +172,7 @@
       },
       {
         "entity_number": 19,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 128.5,
           "y": -245.5
@@ -181,7 +181,7 @@
       },
       {
         "entity_number": 20,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 129.5,
           "y": -244.5
@@ -190,7 +190,7 @@
       },
       {
         "entity_number": 21,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 128.5,
           "y": -244.5
@@ -199,7 +199,7 @@
       },
       {
         "entity_number": 22,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 131.5,
           "y": -245.5
@@ -208,7 +208,7 @@
       },
       {
         "entity_number": 23,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 130.5,
           "y": -245.5
@@ -217,7 +217,7 @@
       },
       {
         "entity_number": 24,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 131.5,
           "y": -244.5
@@ -226,7 +226,7 @@
       },
       {
         "entity_number": 25,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 130.5,
           "y": -244.5
@@ -235,7 +235,7 @@
       },
       {
         "entity_number": 26,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 119.5,
           "y": -242.5
@@ -260,7 +260,7 @@
       },
       {
         "entity_number": 29,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 120.5,
           "y": -242.5
@@ -269,7 +269,7 @@
       },
       {
         "entity_number": 30,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 121.5,
           "y": -242.5
@@ -294,7 +294,7 @@
       },
       {
         "entity_number": 33,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 122.5,
           "y": -242.5
@@ -303,7 +303,7 @@
       },
       {
         "entity_number": 34,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 123.5,
           "y": -242.5
@@ -328,7 +328,7 @@
       },
       {
         "entity_number": 37,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 124.5,
           "y": -242.5
@@ -353,7 +353,7 @@
       },
       {
         "entity_number": 40,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 127.5,
           "y": -242.5
@@ -362,7 +362,7 @@
       },
       {
         "entity_number": 41,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 126.5,
           "y": -242.5
@@ -387,7 +387,7 @@
       },
       {
         "entity_number": 44,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 128.5,
           "y": -242.5
@@ -396,7 +396,7 @@
       },
       {
         "entity_number": 45,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 129.5,
           "y": -242.5
@@ -421,7 +421,7 @@
       },
       {
         "entity_number": 48,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 130.5,
           "y": -242.5
@@ -430,7 +430,7 @@
       },
       {
         "entity_number": 49,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 131.5,
           "y": -242.5
@@ -562,7 +562,7 @@
       },
       {
         "entity_number": 64,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 119.5,
           "y": -239.5
@@ -595,7 +595,7 @@
       },
       {
         "entity_number": 68,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 121.5,
           "y": -239.5
@@ -603,7 +603,7 @@
       },
       {
         "entity_number": 69,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 120.5,
           "y": -239.5
@@ -627,7 +627,7 @@
       },
       {
         "entity_number": 72,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 123.5,
           "y": -239.5
@@ -635,7 +635,7 @@
       },
       {
         "entity_number": 73,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 122.5,
           "y": -239.5
@@ -659,7 +659,7 @@
       },
       {
         "entity_number": 76,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 124.5,
           "y": -239.5
@@ -683,7 +683,7 @@
       },
       {
         "entity_number": 79,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 127.5,
           "y": -239.5
@@ -691,7 +691,7 @@
       },
       {
         "entity_number": 80,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 126.5,
           "y": -239.5
@@ -715,7 +715,7 @@
       },
       {
         "entity_number": 83,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 129.5,
           "y": -239.5
@@ -723,7 +723,7 @@
       },
       {
         "entity_number": 84,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 128.5,
           "y": -239.5
@@ -747,7 +747,7 @@
       },
       {
         "entity_number": 87,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 130.5,
           "y": -239.5
@@ -755,7 +755,7 @@
       },
       {
         "entity_number": 88,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 131.5,
           "y": -239.5
@@ -821,7 +821,7 @@
       },
       {
         "entity_number": 94,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 119.5,
           "y": -236.5
@@ -830,7 +830,7 @@
       },
       {
         "entity_number": 95,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 119.5,
           "y": -237.5
@@ -838,7 +838,7 @@
       },
       {
         "entity_number": 96,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 120.5,
           "y": -236.5
@@ -847,7 +847,7 @@
       },
       {
         "entity_number": 97,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 121.5,
           "y": -236.5
@@ -856,7 +856,7 @@
       },
       {
         "entity_number": 98,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 120.5,
           "y": -237.5
@@ -864,7 +864,7 @@
       },
       {
         "entity_number": 99,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 121.5,
           "y": -237.5
@@ -872,7 +872,7 @@
       },
       {
         "entity_number": 100,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 122.5,
           "y": -236.5
@@ -881,7 +881,7 @@
       },
       {
         "entity_number": 101,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 123.5,
           "y": -236.5
@@ -890,7 +890,7 @@
       },
       {
         "entity_number": 102,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 122.5,
           "y": -237.5
@@ -898,7 +898,7 @@
       },
       {
         "entity_number": 103,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 123.5,
           "y": -237.5
@@ -906,7 +906,7 @@
       },
       {
         "entity_number": 104,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 124.5,
           "y": -236.5
@@ -915,7 +915,7 @@
       },
       {
         "entity_number": 105,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 125.5,
           "y": -236.5
@@ -924,7 +924,7 @@
       },
       {
         "entity_number": 106,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 124.5,
           "y": -237.5
@@ -932,7 +932,7 @@
       },
       {
         "entity_number": 107,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 127.5,
           "y": -236.5
@@ -941,7 +941,7 @@
       },
       {
         "entity_number": 108,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 126.5,
           "y": -236.5
@@ -950,7 +950,7 @@
       },
       {
         "entity_number": 109,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 127.5,
           "y": -237.5
@@ -958,7 +958,7 @@
       },
       {
         "entity_number": 110,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 126.5,
           "y": -237.5
@@ -966,7 +966,7 @@
       },
       {
         "entity_number": 111,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 129.5,
           "y": -236.5
@@ -975,7 +975,7 @@
       },
       {
         "entity_number": 112,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 128.5,
           "y": -236.5
@@ -984,7 +984,7 @@
       },
       {
         "entity_number": 113,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 129.5,
           "y": -237.5
@@ -992,7 +992,7 @@
       },
       {
         "entity_number": 114,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 128.5,
           "y": -237.5
@@ -1000,7 +1000,7 @@
       },
       {
         "entity_number": 115,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 131.5,
           "y": -236.5
@@ -1009,7 +1009,7 @@
       },
       {
         "entity_number": 116,
-        "name": "transport-belt",
+        "name": "fast-transport-belt",
         "position": {
           "x": 130.5,
           "y": -236.5
@@ -1018,7 +1018,7 @@
       },
       {
         "entity_number": 117,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 131.5,
           "y": -237.5
@@ -1026,7 +1026,7 @@
       },
       {
         "entity_number": 118,
-        "name": "fast-inserter",
+        "name": "bulk-inserter",
         "position": {
           "x": 130.5,
           "y": -237.5
