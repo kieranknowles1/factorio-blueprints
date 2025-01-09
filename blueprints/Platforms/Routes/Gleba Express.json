@@ -1,0 +1,120 @@
+{
+  "blueprint": {
+    "description": "Ferry for [item=agricultural-science-pack] from Gleba to Nauvis and rocket parts from Nauvis to Gleba. A fast ship such as the Brick is recommended.",
+    "icons": [
+      {
+        "signal": {
+          "type": "space-location",
+          "name": "gleba"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "space-location",
+          "name": "nauvis"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "space-platform-hub",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            },
+            {
+              "index": 2,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "agricultural-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3000
+                },
+                {
+                  "index": 2,
+                  "name": "processing-unit",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 1000
+                },
+                {
+                  "index": 3,
+                  "name": "low-density-structure",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 500
+                }
+              ],
+              "active": false
+            }
+          ],
+          "request_from_buffers": true
+        },
+        "request_missing_construction_materials": true
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          1
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "gleba",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "all_requests_satisfied"
+                }
+              ]
+            },
+            {
+              "station": "nauvis",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "all_requests_satisfied"
+                },
+                {
+                  "compare_type": "and",
+                  "type": "item_count",
+                  "condition": {
+                    "first_signal": {
+                      "name": "agricultural-science-pack"
+                    },
+                    "constant": 0,
+                    "comparator": "="
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": -2,
+          "y": -2
+        },
+        "name": "space-platform-foundation"
+      }
+    ],
+    "item": "blueprint",
+    "label": "Gleba Express",
+    "version": 562949955321862
+  },
+  "index": 0
+}

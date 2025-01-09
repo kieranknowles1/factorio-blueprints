@@ -1,16 +1,17 @@
 {
   "blueprint_book": {
     "item": "blueprint-book",
-    "label": "Platforms",
+    "label": "Gleba",
     "icons": [
       {
         "signal": {
-          "name": "space-platform-starter-pack"
+          "type": "space-location",
+          "name": "gleba"
         },
         "index": 1
       }
     ],
     "version": 562949955321862
   },
-  "index": 8
+  "index": 9
 }

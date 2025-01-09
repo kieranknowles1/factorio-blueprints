@@ -1,0 +1,422 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "crusher"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -14.5
+        },
+        "direction": 4,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 2,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -13.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -12.5
+        },
+        "direction": 4,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 4,
+        "name": "crusher",
+        "position": {
+          "x": -11.5,
+          "y": -14
+        },
+        "direction": 4,
+        "recipe": "parameter-1",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 5,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -9.5,
+          "y": -13.5
+        },
+        "direction": 12,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "filter_mode": "blacklist",
+        "use_filters": true
+      },
+      {
+        "entity_number": 6,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -11.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 7,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -10.5
+        },
+        "direction": 4,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 8,
+        "name": "crusher",
+        "position": {
+          "x": -11.5,
+          "y": -12
+        },
+        "direction": 4,
+        "recipe": "parameter-1",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 9,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -9.5,
+          "y": -11.5
+        },
+        "direction": 12,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "filter_mode": "blacklist",
+        "use_filters": true
+      },
+      {
+        "entity_number": 10,
+        "name": "fast-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -9.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 11,
+        "name": "crusher",
+        "position": {
+          "x": -11.5,
+          "y": -10
+        },
+        "direction": 4,
+        "recipe": "parameter-1",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 12,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -9.5,
+          "y": -9.5
+        },
+        "direction": 12,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "filter_mode": "blacklist",
+        "use_filters": true
+      }
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": -14,
+          "y": -15
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -15
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -15
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -15
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -15
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -14,
+          "y": -14
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -14,
+          "y": -13
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -14
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -13
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -14
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -14
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -13
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -13
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -14
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -13
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -14,
+          "y": -12
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -14,
+          "y": -11
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -12
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -11
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -12
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -12
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -11
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -11
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -12
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -11
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -14,
+          "y": -10
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -13,
+          "y": -10
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -12,
+          "y": -10
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -11,
+          "y": -10
+        },
+        "name": "space-platform-foundation"
+      },
+      {
+        "position": {
+          "x": -10,
+          "y": -10
+        },
+        "name": "space-platform-foundation"
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Recipe",
+        "id": "parameter-1",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "id",
+        "name": "Chunk",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        },
+        "ingredient-of": "parameter-1"
+      }
+    ],
+    "item": "blueprint",
+    "label": "Crusher Module",
+    "version": 562949955321862
+  },
+  "index": 3
+}
