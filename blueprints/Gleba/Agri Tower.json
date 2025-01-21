@@ -1,5 +1,9 @@
 {
   "blueprint": {
+    "snap-to-grid": {
+      "x": 21,
+      "y": 21
+    },
     "icons": [
       {
         "signal": {
@@ -11,37 +15,10 @@
     "entities": [
       {
         "entity_number": 1,
-        "name": "agricultural-tower",
-        "position": {
-          "x": 312.5,
-          "y": -166.5
-        }
-      },
-      {
-        "entity_number": 2,
-        "name": "fast-underground-belt",
-        "position": {
-          "x": 315.5,
-          "y": -167.5
-        },
-        "direction": 4,
-        "type": "input"
-      },
-      {
-        "entity_number": 3,
-        "name": "inserter",
-        "position": {
-          "x": 314.5,
-          "y": -166.5
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 4,
         "name": "requester-chest",
         "position": {
-          "x": 315.5,
-          "y": -166.5
+          "x": 7.5,
+          "y": 10.5
         },
         "request_filters": {
           "sections": [
@@ -50,10 +27,10 @@
               "filters": [
                 {
                   "index": 1,
-                  "name": "parameter-0",
+                  "name": "yumako-seed",
                   "quality": "normal",
                   "comparator": "=",
-                  "count": 50
+                  "count": 10
                 }
               ]
             }
@@ -61,39 +38,63 @@
         }
       },
       {
-        "entity_number": 5,
-        "name": "fast-inserter",
+        "entity_number": 2,
+        "name": "medium-electric-pole",
         "position": {
-          "x": 314.5,
-          "y": -167.5
+          "x": 8.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "inserter",
+        "position": {
+          "x": 8.5,
+          "y": 10.5
         },
         "direction": 12
+      },
+      {
+        "entity_number": 4,
+        "name": "agricultural-tower",
+        "position": {
+          "x": 10.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "fast-underground-belt",
+        "position": {
+          "x": 0.5,
+          "y": 11.5
+        },
+        "direction": 12,
+        "type": "output"
       },
       {
         "entity_number": 6,
         "name": "fast-underground-belt",
         "position": {
-          "x": 322.5,
-          "y": -167.5
+          "x": 7.5,
+          "y": 11.5
         },
-        "direction": 4,
-        "type": "output"
-      }
-    ],
-    "parameters": [
+        "direction": 12,
+        "type": "input"
+      },
       {
-        "type": "id",
-        "name": "Seed",
-        "id": "parameter-0",
-        "quality-condition": {
-          "quality": "normal",
-          "comparator": "="
-        }
+        "entity_number": 7,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 8.5,
+          "y": 11.5
+        },
+        "direction": 4
       }
     ],
     "item": "blueprint",
     "label": "Agri Tower",
-    "version": 562949955321862
+    "version": 562949955518464
   },
   "index": 4
 }

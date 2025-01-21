@@ -1,0 +1,134 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "stack-inserter"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 554.5,
+          "y": -4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 2,
+        "name": "stack-inserter",
+        "position": {
+          "x": 555.5,
+          "y": -4.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 556.5,
+          "y": -4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "stack-inserter",
+        "position": {
+          "x": 557.5,
+          "y": -4.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 5,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 558.5,
+          "y": -4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 6,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 554.5,
+          "y": -2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 7,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 554.5,
+          "y": -3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "stack-inserter",
+        "position": {
+          "x": 555.5,
+          "y": -3.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 556.5,
+          "y": -2.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 556.5,
+          "y": -3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 11,
+        "name": "stack-inserter",
+        "position": {
+          "x": 557.5,
+          "y": -3.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 12,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 558.5,
+          "y": -2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 13,
+        "name": "fast-transport-belt",
+        "position": {
+          "x": 558.5,
+          "y": -3.5
+        },
+        "direction": 8
+      }
+    ],
+    "item": "blueprint",
+    "label": "Belt Stacker",
+    "version": 562949955518464
+  },
+  "index": 2
+}

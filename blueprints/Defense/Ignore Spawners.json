@@ -1,0 +1,61 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "captive-biter-spawner"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "laser-turret",
+        "position": {
+          "x": -629,
+          "y": -161
+        },
+        "priority-list": [
+          {
+            "index": 1,
+            "name": "small-biter"
+          },
+          {
+            "index": 2,
+            "name": "medium-biter"
+          },
+          {
+            "index": 3,
+            "name": "big-biter"
+          },
+          {
+            "index": 4,
+            "name": "behemoth-biter"
+          },
+          {
+            "index": 5,
+            "name": "small-spitter"
+          },
+          {
+            "index": 6,
+            "name": "medium-spitter"
+          },
+          {
+            "index": 7,
+            "name": "big-spitter"
+          },
+          {
+            "index": 8,
+            "name": "behemoth-spitter"
+          }
+        ],
+        "ignore-unprioritised": true
+      }
+    ],
+    "item": "blueprint",
+    "label": "Ignore Spawners",
+    "version": 562949955518464
+  },
+  "index": 1
+}

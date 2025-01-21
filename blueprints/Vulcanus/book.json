@@ -1,16 +1,17 @@
 {
   "blueprint_book": {
     "item": "blueprint-book",
-    "label": "Rail",
+    "label": "Vulcanus",
     "icons": [
       {
         "signal": {
-          "name": "train-stop"
+          "type": "space-location",
+          "name": "vulcanus"
         },
         "index": 1
       }
     ],
     "version": 562949955518464
   },
-  "index": 5
+  "index": 10
 }
