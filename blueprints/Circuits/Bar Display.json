@@ -30,6 +30,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -51,6 +57,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -74,6 +86,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -95,6 +113,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -118,6 +142,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -139,6 +169,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -170,6 +206,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -191,6 +233,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -214,6 +262,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -235,6 +289,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -258,6 +318,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -279,6 +345,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -302,6 +374,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -323,6 +401,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -346,6 +430,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -367,6 +457,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -390,6 +486,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -411,6 +513,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -442,6 +550,12 @@
           "use_colors": true,
           "color_mode": 1
         },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
         "always_on": true
       },
       {
@@ -463,6 +577,12 @@
           },
           "use_colors": true,
           "color_mode": 1
+        },
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
         },
         "always_on": true
       },
@@ -905,7 +1025,7 @@
     ],
     "item": "blueprint",
     "label": "Bar Display",
-    "version": 562949955518464
+    "version": 562949955584003
   },
   "index": 1
 }

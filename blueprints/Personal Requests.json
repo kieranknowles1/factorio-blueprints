@@ -1,0 +1,573 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "entity",
+          "name": "character"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "fast-transport-belt"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "requester-chest",
+        "position": {
+          "x": -104.5,
+          "y": 851.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "wood",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 2,
+                  "name": "coal",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 3,
+                  "name": "stone",
+                  "count": 0,
+                  "max_count": 50
+                },
+                {
+                  "index": 4,
+                  "name": "iron-ore",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 5,
+                  "name": "copper-ore",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 6,
+                  "name": "uranium-ore",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 7,
+                  "name": "calcite",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 8,
+                  "name": "tungsten-ore",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 9,
+                  "name": "carbon",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 10,
+                  "name": "sulfur",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 11,
+                  "name": "transport-belt",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 12,
+                  "name": "underground-belt",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 13,
+                  "name": "splitter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 14,
+                  "name": "small-electric-pole",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 15,
+                  "name": "stone-furnace",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 16,
+                  "name": "steel-furnace",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 17,
+                  "name": "assembling-machine-1",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 18,
+                  "name": "iron-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 19,
+                  "name": "wooden-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 20,
+                  "name": "logistic-robot",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 21,
+                  "name": "iron-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 400
+                },
+                {
+                  "index": 22,
+                  "name": "copper-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 400
+                },
+                {
+                  "index": 23,
+                  "name": "steel-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 400
+                },
+                {
+                  "index": 28,
+                  "name": "iron-bacteria",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 29,
+                  "name": "copper-bacteria",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 30,
+                  "name": "spoilage",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 31,
+                  "name": "automation-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 32,
+                  "name": "logistic-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 33,
+                  "name": "military-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 34,
+                  "name": "chemical-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 35,
+                  "name": "production-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 36,
+                  "name": "utility-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 37,
+                  "name": "space-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 38,
+                  "name": "metallurgic-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 39,
+                  "name": "agricultural-science-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                }
+              ],
+              "group": "Trash Excess"
+            },
+            {
+              "index": 2,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "assembling-machine-2",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 2,
+                  "name": "inserter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 3,
+                  "name": "long-handed-inserter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 4,
+                  "name": "fast-inserter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 5,
+                  "name": "bulk-inserter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 6,
+                  "name": "medium-electric-pole",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 7,
+                  "name": "big-electric-pole",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 8,
+                  "name": "pipe",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 500
+                },
+                {
+                  "index": 9,
+                  "name": "pipe-to-ground",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 10,
+                  "name": "roboport",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 20
+                },
+                {
+                  "index": 11,
+                  "name": "fast-transport-belt",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 1000
+                },
+                {
+                  "index": 12,
+                  "name": "fast-underground-belt",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 13,
+                  "name": "fast-splitter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 14,
+                  "name": "active-provider-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 15,
+                  "name": "passive-provider-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 16,
+                  "name": "storage-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 17,
+                  "name": "buffer-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 18,
+                  "name": "requester-chest",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 20,
+                  "name": "substation",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 22,
+                  "name": "chemical-plant",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 20
+                },
+                {
+                  "index": 27,
+                  "name": "speed-module",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 28,
+                  "name": "efficiency-module",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 29,
+                  "name": "productivity-module",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 30,
+                  "name": "quality-module",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 31,
+                  "name": "beacon",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 20
+                }
+              ],
+              "group": "Machines"
+            },
+            {
+              "index": 3,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "big-mining-drill",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 2,
+                  "name": "electric-furnace",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 200
+                },
+                {
+                  "index": 3,
+                  "name": "inserter",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 500
+                }
+              ],
+              "group": "Mining"
+            },
+            {
+              "index": 4,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "construction-robot",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 2,
+                  "name": "piercing-rounds-magazine",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 3,
+                  "name": "shotgun-shell",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 0,
+                  "max_count": 0
+                },
+                {
+                  "index": 4,
+                  "name": "repair-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 5,
+                  "name": "rocket-fuel",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 20
+                },
+                {
+                  "index": 6,
+                  "name": "laser-turret",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                },
+                {
+                  "index": 7,
+                  "name": "radar",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                }
+              ],
+              "group": "Equipment"
+            }
+          ]
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Personal Requests",
+    "version": 562949955584003
+  },
+  "index": 12
+}

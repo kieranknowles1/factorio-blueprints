@@ -1,0 +1,364 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 7,
+      "y": 17
+    },
+    "icons": [
+      {
+        "signal": {
+          "type": "recipe",
+          "name": "steam-condensation"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 7,
+        "name": "fast-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "chemical-plant",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        },
+        "mirror": true,
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 13,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 5.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "chemical-plant",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        },
+        "mirror": true,
+        "recipe": "steam-condensation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 15,
+        "name": "chemical-plant",
+        "position": {
+          "x": 5.5,
+          "y": 6.5
+        },
+        "mirror": true,
+        "recipe": "steam-condensation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": 6.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "chemical-plant",
+        "position": {
+          "x": 1.5,
+          "y": 10.5
+        },
+        "direction": 8,
+        "recipe": "steam-condensation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 24,
+        "name": "chemical-plant",
+        "position": {
+          "x": 5.5,
+          "y": 10.5
+        },
+        "direction": 8,
+        "recipe": "steam-condensation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 25,
+        "name": "chemical-plant",
+        "position": {
+          "x": 3.5,
+          "y": 13.5
+        },
+        "direction": 8,
+        "recipe": "acid-neutralisation",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 26,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 5.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 15.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 15.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 30,
+        "name": "fast-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 15.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 31,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 32,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 33,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 34,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 35,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 36,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 16.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 37,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 16.5
+        },
+        "direction": 4
+      }
+    ],
+    "wires": [
+      [
+        13,
+        5,
+        26,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Steam Condenser",
+    "version": 562949955584003
+  },
+  "index": 5
+}

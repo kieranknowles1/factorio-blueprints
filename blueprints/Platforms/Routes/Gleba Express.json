@@ -62,6 +62,44 @@
           1
         ],
         "schedule": {
+          "records": [
+            {
+              "station": "gleba",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "all_requests_satisfied"
+                }
+              ]
+            },
+            {
+              "station": "nauvis",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "item_count",
+                  "condition": {
+                    "first_signal": {
+                      "name": "agricultural-science-pack"
+                    },
+                    "constant": 0,
+                    "comparator": "="
+                  }
+                },
+                {
+                  "compare_type": "or",
+                  "type": "item_count",
+                  "condition": {
+                    "first_signal": {
+                      "name": "bioflux"
+                    },
+                    "constant": 0,
+                    "comparator": "="
+                  }
+                }
+              ]
+            }
+          ],
           "interrupts": [
             {
               "name": "[planet=nauvis] Nauvis",
@@ -127,50 +165,15 @@
     "tiles": [
       {
         "position": {
-          "x": -2,
-          "y": -1
-        },
-        "name": "space-platform-foundation"
-      },
-      {
-        "position": {
           "x": -1,
-          "y": -1
-        },
-        "name": "space-platform-foundation"
-      },
-      {
-        "position": {
-          "x": -2,
-          "y": 0
-        },
-        "name": "space-platform-foundation"
-      },
-      {
-        "position": {
-          "x": -1,
-          "y": 0
-        },
-        "name": "space-platform-foundation"
-      },
-      {
-        "position": {
-          "x": -2,
-          "y": 1
-        },
-        "name": "space-platform-foundation"
-      },
-      {
-        "position": {
-          "x": -1,
-          "y": 1
+          "y": -4
         },
         "name": "space-platform-foundation"
       }
     ],
     "item": "blueprint",
     "label": "Gleba Express",
-    "version": 562949955518464
+    "version": 562949955584003
   },
   "index": 0
 }

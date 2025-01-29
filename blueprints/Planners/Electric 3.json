@@ -1,0 +1,161 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "type": "entity",
+            "name": "transport-belt",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-transport-belt",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 0
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "stone-furnace",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "steel-furnace",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 1
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "fast-transport-belt",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-transport-belt",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 2
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "underground-belt",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-underground-belt",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 4
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "assembling-machine-1",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "assembling-machine-3",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 5
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "fast-underground-belt",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-underground-belt",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 6
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "splitter",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-splitter",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 8
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "assembling-machine-2",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "assembling-machine-3",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 9
+        },
+        {
+          "from": {
+            "type": "entity",
+            "name": "fast-splitter",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "express-splitter",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 10
+        }
+      ],
+      "icons": [
+        {
+          "signal": {
+            "name": "express-transport-belt"
+          },
+          "index": 1
+        },
+        {
+          "signal": {
+            "name": "assembling-machine-3"
+          },
+          "index": 2
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "label": "Electric 3",
+    "version": 562949955584003
+  },
+  "index": 13
+}
