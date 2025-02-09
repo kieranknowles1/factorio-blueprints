@@ -1,0 +1,752 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "supercapacitor",
+          "quality": "uncommon"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 112.5,
+          "y": 123.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 117.5,
+          "y": 122.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 117.5,
+          "y": 123.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "requester-chest",
+        "position": {
+          "x": 118.5,
+          "y": 122.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "stone",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 500
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 115,
+          "y": 124
+        },
+        "mirror": true,
+        "quality": "uncommon",
+        "recipe": "electrolyte",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": 117.5,
+          "y": 124.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 106.5,
+          "y": 126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 111.5,
+          "y": 126.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 126.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 127.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 11,
+        "name": "requester-chest",
+        "position": {
+          "x": 112.5,
+          "y": 126.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "battery",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 600
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe",
+        "position": {
+          "x": 114.5,
+          "y": 126.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "fast-inserter",
+        "position": {
+          "x": 104.5,
+          "y": 128.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 107,
+          "y": 129
+        },
+        "direction": 4,
+        "recipe": "superconductor",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 15,
+        "name": "inserter",
+        "position": {
+          "x": 109.5,
+          "y": 128.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 129.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 128.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 129.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 128.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "inserter",
+        "position": {
+          "x": 112.5,
+          "y": 128.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 21,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 112.5,
+          "y": 129.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 22,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 115,
+          "y": 129
+        },
+        "direction": 4,
+        "recipe": "supercapacitor",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          },
+          {
+            "id": {
+              "name": "quality-module-2",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 23,
+        "name": "fast-inserter",
+        "position": {
+          "x": 117.5,
+          "y": 128.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 24,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 129.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 128.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 26,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 109.5,
+          "y": 130.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 131.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 130.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 131.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 31,
+        "name": "fast-inserter",
+        "position": {
+          "x": 117.5,
+          "y": 131.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 131.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 130.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 34,
+        "name": "substation",
+        "position": {
+          "x": 109,
+          "y": 133
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 133.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 132.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 133.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 38,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 132.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 39,
+        "name": "inserter",
+        "position": {
+          "x": 112.5,
+          "y": 132.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 40,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 112.5,
+          "y": 133.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 41,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 115,
+          "y": 133
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "supercapacitor",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 42,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 133.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 132.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 135.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 134.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 135.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 47,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 134.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 48,
+        "name": "fast-inserter",
+        "position": {
+          "x": 117.5,
+          "y": 135.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 49,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 135.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 50,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 134.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 51,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 137.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 136.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 137.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 110.5,
+          "y": 136.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 55,
+        "name": "inserter",
+        "position": {
+          "x": 112.5,
+          "y": 136.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 56,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 112.5,
+          "y": 137.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 57,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": 115,
+          "y": 137
+        },
+        "direction": 4,
+        "recipe": "supercapacitor",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                },
+                {
+                  "inventory": 4,
+                  "stack": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 58,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 136.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 118.5,
+          "y": 137.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 111.5,
+          "y": 138.5
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "[item=supercapacitor] 0.6/s",
+    "version": 562949955649542
+  },
+  "index": 4
+}

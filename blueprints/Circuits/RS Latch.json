@@ -1,0 +1,99 @@
+{
+  "blueprint": {
+    "description": "Enables when input is within the specified range",
+    "icons": [
+      {
+        "signal": {
+          "name": "decider-combinator"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "decider-combinator",
+        "position": {
+          "x": 28,
+          "y": 301.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "parameter-0"
+                },
+                "constant": 20
+              },
+              {
+                "first_signal": {
+                  "name": "parameter-1"
+                },
+                "comparator": ">"
+              },
+              {
+                "first_signal": {
+                  "name": "parameter-0"
+                },
+                "constant": 50,
+                "compare_type": "and"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "name": "parameter-1"
+                },
+                "copy_count_from_input": false
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "wires": [
+      [
+        1,
+        1,
+        1,
+        3
+      ]
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Control Signal",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "number",
+        "number": "20",
+        "name": "Enable at"
+      },
+      {
+        "type": "id",
+        "name": "Output Signal",
+        "id": "parameter-1",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "number",
+        "number": "50",
+        "name": "Disable at"
+      }
+    ],
+    "item": "blueprint",
+    "label": "RS Latch",
+    "version": 562949955649542
+  },
+  "index": 3
+}

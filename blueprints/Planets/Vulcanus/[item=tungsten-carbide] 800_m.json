@@ -1,0 +1,2361 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "tungsten-carbide"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 853.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 853.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 853.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 853.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 853.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 6,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 854.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 7,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 855.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 854.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 9,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 854.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 854.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 854.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 855.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 16,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 855.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 17,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 854.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 18,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 855.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 854.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 854.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 855.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 22,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 855.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 23,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 854.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 24,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 855.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 854.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 854.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 855.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 854.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 31,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 854.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 855.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 854.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 34,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -134.5,
+          "y": 856.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 856.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 36,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 857.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 37,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 857.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 38,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 857.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 856.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 857.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -128.5,
+          "y": 857.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 857.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 43,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 857.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 44,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 857.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 45,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 856.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 46,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 856.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 47,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 857.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 48,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -121.5,
+          "y": 856.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 857.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 50,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 857.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 51,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -117.5,
+          "y": 857.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 856.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 857.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 857.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 55,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -111.5,
+          "y": 856.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 856.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 57,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 857.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 58,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 857.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 59,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 859.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 60,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 858.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 61,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 859.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 62,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 859.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 858.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 67,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 858.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 68,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 859.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 69,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 858.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 70,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 858.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 71,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 859.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 72,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 858.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 73,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 858.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 74,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 858.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 859.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 859.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 79,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 858.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 80,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 859.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 81,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 861.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 82,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 860.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 83,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 860.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 84,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 860.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 860.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 87,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 861.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 90,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 861.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 91,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 860.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 92,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 861.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 93,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 860.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 94,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 860.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 95,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 861.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 96,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 861.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 97,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 860.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 98,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 861.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 99,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 860.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 100,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 102,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 860.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 861.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 860.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 105,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 860.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 106,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 861.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 107,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 862.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 108,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 863.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 109,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 863.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 110,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 863.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 111,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 862.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 863.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 863.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 114,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 863.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 115,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 862.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 116,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 863.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 117,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 863.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 118,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 862.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 119,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -121.5,
+          "y": 862.5
+        }
+      },
+      {
+        "entity_number": 120,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 863.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 121,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 863.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 122,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 862.5
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 863.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 863.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 125,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 862.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 126,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 863.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 127,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 863.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 128,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 865.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 129,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 864.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 130,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -134.5,
+          "y": 865.5
+        }
+      },
+      {
+        "entity_number": 131,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 132,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 865.5
+        }
+      },
+      {
+        "entity_number": 133,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 134,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 135,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 864.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 136,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 864.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 137,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 864.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 138,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 865.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 139,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 865.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 140,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 864.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 141,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 864.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 142,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 864.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 143,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 144,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 145,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 864.5
+        }
+      },
+      {
+        "entity_number": 146,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 865.5
+        }
+      },
+      {
+        "entity_number": 147,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -111.5,
+          "y": 865.5
+        }
+      },
+      {
+        "entity_number": 148,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 864.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 149,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 865.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 150,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 867.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 151,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 866.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 152,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 866.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 153,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 866.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 154,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 155,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 866.5
+        }
+      },
+      {
+        "entity_number": 156,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -128.5,
+          "y": 866.5
+        }
+      },
+      {
+        "entity_number": 157,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 866.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 158,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 159,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 160,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 867.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 161,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 867.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 162,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 866.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 163,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 867.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 164,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 867.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 165,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 866.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 166,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 866.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 167,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 866.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 168,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 867.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 169,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 867.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 170,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -117.5,
+          "y": 866.5
+        }
+      },
+      {
+        "entity_number": 171,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 172,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 173,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 866.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 174,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 866.5
+        }
+      },
+      {
+        "entity_number": 175,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 867.5
+        }
+      },
+      {
+        "entity_number": 176,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 866.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 177,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 866.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 178,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 867.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 179,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 866.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 180,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 868.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 181,
+        "name": "fast-inserter",
+        "position": {
+          "x": -134.5,
+          "y": 868.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 182,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 869.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 183,
+        "name": "chemical-plant",
+        "position": {
+          "x": -132.5,
+          "y": 869.5
+        },
+        "direction": 4,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 184,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 869.5
+        }
+      },
+      {
+        "entity_number": 185,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 868.5
+        }
+      },
+      {
+        "entity_number": 186,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -129.5,
+          "y": 869.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 187,
+        "name": "fast-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 869.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 188,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 868.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 189,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 868.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 190,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 869.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 191,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 869.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 192,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": -121.5,
+          "y": 868.5
+        }
+      },
+      {
+        "entity_number": 193,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 869.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 194,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 869.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 195,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 868.5
+        }
+      },
+      {
+        "entity_number": 196,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 869.5
+        }
+      },
+      {
+        "entity_number": 197,
+        "name": "chemical-plant",
+        "position": {
+          "x": -113.5,
+          "y": 869.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "carbon",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 198,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 868.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 199,
+        "name": "fast-inserter",
+        "position": {
+          "x": -111.5,
+          "y": 868.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 200,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 869.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 201,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -135.5,
+          "y": 870.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 202,
+        "name": "pipe",
+        "position": {
+          "x": -130.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 203,
+        "name": "pipe",
+        "position": {
+          "x": -128.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 204,
+        "name": "pipe",
+        "position": {
+          "x": -129.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 205,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -126.5,
+          "y": 870.5
+        },
+        "direction": 12,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 206,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": -124.5,
+          "y": 870.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 207,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 871.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 208,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -123.5,
+          "y": 870.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 209,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 870.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 210,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 871.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 211,
+        "name": "fast-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 870.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 212,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -119.5,
+          "y": 870.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "tungsten-carbide",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 213,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 214,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 215,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 870.5
+        }
+      },
+      {
+        "entity_number": 216,
+        "name": "express-transport-belt",
+        "position": {
+          "x": -110.5,
+          "y": 870.5
+        },
+        "direction": 8
+      }
+    ],
+    "wires": [
+      [
+        34,
+        5,
+        41,
+        5
+      ],
+      [
+        34,
+        5,
+        130,
+        5
+      ],
+      [
+        41,
+        5,
+        48,
+        5
+      ],
+      [
+        41,
+        5,
+        156,
+        5
+      ],
+      [
+        48,
+        5,
+        51,
+        5
+      ],
+      [
+        48,
+        5,
+        119,
+        5
+      ],
+      [
+        51,
+        5,
+        55,
+        5
+      ],
+      [
+        51,
+        5,
+        170,
+        5
+      ],
+      [
+        55,
+        5,
+        147,
+        5
+      ],
+      [
+        119,
+        5,
+        192,
+        5
+      ],
+      [
+        130,
+        5,
+        156,
+        5
+      ],
+      [
+        147,
+        5,
+        170,
+        5
+      ],
+      [
+        156,
+        5,
+        192,
+        5
+      ],
+      [
+        170,
+        5,
+        192,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "[item=tungsten-carbide] 800/m",
+    "version": 562949955649542
+  },
+  "index": 7
+}

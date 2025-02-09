@@ -1,0 +1,533 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 30,
+      "y": 5
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "metallurgic-science-pack"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 2,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 5,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 14.5,
+          "y": 0.5
+        },
+        "direction": 8,
+        "type": "input"
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 7,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 28.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 9,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 10,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "foundry",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        },
+        "direction": 4,
+        "recipe": "tungsten-plate",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 14,
+        "name": "foundry",
+        "position": {
+          "x": 10.5,
+          "y": 2.5
+        },
+        "direction": 12,
+        "recipe": "metallurgic-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 13.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 13.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "express-underground-belt",
+        "position": {
+          "x": 14.5,
+          "y": 2.5
+        },
+        "direction": 8,
+        "type": "output"
+      },
+      {
+        "entity_number": 18,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 14.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": 16.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 16.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "foundry",
+        "position": {
+          "x": 19.5,
+          "y": 2.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "metallurgic-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 24,
+        "name": "foundry",
+        "position": {
+          "x": 25.5,
+          "y": 2.5
+        },
+        "direction": 12,
+        "mirror": true,
+        "recipe": "tungsten-plate",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 25,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 26,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": 28.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 28.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "fast-inserter",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 31,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 7.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "fast-inserter",
+        "position": {
+          "x": 7.5,
+          "y": 3.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 35,
+        "name": "fast-inserter",
+        "position": {
+          "x": 13.5,
+          "y": 3.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 36,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 13.5,
+          "y": 4.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 37,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 38,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 39,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 15.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 40,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 14.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 41,
+        "name": "fast-inserter",
+        "position": {
+          "x": 16.5,
+          "y": 4.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 42,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 16.5,
+          "y": 3.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 43,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 22.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "fast-inserter",
+        "position": {
+          "x": 22.5,
+          "y": 3.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 45,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 46,
+        "name": "express-transport-belt",
+        "position": {
+          "x": 29.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 47,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 28.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "fast-inserter",
+        "position": {
+          "x": 28.5,
+          "y": 3.5
+        },
+        "direction": 4
+      }
+    ],
+    "wires": [
+      [
+        19,
+        5,
+        33,
+        5
+      ],
+      [
+        19,
+        5,
+        43,
+        5
+      ],
+      [
+        29,
+        5,
+        33,
+        5
+      ],
+      [
+        43,
+        5,
+        47,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "[item=metallurgic-science-pack] 60/m",
+    "version": 562949955649542
+  },
+  "index": 15
+}

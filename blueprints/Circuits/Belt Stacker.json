@@ -11,10 +11,10 @@
     "entities": [
       {
         "entity_number": 1,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 554.5,
-          "y": -4.5
+          "x": -21.5,
+          "y": 203.5
         },
         "direction": 8
       },
@@ -22,17 +22,17 @@
         "entity_number": 2,
         "name": "stack-inserter",
         "position": {
-          "x": 555.5,
-          "y": -4.5
+          "x": -20.5,
+          "y": 203.5
         },
         "direction": 4
       },
       {
         "entity_number": 3,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 556.5,
-          "y": -4.5
+          "x": -19.5,
+          "y": 203.5
         },
         "direction": 8
       },
@@ -40,35 +40,35 @@
         "entity_number": 4,
         "name": "stack-inserter",
         "position": {
-          "x": 557.5,
-          "y": -4.5
+          "x": -18.5,
+          "y": 203.5
         },
         "direction": 12
       },
       {
         "entity_number": 5,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 558.5,
-          "y": -4.5
+          "x": -17.5,
+          "y": 203.5
         },
         "direction": 8
       },
       {
         "entity_number": 6,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 554.5,
-          "y": -2.5
+          "x": -21.5,
+          "y": 205.5
         },
         "direction": 8
       },
       {
         "entity_number": 7,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 554.5,
-          "y": -3.5
+          "x": -21.5,
+          "y": 204.5
         },
         "direction": 8
       },
@@ -76,59 +76,96 @@
         "entity_number": 8,
         "name": "stack-inserter",
         "position": {
-          "x": 555.5,
-          "y": -3.5
+          "x": -20.5,
+          "y": 204.5
         },
         "direction": 4
       },
       {
         "entity_number": 9,
-        "name": "medium-electric-pole",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 556.5,
-          "y": -2.5
-        }
-      },
-      {
-        "entity_number": 10,
-        "name": "fast-transport-belt",
-        "position": {
-          "x": 556.5,
-          "y": -3.5
+          "x": -19.5,
+          "y": 204.5
         },
         "direction": 8
       },
       {
-        "entity_number": 11,
+        "entity_number": 10,
         "name": "stack-inserter",
         "position": {
-          "x": 557.5,
-          "y": -3.5
+          "x": -18.5,
+          "y": 204.5
         },
         "direction": 12
       },
       {
-        "entity_number": 12,
-        "name": "fast-transport-belt",
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 558.5,
-          "y": -2.5
+          "x": -17.5,
+          "y": 204.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -17.5,
+          "y": 205.5
         },
         "direction": 8
       },
       {
         "entity_number": 13,
-        "name": "fast-transport-belt",
+        "name": "turbo-transport-belt",
         "position": {
-          "x": 558.5,
-          "y": -3.5
+          "x": -20.5,
+          "y": 206.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -21.5,
+          "y": 206.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -18.5,
+          "y": 206.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -19.5,
+          "y": 206.5
         },
         "direction": 8
+      },
+      {
+        "entity_number": 17,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -17.5,
+          "y": 206.5
+        },
+        "direction": 12
       }
     ],
     "item": "blueprint",
     "label": "Belt Stacker",
-    "version": 562949955584003
+    "version": 562949955649542
   },
   "index": 2
 }

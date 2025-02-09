@@ -1,0 +1,17 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Vulcanus",
+    "icons": [
+      {
+        "signal": {
+          "type": "space-location",
+          "name": "vulcanus"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955649542
+  },
+  "index": 1
+}

@@ -4,6 +4,7 @@
       "x": 50,
       "y": 50
     },
+    "absolute-snapping": true,
     "icons": [
       {
         "signal": {
@@ -3107,7 +3108,7 @@
     ],
     "item": "blueprint",
     "label": "Solar Block",
-    "version": 562949955584003
+    "version": 562949955649542
   },
   "index": 3
 }

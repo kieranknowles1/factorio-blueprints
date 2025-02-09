@@ -1,0 +1,816 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 7,
+      "y": 24
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "chemical-science-pack"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "fast-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 17,
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        },
+        "quality": "rare",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 18,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        },
+        "recipe": "engine-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 19,
+        "name": "fast-inserter",
+        "position": {
+          "x": 3.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "fast-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 2.5,
+          "y": 8.5
+        },
+        "recipe": "chemical-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 22,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 5.5,
+          "y": 8.5
+        },
+        "recipe": "chemical-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 23,
+        "name": "fast-inserter",
+        "position": {
+          "x": 1.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 3.5,
+          "y": 10.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 6.5,
+          "y": 10.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 28,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 31,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 33,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 34,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 35,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 37,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 38,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 39,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 11.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 40,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 41,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 1.5,
+          "y": 13.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 42,
+        "name": "fast-inserter",
+        "position": {
+          "x": 3.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 13.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 44,
+        "name": "fast-inserter",
+        "position": {
+          "x": 6.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 2.5,
+          "y": 15.5
+        },
+        "recipe": "chemical-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 46,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 5.5,
+          "y": 15.5
+        },
+        "recipe": "chemical-science-pack",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 47,
+        "name": "fast-inserter",
+        "position": {
+          "x": 3.5,
+          "y": 17.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 48,
+        "name": "fast-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 17.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 49,
+        "name": "beacon",
+        "position": {
+          "x": 1.5,
+          "y": 19.5
+        },
+        "quality": "rare",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 50,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 4.5,
+          "y": 19.5
+        },
+        "recipe": "engine-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-2"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 51,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 53,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 55,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 56,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 57,
+        "name": "long-handed-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 58,
+        "name": "fast-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 21.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 22.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 61,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 62,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 63,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 64,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 65,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 23.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 66,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 23.5
+        },
+        "direction": 4
+      }
+    ],
+    "item": "blueprint",
+    "label": "Blue Science Module",
+    "version": 562949955649542
+  },
+  "index": 5
+}

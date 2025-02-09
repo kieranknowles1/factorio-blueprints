@@ -1,0 +1,693 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "electronic-circuit"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "foundry"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "name": "electromagnetic-plant"
+        },
+        "index": 3
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -122.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -121.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -120.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -119.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -118.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -117.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -114.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -115.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -112.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -113.5,
+          "y": 673.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "substation",
+        "position": {
+          "x": -119,
+          "y": 675
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -117.5,
+          "y": 674.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -116.5,
+          "y": 674
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -117.5,
+          "y": 675.5
+        },
+        "type": "output"
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": -122.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": -121.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe",
+        "position": {
+          "x": -120.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "pipe",
+        "position": {
+          "x": -118.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": -119.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "pipe",
+        "position": {
+          "x": -114.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "pipe",
+        "position": {
+          "x": -112.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe",
+        "position": {
+          "x": -113.5,
+          "y": 676.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "foundry",
+        "position": {
+          "x": -120.5,
+          "y": 679.5
+        },
+        "direction": 8,
+        "mirror": true,
+        "recipe": "casting-copper-cable",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 27,
+        "name": "foundry",
+        "position": {
+          "x": -114.5,
+          "y": 679.5
+        },
+        "direction": 8,
+        "recipe": "casting-copper-cable",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 28,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -121.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -120.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "stack-inserter",
+        "position": {
+          "x": -118.5,
+          "y": 683.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 31,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -119.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "stack-inserter",
+        "position": {
+          "x": -116.5,
+          "y": 683.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 33,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -117.5,
+          "y": 682.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 34,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -117.5,
+          "y": 683.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -114.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -115.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -113.5,
+          "y": 682.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -121,
+          "y": 685
+        },
+        "recipe": "electronic-circuit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 39,
+        "name": "beacon",
+        "position": {
+          "x": -117.5,
+          "y": 685.5
+        },
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 40,
+        "name": "electromagnetic-plant",
+        "position": {
+          "x": -114,
+          "y": 685
+        },
+        "recipe": "electronic-circuit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 41,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -119.5,
+          "y": 687.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 42,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -115.5,
+          "y": 687.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 43,
+        "name": "foundry",
+        "position": {
+          "x": -120.5,
+          "y": 690.5
+        },
+        "mirror": true,
+        "recipe": "casting-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 44,
+        "name": "foundry",
+        "position": {
+          "x": -114.5,
+          "y": 690.5
+        },
+        "recipe": "casting-iron",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": -122.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": -120.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": -121.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": -118.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "pipe",
+        "position": {
+          "x": -119.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": -116.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "pipe",
+        "position": {
+          "x": -117.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": -114.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": -115.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "pipe",
+        "position": {
+          "x": -112.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "pipe",
+        "position": {
+          "x": -113.5,
+          "y": 693.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "substation",
+        "position": {
+          "x": -119,
+          "y": 695
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "[item=electronic-circuit] 54/s",
+    "version": 562949955649542
+  },
+  "index": 8
+}

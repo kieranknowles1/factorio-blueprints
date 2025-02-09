@@ -1,0 +1,17 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Rail V2",
+    "icons": [
+      {
+        "signal": {
+          "name": "locomotive",
+          "quality": "uncommon"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955649542
+  },
+  "index": 11
+}

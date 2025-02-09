@@ -1,0 +1,670 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 18,
+      "y": 18
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "accumulator"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 1
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 3
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "lightning-rod",
+        "position": {
+          "x": 8.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "substation",
+        "position": {
+          "x": 9,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 15
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "accumulator",
+        "position": {
+          "x": 1,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "accumulator",
+        "position": {
+          "x": 3,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "accumulator",
+        "position": {
+          "x": 5,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "accumulator",
+        "position": {
+          "x": 7,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "accumulator",
+        "position": {
+          "x": 9,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "accumulator",
+        "position": {
+          "x": 11,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "accumulator",
+        "position": {
+          "x": 13,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "accumulator",
+        "position": {
+          "x": 15,
+          "y": 17
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "accumulator",
+        "position": {
+          "x": 17,
+          "y": 17
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Battery Bank",
+    "version": 562949955649542
+  },
+  "index": 0
+}
