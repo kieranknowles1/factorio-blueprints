@@ -13,146 +13,51 @@
         "entity_number": 1,
         "name": "straight-rail",
         "position": {
-          "x": 119,
-          "y": -193
-        },
-        "direction": 4
+          "x": -299,
+          "y": 977
+        }
       },
       {
         "entity_number": 2,
-        "name": "straight-rail",
+        "name": "train-stop",
         "position": {
-          "x": 121,
-          "y": -193
+          "x": -297,
+          "y": 977
         },
-        "direction": 4
+        "control_behavior": {
+          "read_from_train": true,
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "Fuel Provider",
+        "manual_trains_limit": 1
       },
       {
         "entity_number": 3,
         "name": "straight-rail",
         "position": {
-          "x": 123,
-          "y": -193
-        },
-        "direction": 4
+          "x": -299,
+          "y": 979
+        }
       },
       {
         "entity_number": 4,
-        "name": "straight-rail",
+        "name": "active-provider-chest",
         "position": {
-          "x": 125,
-          "y": -193
-        },
-        "direction": 4
+          "x": -296.5,
+          "y": 978.5
+        }
       },
       {
         "entity_number": 5,
-        "name": "straight-rail",
-        "position": {
-          "x": 127,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 6,
-        "name": "straight-rail",
-        "position": {
-          "x": 129,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 7,
-        "name": "straight-rail",
-        "position": {
-          "x": 131,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 8,
-        "name": "straight-rail",
-        "position": {
-          "x": 133,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 9,
-        "name": "straight-rail",
-        "position": {
-          "x": 135,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 10,
-        "name": "straight-rail",
-        "position": {
-          "x": 137,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 11,
-        "name": "straight-rail",
-        "position": {
-          "x": 139,
-          "y": -193
-        },
-        "direction": 4
-      },
-      {
-        "entity_number": 12,
-        "name": "rail-signal",
-        "position": {
-          "x": 118.5,
-          "y": -191.5
-        },
-        "direction": 12
-      },
-      {
-        "entity_number": 13,
         "name": "bulk-inserter",
         "position": {
-          "x": 134.5,
-          "y": -191.5
+          "x": -297.5,
+          "y": 978.5
         },
-        "direction": 8
-      },
-      {
-        "entity_number": 14,
-        "name": "transport-belt",
-        "position": {
-          "x": 134.5,
-          "y": -190.5
-        },
-        "control_behavior": {
-          "circuit_read_hand_contents": true,
-          "circuit_contents_read_mode": 1
-        }
-      },
-      {
-        "entity_number": 15,
-        "name": "iron-chest",
-        "position": {
-          "x": 137.5,
-          "y": -190.5
-        }
-      },
-      {
-        "entity_number": 16,
-        "name": "bulk-inserter",
-        "position": {
-          "x": 137.5,
-          "y": -191.5
-        },
+        "direction": 12,
         "filters": [
           {
             "index": 1,
@@ -165,45 +70,255 @@
         "use_filters": true
       },
       {
-        "entity_number": 17,
+        "entity_number": 6,
         "name": "medium-electric-pole",
         "position": {
-          "x": 136.5,
-          "y": -190.5
+          "x": -296.5,
+          "y": 979.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "locomotive",
+        "position": {
+          "x": -299,
+          "y": 980
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 981
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -296.5,
+          "y": 981.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_read_hand_contents": true,
+          "circuit_contents_read_mode": 1
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -297.5,
+          "y": 981.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 983
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 985
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -299,
+          "y": 987
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "inventory": null
+      },
+      {
+        "entity_number": 14,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 987
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 989
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 991
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 993
         }
       },
       {
         "entity_number": 18,
-        "name": "train-stop",
+        "name": "cargo-wagon",
         "position": {
-          "x": 139,
-          "y": -191
+          "x": -299,
+          "y": 994
         },
-        "direction": 4,
-        "control_behavior": {
-          "read_from_train": true,
-          "train_stopped_signal": {
-            "type": "virtual",
-            "name": "signal-T"
-          }
-        },
-        "station": "",
-        "manual_trains_limit": 1
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "inventory": null
       },
       {
         "entity_number": 19,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 995
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": 997
+        }
+      },
+      {
+        "entity_number": 21,
         "name": "rail-signal",
         "position": {
-          "x": 140.5,
-          "y": -191.5
+          "x": -297.5,
+          "y": 997.5
         },
-        "direction": 12
+        "direction": 8
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          7
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Item Provider",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "full"
+                }
+              ]
+            }
+          ],
+          "group": "Items",
+          "interrupts": [
+            {
+              "name": "Item Requester",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "item_count",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-item-parameter"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[virtual-signal=signal-item-parameter] Requester",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "empty"
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": false
+            },
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 10,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_full"
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 7,
+        "back": 13
+      },
+      {
+        "stock": 13,
+        "front": 7,
+        "back": 18
+      },
+      {
+        "stock": 18,
+        "front": 13
       }
     ],
     "parameters": [
       {
         "type": "id",
-        "name": "Fuel type",
+        "name": "Fuel",
         "id": "parameter-0",
         "quality-condition": {
           "quality": "normal",
@@ -213,7 +328,7 @@
     ],
     "item": "blueprint",
     "label": "Fuel Provider",
-    "version": 562949955649542
+    "version": 562949955715078
   },
   "index": 18
 }

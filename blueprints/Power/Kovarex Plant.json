@@ -1,0 +1,521 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "recipe",
+          "name": "kovarex-enrichment-process"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -216.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -215.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -214.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -213.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -212.5,
+          "y": 1029.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -211.5,
+          "y": 1029.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -210.5,
+          "y": 1029.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -208.5,
+          "y": 1029.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -209.5,
+          "y": 1029.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -206.5,
+          "y": 1029.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -207.5,
+          "y": 1029.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -204.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -205.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1029.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -213.5,
+          "y": 1031.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -213,
+          "y": 1030.5
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 17,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -212.5,
+          "y": 1031.5
+        },
+        "direction": 4,
+        "filters": [
+          {
+            "index": 1,
+            "name": "uranium-235",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 18,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -208.5,
+          "y": 1031.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -207,
+          "y": 1030.5
+        },
+        "direction": 8,
+        "input_priority": "left"
+      },
+      {
+        "entity_number": 20,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -207.5,
+          "y": 1031.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -202.5,
+          "y": 1031.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 22,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1030.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1031.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "centrifuge",
+        "position": {
+          "x": -210.5,
+          "y": 1032.5
+        },
+        "recipe": "kovarex-enrichment-process",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": -208.5,
+          "y": 1032.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -208.5,
+          "y": 1033.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -207.5,
+          "y": 1033.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 28,
+        "name": "beacon",
+        "position": {
+          "x": -205.5,
+          "y": 1032.5
+        },
+        "quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1033.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -202.5,
+          "y": 1033.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 31,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -202.5,
+          "y": 1032.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -201.5,
+          "y": 1033.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 33,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -201.5,
+          "y": 1032
+        },
+        "direction": 12,
+        "filter": {
+          "name": "uranium-235",
+          "quality": "normal",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 34,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -216.5,
+          "y": 1034.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 35,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -215.5,
+          "y": 1034.5
+        },
+        "direction": 12,
+        "type": "output"
+      },
+      {
+        "entity_number": 36,
+        "name": "beacon",
+        "position": {
+          "x": -213.5,
+          "y": 1034.5
+        },
+        "quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "speed-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 37,
+        "name": "bulk-inserter",
+        "position": {
+          "x": -209.5,
+          "y": 1034.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "uranium-238",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 38,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -208.5,
+          "y": 1035.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 39,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -209.5,
+          "y": 1035.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 40,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -207,
+          "y": 1034.5
+        },
+        "input_priority": "left"
+      },
+      {
+        "entity_number": 41,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -206.5,
+          "y": 1035.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -207.5,
+          "y": 1035.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -205.5,
+          "y": 1034.5
+        },
+        "direction": 12,
+        "type": "input"
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -204.5,
+          "y": 1035
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 45,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -205.5,
+          "y": 1035.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 46,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1035.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 47,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -203.5,
+          "y": 1034.5
+        },
+        "direction": 8
+      }
+    ],
+    "item": "blueprint",
+    "label": "Kovarex Plant",
+    "version": 562949955715078
+  },
+  "index": 4
+}

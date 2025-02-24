@@ -1,0 +1,242 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 12,
+      "y": 15
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "big-mining-drill"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 8,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 12.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 3.5,
+          "y": 7.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 7.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 0.5,
+          "y": 11.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 11.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 12.5,
+          "y": 11.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 3.5,
+          "y": 12.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 22,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 13.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "big-mining-drill",
+        "position": {
+          "x": 9.5,
+          "y": 12.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 6.5,
+          "y": 14.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        3,
+        5,
+        17,
+        5
+      ],
+      [
+        8,
+        5,
+        20,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Big Drill Array",
+    "version": 562949955715078
+  },
+  "index": 5
+}

@@ -1,0 +1,1086 @@
+{
+  "blueprint": {
+    "description": "A much more environmentally friendly version of the orphan incinerator",
+    "icons": [
+      {
+        "signal": {
+          "name": "recycler"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "biter-egg"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "substation",
+        "position": {
+          "x": -435,
+          "y": 989
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "recycler",
+        "position": {
+          "x": -444,
+          "y": 992
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-inserter",
+        "position": {
+          "x": -442.5,
+          "y": 993.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 993.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "fast-inserter",
+        "position": {
+          "x": -440.5,
+          "y": 993.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 6,
+        "name": "recycler",
+        "position": {
+          "x": -439,
+          "y": 992
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 7,
+        "name": "recycler",
+        "position": {
+          "x": -434,
+          "y": 992
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 8,
+        "name": "fast-inserter",
+        "position": {
+          "x": -432.5,
+          "y": 993.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "fast-inserter",
+        "position": {
+          "x": -430.5,
+          "y": 993.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 993.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "recycler",
+        "position": {
+          "x": -429,
+          "y": 992
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 995.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 994.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 994.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 995.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "substation",
+        "position": {
+          "x": -447,
+          "y": 997
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "recycler",
+        "position": {
+          "x": -444,
+          "y": 996
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 18,
+        "name": "fast-inserter",
+        "position": {
+          "x": -442.5,
+          "y": 997.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 997.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 996.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "fast-inserter",
+        "position": {
+          "x": -440.5,
+          "y": 997.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 22,
+        "name": "recycler",
+        "position": {
+          "x": -439,
+          "y": 996
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 23,
+        "name": "recycler",
+        "position": {
+          "x": -434,
+          "y": 996
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": -432.5,
+          "y": 997.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": -430.5,
+          "y": 997.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 26,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 996.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 997.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "recycler",
+        "position": {
+          "x": -429,
+          "y": 996
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 999.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 998.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 998.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 999.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "substation",
+        "position": {
+          "x": -426,
+          "y": 999
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "recycler",
+        "position": {
+          "x": -444,
+          "y": 1000
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 35,
+        "name": "fast-inserter",
+        "position": {
+          "x": -442.5,
+          "y": 1001.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1001.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "fast-inserter",
+        "position": {
+          "x": -440.5,
+          "y": 1001.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 38,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1000.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "recycler",
+        "position": {
+          "x": -439,
+          "y": 1000
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 40,
+        "name": "fast-inserter",
+        "position": {
+          "x": -432.5,
+          "y": 1001.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 41,
+        "name": "recycler",
+        "position": {
+          "x": -434,
+          "y": 1000
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 42,
+        "name": "fast-inserter",
+        "position": {
+          "x": -430.5,
+          "y": 1001.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1000.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1001.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "recycler",
+        "position": {
+          "x": -429,
+          "y": 1000
+        },
+        "direction": 8,
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 46,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1002.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1003.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1002.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1003.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "recycler",
+        "position": {
+          "x": -444,
+          "y": 1004
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 51,
+        "name": "fast-inserter",
+        "position": {
+          "x": -442.5,
+          "y": 1005.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1005.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "fast-inserter",
+        "position": {
+          "x": -440.5,
+          "y": 1005.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1004.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "recycler",
+        "position": {
+          "x": -439,
+          "y": 1004
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 56,
+        "name": "fast-inserter",
+        "position": {
+          "x": -432.5,
+          "y": 1005.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 57,
+        "name": "recycler",
+        "position": {
+          "x": -434,
+          "y": 1004
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 58,
+        "name": "fast-inserter",
+        "position": {
+          "x": -430.5,
+          "y": 1005.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1004.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1005.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "recycler",
+        "position": {
+          "x": -429,
+          "y": 1004
+        },
+        "items": [
+          {
+            "id": {
+              "name": "efficiency-module"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 62,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1007.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -440.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 64,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -441.5,
+          "y": 1006.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -438.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 66,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -439.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 67,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -436.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 68,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -437.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 69,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -435.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 70,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -434.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 71,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -433.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 72,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -432.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 73,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1007.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 74,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -430.5,
+          "y": 1007
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 75,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -431.5,
+          "y": 1006.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -429.5,
+          "y": 1006.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 77,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -428.5,
+          "y": 1006.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 78,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -427.5,
+          "y": 1006.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 79,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -426.5,
+          "y": 1006.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 80,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -426.5,
+          "y": 1007.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        1,
+        5,
+        16,
+        5
+      ],
+      [
+        1,
+        5,
+        33,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Orphan Blender",
+    "version": 562949955715078
+  },
+  "index": 2
+}

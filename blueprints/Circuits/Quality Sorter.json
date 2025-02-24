@@ -1,0 +1,212 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-any-quality"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "turbo-splitter"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -196,
+          "y": 1031.5
+        },
+        "direction": 8,
+        "filter": {
+          "quality": "normal",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -196.5,
+          "y": 1032.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1032.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1033.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 5,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -196.5,
+          "y": 1035.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 6,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -196,
+          "y": 1034.5
+        },
+        "direction": 8,
+        "filter": {
+          "quality": "uncommon",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 7,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1035.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1036.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 9,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -196,
+          "y": 1037.5
+        },
+        "direction": 8,
+        "filter": {
+          "quality": "rare",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -196.5,
+          "y": 1038.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1038.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1039.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -196.5,
+          "y": 1041.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1041.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -196,
+          "y": 1040.5
+        },
+        "direction": 8,
+        "filter": {
+          "quality": "epic",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 16,
+        "name": "turbo-splitter",
+        "position": {
+          "x": -196,
+          "y": 1043.5
+        },
+        "direction": 8,
+        "filter": {
+          "quality": "legendary",
+          "comparator": "="
+        },
+        "output_priority": "right"
+      },
+      {
+        "entity_number": 17,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -195.5,
+          "y": 1042.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -196.5,
+          "y": 1044.5
+        },
+        "direction": 12
+      }
+    ],
+    "item": "blueprint",
+    "label": "Quality Sorter",
+    "version": 562949955715078
+  },
+  "index": 4
+}

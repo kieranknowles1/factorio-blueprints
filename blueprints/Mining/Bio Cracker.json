@@ -1,0 +1,394 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 6,
+      "y": 11
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "biochamber"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "recipe",
+          "name": "heavy-oil-cracking"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 9,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 2.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 5.5,
+          "y": 2.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 17,
+        "name": "fast-inserter",
+        "position": {
+          "x": 2.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "fast-inserter",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "fast-inserter",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "fast-inserter",
+        "position": {
+          "x": 5.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "biochamber",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        },
+        "direction": 8,
+        "recipe": "parameter-0",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 23,
+        "name": "biochamber",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        },
+        "direction": 8,
+        "recipe": "parameter-0",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 24,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "pipe",
+        "position": {
+          "x": 0.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 0.5,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 42,
+        "name": "pipe",
+        "position": {
+          "x": 5.5,
+          "y": 10.5
+        }
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Recipe",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Bio Cracker",
+    "version": 562949955715078
+  },
+  "index": 3
+}

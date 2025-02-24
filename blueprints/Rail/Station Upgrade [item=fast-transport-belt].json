@@ -51,15 +51,15 @@
       "icons": [
         {
           "signal": {
-            "name": "train-stop"
+            "name": "fast-transport-belt"
           },
           "index": 1
         }
       ]
     },
     "item": "upgrade-planner",
-    "label": "Station Upgrade",
-    "version": 562949955649542
+    "label": "Station Upgrade [item=fast-transport-belt]",
+    "version": 562949955715078
   },
   "index": 20
 }
