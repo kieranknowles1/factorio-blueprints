@@ -1,0 +1,213 @@
+{
+  "blueprint": {
+    "description": "Submit to your arachnid overlord",
+    "icons": [
+      {
+        "signal": {
+          "name": "spidertron"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "spidertron",
+        "position": {
+          "x": -252.5,
+          "y": 1049.26171875
+        },
+        "enable_logistics_while_moving": true,
+        "grid": [
+          {
+            "equipment": {
+              "name": "fission-reactor-equipment"
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "equipment": {
+              "name": "exoskeleton-equipment"
+            },
+            "position": {
+              "x": 8,
+              "y": 0
+            }
+          },
+          {
+            "equipment": {
+              "name": "energy-shield-mk2-equipment"
+            },
+            "position": {
+              "x": 0,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "energy-shield-mk2-equipment"
+            },
+            "position": {
+              "x": 2,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "energy-shield-mk2-equipment"
+            },
+            "position": {
+              "x": 4,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "battery-mk3-equipment"
+            },
+            "position": {
+              "x": 8,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "battery-mk3-equipment"
+            },
+            "position": {
+              "x": 9,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "personal-roboport-mk2-equipment"
+            },
+            "position": {
+              "x": 6,
+              "y": 4
+            }
+          },
+          {
+            "equipment": {
+              "name": "exoskeleton-equipment",
+              "quality": "uncommon"
+            },
+            "position": {
+              "x": 4,
+              "y": 0
+            }
+          },
+          {
+            "equipment": {
+              "name": "exoskeleton-equipment",
+              "quality": "uncommon"
+            },
+            "position": {
+              "x": 6,
+              "y": 0
+            }
+          }
+        ],
+        "trunk_inventory": null,
+        "ammo_inventory": null,
+        "driver_is_main_gunner": false,
+        "automatic_targeting_parameters": {
+          "auto_target_without_gunner": true,
+          "auto_target_with_gunner": true
+        },
+        "selected_gun_index": 1,
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "rocket",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 800
+                },
+                {
+                  "index": 2,
+                  "name": "repair-pack",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 100
+                },
+                {
+                  "index": 3,
+                  "name": "construction-robot",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 50
+                }
+              ],
+              "group": "Spidertron"
+            }
+          ],
+          "request_from_buffers": true
+        },
+        "items": [
+          {
+            "id": {
+              "name": "fission-reactor-equipment"
+            },
+            "items": {
+              "grid_count": 1
+            }
+          },
+          {
+            "id": {
+              "name": "battery-mk3-equipment"
+            },
+            "items": {
+              "grid_count": 2
+            }
+          },
+          {
+            "id": {
+              "name": "exoskeleton-equipment"
+            },
+            "items": {
+              "grid_count": 1
+            }
+          },
+          {
+            "id": {
+              "name": "exoskeleton-equipment",
+              "quality": "uncommon"
+            },
+            "items": {
+              "grid_count": 2
+            }
+          },
+          {
+            "id": {
+              "name": "personal-roboport-mk2-equipment"
+            },
+            "items": {
+              "grid_count": 1
+            }
+          },
+          {
+            "id": {
+              "name": "energy-shield-mk2-equipment"
+            },
+            "items": {
+              "grid_count": 3
+            }
+          }
+        ]
+      }
+    ],
+    "item": "blueprint",
+    "label": "Spidertron",
+    "version": 562949955846144
+  },
+  "index": 4
+}

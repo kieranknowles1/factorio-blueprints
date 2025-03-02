@@ -1,0 +1,17 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Aquillo",
+    "icons": [
+      {
+        "signal": {
+          "type": "space-location",
+          "name": "aquilo"
+        },
+        "index": 1
+      }
+    ],
+    "version": 562949955846144
+  },
+  "index": 3
+}

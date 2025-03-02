@@ -1,0 +1,190 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "steel-chest"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-any-quality"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": -363.5,
+          "y": 781.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "recycler",
+        "position": {
+          "x": -361,
+          "y": 781
+        },
+        "direction": 12,
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-inserter",
+        "position": {
+          "x": -363.5,
+          "y": 782.5
+        },
+        "direction": 8,
+        "filters": [
+          {
+            "index": 1,
+            "quality": "normal",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 4,
+        "name": "fast-inserter",
+        "position": {
+          "x": -361.5,
+          "y": 782.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 5,
+        "name": "foundry",
+        "position": {
+          "x": -365.5,
+          "y": 785.5
+        },
+        "recipe": "parameter-1",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 6,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": -360.5,
+          "y": 784.5
+        },
+        "quality": "uncommon",
+        "recipe": "parameter-0",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Chest",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "id",
+        "name": "Casting",
+        "id": "parameter-1",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Chest Gambler",
+    "version": 562949955846144
+  },
+  "index": 5
+}

@@ -1,0 +1,346 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "solar-panel"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "solar-panel",
+        "position": {
+          "x": -37.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "solar-panel",
+        "position": {
+          "x": -34.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "solar-panel",
+        "position": {
+          "x": -37.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "solar-panel",
+        "position": {
+          "x": -34.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "accumulator",
+        "position": {
+          "x": -38,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "accumulator",
+        "position": {
+          "x": -36,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "accumulator",
+        "position": {
+          "x": -34,
+          "y": 9
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "accumulator",
+        "position": {
+          "x": -38,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "substation",
+        "position": {
+          "x": -36,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "accumulator",
+        "position": {
+          "x": -34,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "accumulator",
+        "position": {
+          "x": -38,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "accumulator",
+        "position": {
+          "x": -36,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "accumulator",
+        "position": {
+          "x": -34,
+          "y": 13
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 12.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "solar-panel",
+        "position": {
+          "x": -37.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "solar-panel",
+        "position": {
+          "x": -34.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 15.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "solar-panel",
+        "position": {
+          "x": -43.5,
+          "y": 18.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "solar-panel",
+        "position": {
+          "x": -40.5,
+          "y": 18.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "solar-panel",
+        "position": {
+          "x": -37.5,
+          "y": 18.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "solar-panel",
+        "position": {
+          "x": -34.5,
+          "y": 18.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "solar-panel",
+        "position": {
+          "x": -31.5,
+          "y": 18.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "solar-panel",
+        "position": {
+          "x": -28.5,
+          "y": 18.5
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Solar Brick",
+    "version": 562949955846144
+  },
+  "index": 0
+}

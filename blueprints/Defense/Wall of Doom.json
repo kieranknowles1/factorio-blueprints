@@ -1,0 +1,5060 @@
+{
+  "blueprint": {
+    "description": "Overkill? Yes!\n\nViolates the Geneva suggestions? Yes!",
+    "snap-to-grid": {
+      "x": 50,
+      "y": 11
+    },
+    "icons": [
+      {
+        "signal": {
+          "name": "laser-turret"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "flamethrower-turret"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "name": "tesla-turret"
+        },
+        "index": 3
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "roboport",
+        "position": {
+          "x": 25,
+          "y": 3
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 7.5,
+          "y": 8.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "substation",
+        "position": {
+          "x": 7,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 10.5,
+          "y": 8.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 20.5,
+          "y": 8.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe",
+        "position": {
+          "x": 23.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pipe",
+        "position": {
+          "x": 25.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "substation",
+        "position": {
+          "x": 25,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": 26.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 29.5,
+          "y": 8.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 39.5,
+          "y": 8.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 14,
+        "name": "substation",
+        "position": {
+          "x": 43,
+          "y": 7
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 42.5,
+          "y": 8.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 49.5,
+          "y": 8.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 17,
+        "name": "flamethrower-turret",
+        "position": {
+          "x": 9,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 18,
+        "name": "flamethrower-turret",
+        "position": {
+          "x": 22,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "flamethrower-turret",
+        "position": {
+          "x": 28,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "flamethrower-turret",
+        "position": {
+          "x": 41,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 21,
+        "name": "laser-turret",
+        "position": {
+          "x": 0,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "laser-turret",
+        "position": {
+          "x": 2,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "laser-turret",
+        "position": {
+          "x": 4,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "laser-turret",
+        "position": {
+          "x": 6,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "laser-turret",
+        "position": {
+          "x": 8,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "laser-turret",
+        "position": {
+          "x": 10,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "laser-turret",
+        "position": {
+          "x": 12,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "laser-turret",
+        "position": {
+          "x": 14,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "laser-turret",
+        "position": {
+          "x": 16,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "laser-turret",
+        "position": {
+          "x": 18,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "laser-turret",
+        "position": {
+          "x": 20,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "laser-turret",
+        "position": {
+          "x": 22,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "tesla-turret",
+        "position": {
+          "x": 25,
+          "y": 11
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "laser-turret",
+        "position": {
+          "x": 28,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "laser-turret",
+        "position": {
+          "x": 30,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "laser-turret",
+        "position": {
+          "x": 32,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "laser-turret",
+        "position": {
+          "x": 34,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "laser-turret",
+        "position": {
+          "x": 36,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "laser-turret",
+        "position": {
+          "x": 38,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "laser-turret",
+        "position": {
+          "x": 40,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "laser-turret",
+        "position": {
+          "x": 42,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "laser-turret",
+        "position": {
+          "x": 44,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "laser-turret",
+        "position": {
+          "x": 46,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "laser-turret",
+        "position": {
+          "x": 48,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "laser-turret",
+        "position": {
+          "x": 50,
+          "y": 12
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "stone-wall",
+        "position": {
+          "x": -0.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "stone-wall",
+        "position": {
+          "x": 0.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "stone-wall",
+        "position": {
+          "x": 1.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "stone-wall",
+        "position": {
+          "x": 2.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "stone-wall",
+        "position": {
+          "x": 3.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "stone-wall",
+        "position": {
+          "x": 4.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "stone-wall",
+        "position": {
+          "x": 5.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "stone-wall",
+        "position": {
+          "x": 7.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "stone-wall",
+        "position": {
+          "x": 6.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "stone-wall",
+        "position": {
+          "x": 9.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "stone-wall",
+        "position": {
+          "x": 8.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "stone-wall",
+        "position": {
+          "x": 10.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "stone-wall",
+        "position": {
+          "x": 11.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "stone-wall",
+        "position": {
+          "x": 13.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "stone-wall",
+        "position": {
+          "x": 12.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "stone-wall",
+        "position": {
+          "x": 14.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "stone-wall",
+        "position": {
+          "x": 15.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "stone-wall",
+        "position": {
+          "x": 16.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "stone-wall",
+        "position": {
+          "x": 17.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "stone-wall",
+        "position": {
+          "x": 18.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "stone-wall",
+        "position": {
+          "x": 19.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "stone-wall",
+        "position": {
+          "x": 21.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "stone-wall",
+        "position": {
+          "x": 20.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "stone-wall",
+        "position": {
+          "x": 23.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 70,
+        "name": "stone-wall",
+        "position": {
+          "x": 22.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "stone-wall",
+        "position": {
+          "x": 24.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "stone-wall",
+        "position": {
+          "x": 25.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "stone-wall",
+        "position": {
+          "x": 26.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "stone-wall",
+        "position": {
+          "x": 27.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "stone-wall",
+        "position": {
+          "x": 29.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "stone-wall",
+        "position": {
+          "x": 28.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "stone-wall",
+        "position": {
+          "x": 31.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "stone-wall",
+        "position": {
+          "x": 30.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "stone-wall",
+        "position": {
+          "x": 32.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "stone-wall",
+        "position": {
+          "x": 33.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 81,
+        "name": "stone-wall",
+        "position": {
+          "x": 34.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "stone-wall",
+        "position": {
+          "x": 35.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "stone-wall",
+        "position": {
+          "x": 36.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "stone-wall",
+        "position": {
+          "x": 37.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "stone-wall",
+        "position": {
+          "x": 39.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 86,
+        "name": "stone-wall",
+        "position": {
+          "x": 38.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "stone-wall",
+        "position": {
+          "x": 41.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 88,
+        "name": "stone-wall",
+        "position": {
+          "x": 40.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "stone-wall",
+        "position": {
+          "x": 43.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "stone-wall",
+        "position": {
+          "x": 42.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "stone-wall",
+        "position": {
+          "x": 44.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "stone-wall",
+        "position": {
+          "x": 45.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 93,
+        "name": "stone-wall",
+        "position": {
+          "x": 46.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 94,
+        "name": "stone-wall",
+        "position": {
+          "x": 47.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 95,
+        "name": "stone-wall",
+        "position": {
+          "x": 48.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 96,
+        "name": "stone-wall",
+        "position": {
+          "x": 49.5,
+          "y": 14.5
+        }
+      },
+      {
+        "entity_number": 97,
+        "name": "stone-wall",
+        "position": {
+          "x": 50.5,
+          "y": 14.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        4,
+        5,
+        10,
+        5
+      ],
+      [
+        10,
+        5,
+        14,
+        5
+      ]
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": 22,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 0
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 1
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 1
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 1
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 1
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 1
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 1
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 2
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 2
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 2
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 2
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 2
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 2
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 3
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 3
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 3
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 3
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 3
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 3
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 4
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 4
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 4
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 4
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 4
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 4
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 5
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 6
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 7
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 8
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 9
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 10
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 11
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 12
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 13
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 14
+        },
+        "name": "refined-concrete"
+      },
+      {
+        "position": {
+          "x": -1,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 12,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 13,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 14,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 15,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 16,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 17,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 18,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 19,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 21,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 22,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 23,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 24,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 25,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 26,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 27,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 28,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 29,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 30,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 31,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 32,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 33,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 34,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 35,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 36,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 37,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 38,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 39,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 40,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 41,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 42,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 43,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 44,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 45,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 46,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 47,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 48,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 49,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      },
+      {
+        "position": {
+          "x": 50,
+          "y": 15
+        },
+        "name": "refined-hazard-concrete-left"
+      }
+    ],
+    "item": "blueprint",
+    "label": "Wall of Doom",
+    "version": 562949955846144
+  },
+  "index": 3
+}

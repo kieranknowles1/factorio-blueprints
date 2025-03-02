@@ -13,39 +13,62 @@
         "entity_number": 1,
         "name": "cargo-wagon",
         "position": {
-          "x": 122,
-          "y": -227
+          "x": -639,
+          "y": 390.09375
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": null
       },
       {
         "entity_number": 2,
         "name": "cargo-wagon",
         "position": {
-          "x": 129,
-          "y": -227
+          "x": -639,
+          "y": 397.09375
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.25,
+        "orientation": 0.5,
         "inventory": null
       },
       {
         "entity_number": 3,
         "name": "locomotive",
         "position": {
-          "x": 136,
-          "y": -227
+          "x": -639,
+          "y": 404.09375
         },
         "enable_logistics_while_moving": false,
-        "orientation": 0.25,
+        "orientation": 0.5,
         "color": {
           "r": 0.949999988079071,
           "g": 0,
           "b": 0,
           "a": 1
-        }
+        },
+        "items": [
+          {
+            "id": {
+              "name": "nuclear-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1
+                },
+                {
+                  "inventory": 1,
+                  "stack": 2
+                }
+              ]
+            }
+          }
+        ]
       }
     ],
     "schedules": [
@@ -95,6 +118,35 @@
                 }
               ],
               "inside_interrupt": false
+            },
+            {
+              "name": "Refuel",
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-fuel-parameter"
+                    },
+                    "constant": 2,
+                    "comparator": "<"
+                  }
+                }
+              ],
+              "targets": [
+                {
+                  "station": "Fuel Provider",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "fuel_full"
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": true
             }
           ]
         }
@@ -117,7 +169,7 @@
     ],
     "item": "blueprint",
     "label": "Item Train",
-    "version": 562949955715078
+    "version": 562949955846144
   },
   "index": 8
 }

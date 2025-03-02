@@ -1,0 +1,25 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "tile_selection_mode": 3,
+      "tile_filters": [
+        {
+          "name": "ice-platform",
+          "index": 0
+        }
+      ],
+      "icons": [
+        {
+          "signal": {
+            "name": "ice-platform"
+          },
+          "index": 1
+        }
+      ]
+    },
+    "item": "deconstruction-planner",
+    "label": "[item=ice-platform] Ice Platforms",
+    "version": 562949955846144
+  },
+  "index": 3
+}
