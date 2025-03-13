@@ -1,0 +1,235 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "cargo-landing-pad"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "heat-pipe",
+        "position": {
+          "x": -88.5,
+          "y": 28.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "heat-pipe",
+        "position": {
+          "x": -88.5,
+          "y": 29.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -86.5,
+          "y": 29.5
+        },
+        "direction": 8,
+        "type": "input"
+      },
+      {
+        "entity_number": 4,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -87.5,
+          "y": 29.5
+        },
+        "direction": 8,
+        "type": "input"
+      },
+      {
+        "entity_number": 5,
+        "name": "stack-inserter",
+        "position": {
+          "x": -87.5,
+          "y": 28.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 6,
+        "name": "stack-inserter",
+        "position": {
+          "x": -86.5,
+          "y": 28.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-1",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 7,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 29.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 28.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "heat-pipe",
+        "position": {
+          "x": -88.5,
+          "y": 30.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "heat-pipe",
+        "position": {
+          "x": -87.5,
+          "y": 30.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "heat-pipe",
+        "position": {
+          "x": -86.5,
+          "y": 30.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -86.5,
+          "y": 31.5
+        },
+        "direction": 8,
+        "type": "output"
+      },
+      {
+        "entity_number": 13,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -87.5,
+          "y": 31.5
+        },
+        "direction": 8,
+        "type": "output"
+      },
+      {
+        "entity_number": 14,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 31.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 30.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "heat-pipe",
+        "position": {
+          "x": -86.5,
+          "y": 33.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -86.5,
+          "y": 32.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 18,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -87.5,
+          "y": 33.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -87.5,
+          "y": 32.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 20,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 33.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "heat-pipe",
+        "position": {
+          "x": -85.5,
+          "y": 32.5
+        }
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Item 1",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "id",
+        "name": "Item 2",
+        "id": "parameter-1",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "Cargo Pad Unloader",
+    "version": 562949956108288
+  },
+  "index": 10
+}

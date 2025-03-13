@@ -1,0 +1,2472 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "requester-chest"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "fast-inserter",
+        "position": {
+          "x": -303.5,
+          "y": -204.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-T"
+            },
+            "constant": 600,
+            "comparator": "<"
+          }
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -302.5,
+          "y": -204.5
+        },
+        "type": "input"
+      },
+      {
+        "entity_number": 3,
+        "name": "heat-pipe",
+        "position": {
+          "x": -301.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "heat-pipe",
+        "position": {
+          "x": -300.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "heat-pipe",
+        "position": {
+          "x": -299.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "heat-pipe",
+        "position": {
+          "x": -298.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "heat-pipe",
+        "position": {
+          "x": -297.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "heat-pipe",
+        "position": {
+          "x": -296.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "heat-pipe",
+        "position": {
+          "x": -294.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "heat-pipe",
+        "position": {
+          "x": -295.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "heat-pipe",
+        "position": {
+          "x": -292.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "heat-pipe",
+        "position": {
+          "x": -293.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "heat-pipe",
+        "position": {
+          "x": -290.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "heat-pipe",
+        "position": {
+          "x": -291.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "heat-pipe",
+        "position": {
+          "x": -288.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "heat-pipe",
+        "position": {
+          "x": -289.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "heat-pipe",
+        "position": {
+          "x": -287.5,
+          "y": -204.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "heating-tower",
+        "position": {
+          "x": -305.5,
+          "y": -203.5
+        },
+        "control_behavior": {
+          "read_temperature": true,
+          "temperature_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -302.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -301.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "output"
+      },
+      {
+        "entity_number": 21,
+        "name": "heat-pipe",
+        "position": {
+          "x": -300.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "heat-pipe",
+        "position": {
+          "x": -300.5,
+          "y": -202.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "stack-inserter",
+        "position": {
+          "x": -298.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 24,
+        "name": "stack-inserter",
+        "position": {
+          "x": -299.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -299.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "input"
+      },
+      {
+        "entity_number": 26,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -298.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "output"
+      },
+      {
+        "entity_number": 27,
+        "name": "stack-inserter",
+        "position": {
+          "x": -296.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 28,
+        "name": "heat-pipe",
+        "position": {
+          "x": -297.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "heat-pipe",
+        "position": {
+          "x": -297.5,
+          "y": -202.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -296.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "input"
+      },
+      {
+        "entity_number": 31,
+        "name": "stack-inserter",
+        "position": {
+          "x": -295.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 32,
+        "name": "heat-pipe",
+        "position": {
+          "x": -294.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -295.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "output"
+      },
+      {
+        "entity_number": 34,
+        "name": "heat-pipe",
+        "position": {
+          "x": -294.5,
+          "y": -202.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "stack-inserter",
+        "position": {
+          "x": -292.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -292.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "input"
+      },
+      {
+        "entity_number": 37,
+        "name": "heat-pipe",
+        "position": {
+          "x": -290.5,
+          "y": -202.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "heat-pipe",
+        "position": {
+          "x": -290.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "stack-inserter",
+        "position": {
+          "x": -291.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 40,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -291.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "output"
+      },
+      {
+        "entity_number": 41,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 42,
+        "name": "stack-inserter",
+        "position": {
+          "x": -289.5,
+          "y": -202.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": -288.5,
+          "y": -203.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-underground-belt",
+        "position": {
+          "x": -289.5,
+          "y": -203.5
+        },
+        "direction": 12,
+        "type": "input"
+      },
+      {
+        "entity_number": 45,
+        "name": "heat-pipe",
+        "position": {
+          "x": -287.5,
+          "y": -202.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "heat-pipe",
+        "position": {
+          "x": -287.5,
+          "y": -203.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "rail-signal",
+        "position": {
+          "x": -308.5,
+          "y": -200.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 48,
+        "name": "train-stop",
+        "position": {
+          "x": -307,
+          "y": -201
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "first_signal": {
+              "name": "solid-fuel"
+            },
+            "constant": 8000,
+            "comparator": "<"
+          },
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "[item=solid-fuel] Requester"
+      },
+      {
+        "entity_number": 49,
+        "name": "heat-pipe",
+        "position": {
+          "x": -304.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "heat-pipe",
+        "position": {
+          "x": -305.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "heat-pipe",
+        "position": {
+          "x": -302.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "heat-pipe",
+        "position": {
+          "x": -303.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "heat-pipe",
+        "position": {
+          "x": -301.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "heat-pipe",
+        "position": {
+          "x": -300.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "stack-inserter",
+        "position": {
+          "x": -298.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 56,
+        "name": "stack-inserter",
+        "position": {
+          "x": -299.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 57,
+        "name": "steel-chest",
+        "position": {
+          "x": -299.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "steel-chest",
+        "position": {
+          "x": -298.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "stack-inserter",
+        "position": {
+          "x": -296.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 60,
+        "name": "heat-pipe",
+        "position": {
+          "x": -297.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "steel-chest",
+        "position": {
+          "x": -296.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "stack-inserter",
+        "position": {
+          "x": -295.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 63,
+        "name": "heat-pipe",
+        "position": {
+          "x": -294.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "heat-pipe",
+        "position": {
+          "x": -294.5,
+          "y": -200.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "steel-chest",
+        "position": {
+          "x": -295.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "stack-inserter",
+        "position": {
+          "x": -292.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 67,
+        "name": "steel-chest",
+        "position": {
+          "x": -292.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "heat-pipe",
+        "position": {
+          "x": -293.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 69,
+        "name": "stack-inserter",
+        "position": {
+          "x": -291.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 70,
+        "name": "heat-pipe",
+        "position": {
+          "x": -290.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "steel-chest",
+        "position": {
+          "x": -291.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "stack-inserter",
+        "position": {
+          "x": -289.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 73,
+        "name": "stack-inserter",
+        "position": {
+          "x": -288.5,
+          "y": -200.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 74,
+        "name": "steel-chest",
+        "position": {
+          "x": -288.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "steel-chest",
+        "position": {
+          "x": -289.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "heat-pipe",
+        "position": {
+          "x": -287.5,
+          "y": -201.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "rail-signal",
+        "position": {
+          "x": -285.5,
+          "y": -200.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 78,
+        "name": "straight-rail",
+        "position": {
+          "x": -309,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 79,
+        "name": "straight-rail",
+        "position": {
+          "x": -307,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 80,
+        "name": "straight-rail",
+        "position": {
+          "x": -305,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 81,
+        "name": "straight-rail",
+        "position": {
+          "x": -303,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 82,
+        "name": "straight-rail",
+        "position": {
+          "x": -301,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 83,
+        "name": "straight-rail",
+        "position": {
+          "x": -299,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 84,
+        "name": "straight-rail",
+        "position": {
+          "x": -297,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 85,
+        "name": "straight-rail",
+        "position": {
+          "x": -295,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 86,
+        "name": "straight-rail",
+        "position": {
+          "x": -293,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 87,
+        "name": "straight-rail",
+        "position": {
+          "x": -291,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 88,
+        "name": "straight-rail",
+        "position": {
+          "x": -289,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 89,
+        "name": "straight-rail",
+        "position": {
+          "x": -287,
+          "y": -199
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 90,
+        "name": "straight-rail",
+        "position": {
+          "x": -285,
+          "y": -199
+        },
+        "direction": 4
+      }
+    ],
+    "wires": [
+      [
+        1,
+        1,
+        18,
+        1
+      ],
+      [
+        48,
+        1,
+        57,
+        1
+      ],
+      [
+        57,
+        1,
+        58,
+        1
+      ],
+      [
+        58,
+        1,
+        61,
+        1
+      ],
+      [
+        61,
+        1,
+        65,
+        1
+      ],
+      [
+        65,
+        1,
+        67,
+        1
+      ],
+      [
+        67,
+        1,
+        71,
+        1
+      ],
+      [
+        71,
+        1,
+        75,
+        1
+      ],
+      [
+        74,
+        1,
+        75,
+        1
+      ]
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": -309,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -207
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -206
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -205
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -204
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -203
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -202
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -201
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -200
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -309,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -308,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -307,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -306,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -305,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -304,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -303,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -302,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -301,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -300,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -299,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -298,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -297,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -296,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -295,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -294,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -293,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -292,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -291,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -290,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -289,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -288,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -287,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -286,
+          "y": -199
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": -285,
+          "y": -199
+        },
+        "name": "concrete"
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Item",
+        "id": "solid-fuel",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "number",
+        "not-parametrised": true,
+        "number": "8000",
+        "name": "Request Threshold"
+      }
+    ],
+    "item": "blueprint",
+    "label": "Outpost Fuel Requester",
+    "version": 562949956108288
+  },
+  "index": 2
+}

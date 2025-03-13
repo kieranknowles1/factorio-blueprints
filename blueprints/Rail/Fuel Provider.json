@@ -79,22 +79,6 @@
       },
       {
         "entity_number": 7,
-        "name": "locomotive",
-        "position": {
-          "x": -299,
-          "y": 980
-        },
-        "enable_logistics_while_moving": false,
-        "orientation": 0,
-        "color": {
-          "r": 0.949999988079071,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      },
-      {
-        "entity_number": 8,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -102,7 +86,7 @@
         }
       },
       {
-        "entity_number": 9,
+        "entity_number": 8,
         "name": "turbo-transport-belt",
         "position": {
           "x": -296.5,
@@ -115,7 +99,7 @@
         }
       },
       {
-        "entity_number": 10,
+        "entity_number": 9,
         "name": "bulk-inserter",
         "position": {
           "x": -297.5,
@@ -124,7 +108,7 @@
         "direction": 4
       },
       {
-        "entity_number": 11,
+        "entity_number": 10,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -132,7 +116,7 @@
         }
       },
       {
-        "entity_number": 12,
+        "entity_number": 11,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -140,18 +124,7 @@
         }
       },
       {
-        "entity_number": 13,
-        "name": "cargo-wagon",
-        "position": {
-          "x": -299,
-          "y": 987
-        },
-        "enable_logistics_while_moving": false,
-        "orientation": 0,
-        "inventory": null
-      },
-      {
-        "entity_number": 14,
+        "entity_number": 12,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -159,7 +132,7 @@
         }
       },
       {
-        "entity_number": 15,
+        "entity_number": 13,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -167,7 +140,7 @@
         }
       },
       {
-        "entity_number": 16,
+        "entity_number": 14,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -175,7 +148,7 @@
         }
       },
       {
-        "entity_number": 17,
+        "entity_number": 15,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -183,18 +156,7 @@
         }
       },
       {
-        "entity_number": 18,
-        "name": "cargo-wagon",
-        "position": {
-          "x": -299,
-          "y": 994
-        },
-        "enable_logistics_while_moving": false,
-        "orientation": 0,
-        "inventory": null
-      },
-      {
-        "entity_number": 19,
+        "entity_number": 16,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -202,7 +164,7 @@
         }
       },
       {
-        "entity_number": 20,
+        "entity_number": 17,
         "name": "straight-rail",
         "position": {
           "x": -299,
@@ -210,109 +172,13 @@
         }
       },
       {
-        "entity_number": 21,
+        "entity_number": 18,
         "name": "rail-signal",
         "position": {
           "x": -297.5,
           "y": 997.5
         },
         "direction": 8
-      }
-    ],
-    "schedules": [
-      {
-        "locomotives": [
-          7
-        ],
-        "schedule": {
-          "records": [
-            {
-              "station": "Item Provider",
-              "wait_conditions": [
-                {
-                  "compare_type": "and",
-                  "type": "full"
-                }
-              ]
-            }
-          ],
-          "group": "Items",
-          "interrupts": [
-            {
-              "name": "Item Requester",
-              "conditions": [
-                {
-                  "compare_type": "and",
-                  "type": "item_count",
-                  "condition": {
-                    "first_signal": {
-                      "type": "virtual",
-                      "name": "signal-item-parameter"
-                    },
-                    "constant": 0,
-                    "comparator": ">"
-                  }
-                }
-              ],
-              "targets": [
-                {
-                  "station": "[virtual-signal=signal-item-parameter] Requester",
-                  "wait_conditions": [
-                    {
-                      "compare_type": "and",
-                      "type": "empty"
-                    }
-                  ]
-                }
-              ],
-              "inside_interrupt": false
-            },
-            {
-              "name": "Refuel",
-              "conditions": [
-                {
-                  "compare_type": "and",
-                  "type": "fuel_item_count_any",
-                  "condition": {
-                    "first_signal": {
-                      "type": "virtual",
-                      "name": "signal-fuel-parameter"
-                    },
-                    "constant": 10,
-                    "comparator": "<"
-                  }
-                }
-              ],
-              "targets": [
-                {
-                  "station": "Fuel Provider",
-                  "wait_conditions": [
-                    {
-                      "compare_type": "and",
-                      "type": "fuel_full"
-                    }
-                  ]
-                }
-              ],
-              "inside_interrupt": true
-            }
-          ]
-        }
-      }
-    ],
-    "stock_connections": [
-      {
-        "stock": 7,
-        "back": 13
-      },
-      {
-        "stock": 13,
-        "front": 7,
-        "back": 18
-      },
-      {
-        "stock": 18,
-        "front": 13
       }
     ],
     "parameters": [
@@ -328,7 +194,7 @@
     ],
     "item": "blueprint",
     "label": "Fuel Provider",
-    "version": 562949955846144
+    "version": 562949956108288
   },
   "index": 18
 }

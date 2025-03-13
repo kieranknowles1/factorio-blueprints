@@ -1,0 +1,1410 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-any-quality"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "decider-combinator",
+        "position": {
+          "x": 1003,
+          "y": -315.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "type": "virtual",
+                  "name": "signal-anything"
+                },
+                "comparator": ">"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "type": "virtual",
+                  "name": "signal-check"
+                },
+                "copy_count_from_input": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "decider-combinator",
+        "position": {
+          "x": 1004,
+          "y": -314.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "comparator": ">"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "copy_count_from_input": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "arithmetic-combinator",
+        "position": {
+          "x": 1006,
+          "y": -315.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "first_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            },
+            "second_constant": -500,
+            "operation": "*",
+            "output_signal": {
+              "type": "virtual",
+              "name": "signal-each"
+            }
+          }
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "selector-combinator",
+        "position": {
+          "x": 1008,
+          "y": -315.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "operation": "stack-size"
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "selector-combinator",
+        "position": {
+          "x": 1008,
+          "y": -314.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "operation": "quality-transfer",
+          "quality_destination_signal": {
+            "type": "virtual",
+            "name": "signal-each"
+          }
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -313
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "train-stop",
+        "position": {
+          "x": 1001,
+          "y": -313
+        },
+        "control_behavior": {
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "Upcycler Requester"
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -311
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -309
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "radar",
+        "position": {
+          "x": 1010.5,
+          "y": -309.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -307
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "decider-combinator",
+        "position": {
+          "x": 1001.5,
+          "y": -307
+        },
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "comparator": ">"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "type": "virtual",
+                  "name": "signal-each"
+                },
+                "copy_count_from_input": false,
+                "constant": -15
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -305
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -304.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 15,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -305.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 16,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -304.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -305.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -304.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 19,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -305.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          },
+          {
+            "index": 4,
+            "name": "iron-gear-wheel",
+            "quality": "epic",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 20,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 21,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -304.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1005.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 23,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1004.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 24,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1006.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1007.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 26,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1008.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 27,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1009.5,
+          "y": -305.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 28,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -303
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -302.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 30,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -303.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 31,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -302.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -303.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -302.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 34,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -303.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 35,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -303.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -302.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -301
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -300.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 39,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -301.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 40,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -300.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -301.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -300.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 43,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -301.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -301.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -300.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "substation",
+        "position": {
+          "x": 1006,
+          "y": -302
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -299
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -298.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 49,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -298.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -298.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 51,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -298.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 52,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -297
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -296.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 54,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -297.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 55,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -296.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -297.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -296.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 58,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -297.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 59,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -297.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -296.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 61,
+        "name": "lightning-rod",
+        "position": {
+          "x": 1007.5,
+          "y": -296.5
+        },
+        "quality": "uncommon"
+      },
+      {
+        "entity_number": 62,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -295
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -294.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 64,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -295.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 65,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -294.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -295.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -294.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 68,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -295.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 69,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -295.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 70,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -294.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 71,
+        "name": "straight-rail",
+        "position": {
+          "x": 999,
+          "y": -293
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 1000.5,
+          "y": -293.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 73,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 1001.5,
+          "y": -293.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "stack-inserter",
+        "position": {
+          "x": 1002.5,
+          "y": -293.5
+        },
+        "direction": 12,
+        "control_behavior": {
+          "circuit_set_filters": true
+        },
+        "filters": [
+          {
+            "index": 1,
+            "name": "iron-gear-wheel",
+            "quality": "normal",
+            "comparator": "="
+          },
+          {
+            "index": 2,
+            "name": "iron-gear-wheel",
+            "quality": "uncommon",
+            "comparator": "="
+          },
+          {
+            "index": 3,
+            "name": "iron-gear-wheel",
+            "quality": "rare",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 75,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1003.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 76,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1004.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 77,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1005.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 78,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1006.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 79,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1007.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 80,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1008.5,
+          "y": -293.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 81,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 1009.5,
+          "y": -293.5
+        },
+        "direction": 4
+      }
+    ],
+    "wires": [
+      [
+        1,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        4,
+        7,
+        2
+      ],
+      [
+        2,
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        1,
+        5,
+        3
+      ],
+      [
+        2,
+        3,
+        7,
+        1
+      ],
+      [
+        3,
+        1,
+        4,
+        3
+      ],
+      [
+        4,
+        1,
+        5,
+        3
+      ],
+      [
+        5,
+        1,
+        10,
+        1
+      ],
+      [
+        12,
+        1,
+        17,
+        1
+      ],
+      [
+        12,
+        3,
+        19,
+        1
+      ],
+      [
+        16,
+        1,
+        17,
+        1
+      ],
+      [
+        16,
+        1,
+        32,
+        1
+      ],
+      [
+        16,
+        2,
+        18,
+        2
+      ],
+      [
+        17,
+        2,
+        19,
+        2
+      ],
+      [
+        18,
+        1,
+        19,
+        1
+      ],
+      [
+        18,
+        1,
+        34,
+        1
+      ],
+      [
+        31,
+        1,
+        32,
+        1
+      ],
+      [
+        31,
+        1,
+        41,
+        1
+      ],
+      [
+        31,
+        2,
+        33,
+        2
+      ],
+      [
+        32,
+        2,
+        34,
+        2
+      ],
+      [
+        33,
+        1,
+        34,
+        1
+      ],
+      [
+        33,
+        1,
+        43,
+        1
+      ],
+      [
+        40,
+        1,
+        41,
+        1
+      ],
+      [
+        40,
+        1,
+        49,
+        1
+      ],
+      [
+        40,
+        2,
+        42,
+        2
+      ],
+      [
+        41,
+        2,
+        43,
+        2
+      ],
+      [
+        42,
+        1,
+        43,
+        1
+      ],
+      [
+        42,
+        1,
+        50,
+        1
+      ],
+      [
+        49,
+        1,
+        56,
+        1
+      ],
+      [
+        49,
+        2,
+        50,
+        2
+      ],
+      [
+        50,
+        1,
+        58,
+        1
+      ],
+      [
+        55,
+        1,
+        56,
+        1
+      ],
+      [
+        55,
+        1,
+        66,
+        1
+      ],
+      [
+        55,
+        2,
+        57,
+        2
+      ],
+      [
+        56,
+        2,
+        58,
+        2
+      ],
+      [
+        57,
+        1,
+        58,
+        1
+      ],
+      [
+        57,
+        1,
+        68,
+        1
+      ],
+      [
+        65,
+        1,
+        66,
+        1
+      ],
+      [
+        65,
+        1,
+        73,
+        1
+      ],
+      [
+        65,
+        2,
+        67,
+        2
+      ],
+      [
+        66,
+        2,
+        68,
+        2
+      ],
+      [
+        67,
+        1,
+        68,
+        1
+      ],
+      [
+        67,
+        1,
+        74,
+        1
+      ],
+      [
+        73,
+        2,
+        74,
+        2
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Upcycler Requester",
+    "version": 562949956108288
+  },
+  "index": 0
+}

@@ -1,0 +1,618 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "steam-turbine"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 65.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 65.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 65.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "steam-turbine",
+        "position": {
+          "x": 4.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "steam-turbine",
+        "position": {
+          "x": 9.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "steam-turbine",
+        "position": {
+          "x": 14.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "steam-turbine",
+        "position": {
+          "x": 19.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 66.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 67.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 66.5
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 67.5
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 67.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 66.5
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "steam-turbine",
+        "position": {
+          "x": 27.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 15,
+        "name": "steam-turbine",
+        "position": {
+          "x": 32.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 16,
+        "name": "steam-turbine",
+        "position": {
+          "x": 37.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 17,
+        "name": "steam-turbine",
+        "position": {
+          "x": 42.5,
+          "y": 66.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 18,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "heat-pipe",
+        "position": {
+          "x": 3.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "heat-pipe",
+        "position": {
+          "x": 5.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "heat-pipe",
+        "position": {
+          "x": 6.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "heat-pipe",
+        "position": {
+          "x": 7.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "heat-pipe",
+        "position": {
+          "x": 8.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "heat-pipe",
+        "position": {
+          "x": 9.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "heat-pipe",
+        "position": {
+          "x": 11.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "heat-pipe",
+        "position": {
+          "x": 12.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "heat-pipe",
+        "position": {
+          "x": 13.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "heat-pipe",
+        "position": {
+          "x": 14.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "heat-pipe",
+        "position": {
+          "x": 15.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "heat-pipe",
+        "position": {
+          "x": 16.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "heat-pipe",
+        "position": {
+          "x": 17.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 69.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 69.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 69.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "heat-pipe",
+        "position": {
+          "x": 29.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "heat-pipe",
+        "position": {
+          "x": 31.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "heat-pipe",
+        "position": {
+          "x": 30.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "heat-pipe",
+        "position": {
+          "x": 32.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "heat-pipe",
+        "position": {
+          "x": 33.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "heat-pipe",
+        "position": {
+          "x": 35.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "heat-pipe",
+        "position": {
+          "x": 34.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "heat-pipe",
+        "position": {
+          "x": 36.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "heat-pipe",
+        "position": {
+          "x": 37.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "heat-pipe",
+        "position": {
+          "x": 38.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "heat-pipe",
+        "position": {
+          "x": 39.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "heat-pipe",
+        "position": {
+          "x": 40.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "heat-pipe",
+        "position": {
+          "x": 41.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "heat-pipe",
+        "position": {
+          "x": 43.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "heat-pipe",
+        "position": {
+          "x": 42.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "heat-pipe",
+        "position": {
+          "x": 45.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "heat-pipe",
+        "position": {
+          "x": 45.5,
+          "y": 69.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "heat-pipe",
+        "position": {
+          "x": 44.5,
+          "y": 68.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "steam-turbine",
+        "position": {
+          "x": 4.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 59,
+        "name": "steam-turbine",
+        "position": {
+          "x": 9.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 60,
+        "name": "steam-turbine",
+        "position": {
+          "x": 14.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 61,
+        "name": "steam-turbine",
+        "position": {
+          "x": 19.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 62,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 70.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "heat-pipe",
+        "position": {
+          "x": 23.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 70.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe",
+        "position": {
+          "x": 22.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 71.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "pipe",
+        "position": {
+          "x": 24.5,
+          "y": 70.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "steam-turbine",
+        "position": {
+          "x": 27.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 69,
+        "name": "steam-turbine",
+        "position": {
+          "x": 32.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 70,
+        "name": "steam-turbine",
+        "position": {
+          "x": 37.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 71,
+        "name": "steam-turbine",
+        "position": {
+          "x": 42.5,
+          "y": 70.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 72,
+        "name": "heat-pipe",
+        "position": {
+          "x": 45.5,
+          "y": 70.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "heat-pipe",
+        "position": {
+          "x": 45.5,
+          "y": 71.5
+        }
+      }
+    ],
+    "item": "blueprint",
+    "label": "90mw Steam Array",
+    "version": 562949956108288
+  },
+  "index": 9
+}

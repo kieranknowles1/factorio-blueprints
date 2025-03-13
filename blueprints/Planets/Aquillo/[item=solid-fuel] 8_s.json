@@ -1,0 +1,1596 @@
+{
+  "blueprint": {
+    "snap-to-grid": {
+      "x": 12,
+      "y": 11
+    },
+    "icons": [
+      {
+        "signal": {
+          "type": "recipe",
+          "name": "solid-fuel-from-ammonia"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "heat-pipe",
+        "position": {
+          "x": 1.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 0.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 1.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 11,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 0.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 12,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 1.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "stack-inserter",
+        "position": {
+          "x": 10.5,
+          "y": 0.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 18,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "heat-pipe",
+        "position": {
+          "x": 3.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "cryogenic-plant",
+        "position": {
+          "x": 7.5,
+          "y": 2.5
+        },
+        "direction": 4,
+        "mirror": true,
+        "recipe": "solid-fuel-from-ammonia",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 25,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 3.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 26,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 2.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 27,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 2.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 3.5
+        }
+      },
+      {
+        "entity_number": 29,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "heat-pipe",
+        "position": {
+          "x": 1.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "heat-pipe",
+        "position": {
+          "x": 3.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "heat-pipe",
+        "position": {
+          "x": 5.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "heat-pipe",
+        "position": {
+          "x": 6.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "heat-pipe",
+        "position": {
+          "x": 7.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "heat-pipe",
+        "position": {
+          "x": 8.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "heat-pipe",
+        "position": {
+          "x": 9.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 5.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 4.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 44,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 4.5
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 5.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": 1.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 6.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 50,
+        "name": "pipe",
+        "position": {
+          "x": 2.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 7.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 55,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 6.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 56,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 7.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 6.5
+        }
+      },
+      {
+        "entity_number": 58,
+        "name": "heat-pipe",
+        "position": {
+          "x": 1.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 60,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 1.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 64,
+        "name": "heat-pipe",
+        "position": {
+          "x": 3.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 65,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 3.5,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 66,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 67,
+        "name": "heat-pipe",
+        "position": {
+          "x": 4.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 68,
+        "name": "cryogenic-plant",
+        "position": {
+          "x": 7.5,
+          "y": 8.5
+        },
+        "direction": 4,
+        "recipe": "solid-fuel-from-ammonia",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 69,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 9.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 70,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 8.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 71,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 9.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "heat-pipe",
+        "position": {
+          "x": 10.5,
+          "y": 8.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "heat-pipe",
+        "position": {
+          "x": 0.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 74,
+        "name": "heat-pipe",
+        "position": {
+          "x": 2.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": 3.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "pipe",
+        "position": {
+          "x": 4.5,
+          "y": 10.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 11.5,
+          "y": 10.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 78,
+        "name": "stack-inserter",
+        "position": {
+          "x": 10.5,
+          "y": 10.5
+        },
+        "direction": 12
+      }
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 0
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 1
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 2
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 3
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 4
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 5
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 6
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 7
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 8
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 9
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 1,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 2,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 3,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 4,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 5,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 6,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 7,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 8,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 9,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 10,
+          "y": 10
+        },
+        "name": "concrete"
+      },
+      {
+        "position": {
+          "x": 11,
+          "y": 10
+        },
+        "name": "concrete"
+      }
+    ],
+    "item": "blueprint",
+    "label": "[item=solid-fuel] 8/s",
+    "version": 562949956108288
+  },
+  "index": 5
+}
