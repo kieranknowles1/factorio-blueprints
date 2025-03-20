@@ -1,0 +1,27 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {
+            "type": "entity",
+            "name": "bulk-inserter",
+            "quality": "normal",
+            "comparator": "="
+          },
+          "to": {
+            "type": "entity",
+            "name": "stack-inserter",
+            "module_limit": 0,
+            "module_slots": []
+          },
+          "index": 0
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "label": "Inserter to Stack",
+    "version": 562949956173828
+  },
+  "index": 15
+}

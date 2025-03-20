@@ -269,8 +269,8 @@
               "name": "Refuel",
               "conditions": [
                 {
-                  "compare_type": "and",
                   "type": "fuel_item_count_any",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "type": "virtual",
@@ -286,8 +286,8 @@
                   "station": "Fuel Provider",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "fuel_item_count_all",
+                      "compare_type": "and",
                       "condition": {
                         "first_signal": {
                           "type": "virtual",
@@ -298,8 +298,8 @@
                       }
                     },
                     {
-                      "compare_type": "and",
                       "type": "inactivity",
+                      "compare_type": "and",
                       "ticks": 120
                     }
                   ]
@@ -318,7 +318,7 @@
     ],
     "item": "blueprint",
     "label": "Personal Transport Station",
-    "version": 562949956108288
+    "version": 562949956173828
   },
   "index": 19
 }

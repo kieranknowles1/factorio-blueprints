@@ -1,0 +1,141 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "locomotive"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "name": "scrap"
+        },
+        "index": 2
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 334,
+          "y": -367
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 341,
+          "y": -367
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "locomotive",
+        "position": {
+          "x": 348,
+          "y": -367
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "items": [
+          {
+            "id": {
+              "name": "rocket-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 1,
+                  "count": 7
+                },
+                {
+                  "inventory": 1,
+                  "stack": 2,
+                  "count": 20
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          3
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "[item=scrap] Mix Provider",
+              "wait_conditions": [
+                {
+                  "type": "inactivity",
+                  "compare_type": "and",
+                  "ticks": 120
+                },
+                {
+                  "type": "circuit",
+                  "compare_type": "and",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-check"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                }
+              ]
+            },
+            {
+              "station": "[item=scrap] Mix Requester",
+              "wait_conditions": [
+                {
+                  "type": "empty",
+                  "compare_type": "and"
+                }
+              ]
+            }
+          ],
+          "group": "Scrap Mix"
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 1,
+        "front": 2
+      },
+      {
+        "stock": 2,
+        "front": 3,
+        "back": 1
+      },
+      {
+        "stock": 3,
+        "back": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "Scrap Mix Train",
+    "version": 562949956173828
+  },
+  "index": 2
+}

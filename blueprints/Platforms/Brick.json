@@ -4905,8 +4905,8 @@
               "station": "gleba",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             },
@@ -4914,12 +4914,12 @@
               "station": "nauvis",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
                   "type": "item_count",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "name": "agricultural-science-pack"
@@ -14392,7 +14392,7 @@
     ],
     "item": "blueprint",
     "label": "Brick",
-    "version": 562949956108288
+    "version": 562949956173828
   },
   "index": 1
 }

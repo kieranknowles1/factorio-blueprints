@@ -1,0 +1,883 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "passive-provider-chest"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": 671,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": 673,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 3,
+        "name": "straight-rail",
+        "position": {
+          "x": 675,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 4,
+        "name": "straight-rail",
+        "position": {
+          "x": 677,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 5,
+        "name": "straight-rail",
+        "position": {
+          "x": 679,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "straight-rail",
+        "position": {
+          "x": 681,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 7,
+        "name": "straight-rail",
+        "position": {
+          "x": 683,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": 685,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 9,
+        "name": "straight-rail",
+        "position": {
+          "x": 687,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 10,
+        "name": "straight-rail",
+        "position": {
+          "x": 689,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 11,
+        "name": "straight-rail",
+        "position": {
+          "x": 691,
+          "y": -359
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 12,
+        "name": "rail-signal",
+        "position": {
+          "x": 669.5,
+          "y": -357.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 13,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 671.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 671.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 15,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 673.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 672.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 673.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 18,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 672.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 19,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 675.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 674.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 22,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 674.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 23,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 676.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 677.5,
+          "y": -356.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 676.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 26,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 679.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 678.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 679.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 29,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 30,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 681.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 680.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 681.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 33,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 680.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 34,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 682.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 683.5,
+          "y": -356.5
+        },
+        "control_behavior": {
+          "circuit_condition_enabled": false
+        }
+      },
+      {
+        "entity_number": 36,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 683.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 37,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 682.5,
+          "y": -357.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 38,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 684.5,
+          "y": -356.5
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "train-stop",
+        "position": {
+          "x": 691,
+          "y": -357
+        },
+        "direction": 4,
+        "control_behavior": {
+          "read_from_train": true,
+          "train_stopped_signal": {
+            "type": "virtual",
+            "name": "signal-T"
+          }
+        },
+        "station": "[item=parameter-0] Mix Provider",
+        "manual_trains_limit": 1
+      },
+      {
+        "entity_number": 40,
+        "name": "medium-electric-pole",
+        "position": {
+          "x": 692.5,
+          "y": -356.5
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "rail-signal",
+        "position": {
+          "x": 692.5,
+          "y": -357.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 42,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 671.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 43,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 671.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 44,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 672.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 45,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 673.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 46,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 672.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 47,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 673.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 48,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 675.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 49,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 674.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 50,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 674.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 51,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 675.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 52,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 676.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 53,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 677.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 54,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 676.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 55,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 678.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 56,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 679.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 57,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 679.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 58,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 678.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 59,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 680.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 60,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 681.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 61,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 680.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 62,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 681.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 63,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 683.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 64,
+        "name": "bulk-inserter",
+        "position": {
+          "x": 682.5,
+          "y": -355.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 65,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 682.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 66,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 683.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 67,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 685.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 68,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 684.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 69,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 687.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 70,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 686.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 71,
+        "name": "selector-combinator",
+        "position": {
+          "x": 689,
+          "y": -355.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "operation": "quality-transfer",
+          "quality_destination_signal": {
+            "type": "virtual",
+            "name": "signal-each"
+          }
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 688.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 73,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 689.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 74,
+        "name": "decider-combinator",
+        "position": {
+          "x": 691,
+          "y": -355.5
+        },
+        "direction": 4,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "first_signal": {
+                  "name": "parameter-0"
+                },
+                "constant": 7500,
+                "comparator": ">"
+              }
+            ],
+            "outputs": [
+              {
+                "signal": {
+                  "type": "virtual",
+                  "name": "signal-check"
+                },
+                "copy_count_from_input": false
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 691.5,
+          "y": -354.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 76,
+        "name": "turbo-transport-belt",
+        "position": {
+          "x": 690.5,
+          "y": -354.5
+        },
+        "direction": 12
+      }
+    ],
+    "wires": [
+      [
+        13,
+        1,
+        16,
+        1
+      ],
+      [
+        15,
+        1,
+        16,
+        1
+      ],
+      [
+        15,
+        1,
+        20,
+        1
+      ],
+      [
+        19,
+        1,
+        20,
+        1
+      ],
+      [
+        19,
+        1,
+        23,
+        1
+      ],
+      [
+        23,
+        1,
+        27,
+        1
+      ],
+      [
+        24,
+        5,
+        38,
+        5
+      ],
+      [
+        26,
+        1,
+        27,
+        1
+      ],
+      [
+        26,
+        1,
+        31,
+        1
+      ],
+      [
+        30,
+        1,
+        31,
+        1
+      ],
+      [
+        30,
+        1,
+        34,
+        1
+      ],
+      [
+        34,
+        1,
+        35,
+        1
+      ],
+      [
+        35,
+        1,
+        38,
+        1
+      ],
+      [
+        38,
+        5,
+        40,
+        5
+      ],
+      [
+        39,
+        1,
+        74,
+        3
+      ],
+      [
+        39,
+        2,
+        71,
+        2
+      ],
+      [
+        71,
+        3,
+        74,
+        1
+      ]
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Item",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "number",
+        "number": "7500",
+        "name": "Depart Threshold",
+        "formula": "p0_s*75",
+        "dependent": true
+      }
+    ],
+    "item": "blueprint",
+    "label": "Mix Provider",
+    "version": 562949956173828
+  },
+  "index": 1
+}

@@ -82,8 +82,8 @@
               "station": "Item Provider",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "full"
+                  "type": "full",
+                  "compare_type": "and"
                 }
               ]
             }
@@ -94,8 +94,8 @@
               "name": "Item Requester",
               "conditions": [
                 {
-                  "compare_type": "and",
                   "type": "item_count",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "type": "virtual",
@@ -111,8 +111,8 @@
                   "station": "[virtual-signal=signal-item-parameter] Requester",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
-                      "type": "empty"
+                      "type": "empty",
+                      "compare_type": "and"
                     }
                   ]
                 }
@@ -123,8 +123,8 @@
               "name": "Refuel",
               "conditions": [
                 {
-                  "compare_type": "and",
                   "type": "fuel_item_count_any",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "type": "virtual",
@@ -140,8 +140,8 @@
                   "station": "Fuel Provider",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
-                      "type": "fuel_full"
+                      "type": "fuel_full",
+                      "compare_type": "and"
                     }
                   ]
                 }
@@ -169,7 +169,7 @@
     ],
     "item": "blueprint",
     "label": "Item Train",
-    "version": 562949956108288
+    "version": 562949956173828
   },
   "index": 8
 }

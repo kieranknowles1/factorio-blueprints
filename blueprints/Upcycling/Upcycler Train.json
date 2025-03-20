@@ -1,0 +1,174 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "locomotive"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "locomotive",
+        "position": {
+          "x": 855,
+          "y": -536
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "color": {
+          "r": 0.949999988079071,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "items": [
+          {
+            "id": {
+              "name": "solid-fuel"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 1,
+                  "stack": 0,
+                  "count": 22
+                },
+                {
+                  "inventory": 1,
+                  "stack": 1,
+                  "count": 50
+                },
+                {
+                  "inventory": 1,
+                  "stack": 2,
+                  "count": 49
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 855,
+          "y": -529
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {
+          "x": 855,
+          "y": -522
+        },
+        "enable_logistics_while_moving": false,
+        "orientation": 0,
+        "inventory": null
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [
+          1
+        ],
+        "schedule": {
+          "records": [
+            {
+              "station": "Upcycler Requester",
+              "wait_conditions": [
+                {
+                  "type": "circuit",
+                  "compare_type": "and",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-check"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                }
+              ]
+            }
+          ],
+          "group": "Upcyclers",
+          "interrupts": [
+            {
+              "name": "Upcycler Fetch",
+              "conditions": [
+                {
+                  "type": "circuit",
+                  "compare_type": "and",
+                  "condition": {
+                    "first_signal": {
+                      "type": "virtual",
+                      "name": "signal-signal-parameter"
+                    },
+                    "constant": 0,
+                    "comparator": ">"
+                  }
+                },
+                {
+                  "type": "empty",
+                  "compare_type": "and"
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[virtual-signal=signal-signal-parameter] Mix Provider",
+                  "wait_conditions": [
+                    {
+                      "type": "circuit",
+                      "compare_type": "and",
+                      "condition": {
+                        "first_signal": {
+                          "type": "virtual",
+                          "name": "signal-check"
+                        },
+                        "constant": 0,
+                        "comparator": ">"
+                      }
+                    },
+                    {
+                      "type": "inactivity",
+                      "compare_type": "and",
+                      "ticks": 120
+                    }
+                  ]
+                }
+              ],
+              "inside_interrupt": false
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {
+        "stock": 1,
+        "back": 2
+      },
+      {
+        "stock": 2,
+        "front": 1,
+        "back": 3
+      },
+      {
+        "stock": 3,
+        "front": 2
+      }
+    ],
+    "item": "blueprint",
+    "label": "Upcycler Train",
+    "version": 562949956173828
+  },
+  "index": 4
+}

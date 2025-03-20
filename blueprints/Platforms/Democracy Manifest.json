@@ -4333,8 +4333,8 @@
               "station": "fulgora",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ]
             },
@@ -4342,8 +4342,8 @@
               "station": "vulcanus",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             }
@@ -4353,12 +4353,12 @@
               "name": "[planet=fulgora] Fulgora",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -4372,12 +4372,12 @@
               "name": "[planet=gleba] Gleba",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -4391,12 +4391,12 @@
               "name": "[planet=nauvis] Nauvis",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -4410,12 +4410,12 @@
               "name": "[planet=vulcanus] Vulcanus",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -4429,8 +4429,8 @@
               "name": "[item=uranium-fuel-cell] Refuel",
               "conditions": [
                 {
-                  "compare_type": "and",
                   "type": "item_count",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "name": "uranium-fuel-cell"
@@ -4445,8 +4445,8 @@
                   "station": "nauvis",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "request_satisfied",
+                      "compare_type": "and",
                       "condition": {
                         "name": "uranium-fuel-cell"
                       }
@@ -15171,7 +15171,7 @@
     ],
     "item": "blueprint",
     "label": "Democracy Manifest",
-    "version": 562949956108288
+    "version": 562949956173828
   },
   "index": 2
 }

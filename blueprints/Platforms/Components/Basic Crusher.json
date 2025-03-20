@@ -1,0 +1,97 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "recipe",
+          "name": "metallic-asteroid-crushing"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "stack-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -14.5
+        },
+        "direction": 4,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 2,
+        "name": "stack-inserter",
+        "position": {
+          "x": -13.5,
+          "y": -13.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 3,
+        "name": "crusher",
+        "position": {
+          "x": -11.5,
+          "y": -14
+        },
+        "direction": 4,
+        "recipe": "parameter-1",
+        "recipe_quality": "normal"
+      },
+      {
+        "entity_number": 4,
+        "name": "stack-inserter",
+        "position": {
+          "x": -9.5,
+          "y": -13.5
+        },
+        "direction": 12,
+        "filters": [
+          {
+            "index": 1,
+            "name": "parameter-0",
+            "quality": "normal",
+            "comparator": "="
+          }
+        ],
+        "filter_mode": "blacklist",
+        "use_filters": true
+      }
+    ],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Recipe",
+        "id": "parameter-1",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        }
+      },
+      {
+        "type": "id",
+        "name": "Chunk",
+        "id": "parameter-0",
+        "quality-condition": {
+          "quality": "normal",
+          "comparator": "="
+        },
+        "ingredient-of": "parameter-1"
+      }
+    ],
+    "item": "blueprint",
+    "label": "Basic Crusher",
+    "version": 562949956173828
+  },
+  "index": 0
+}

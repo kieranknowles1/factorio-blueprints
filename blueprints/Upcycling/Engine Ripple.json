@@ -1,0 +1,1883 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "name": "electric-engine-unit",
+          "quality": "legendary"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "requester-chest",
+        "position": {
+          "x": 752.5,
+          "y": -390.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 2,
+                  "name": "iron-gear-wheel",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 3,
+                  "name": "pipe",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "substation",
+        "position": {
+          "x": 754,
+          "y": -391
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "fast-inserter",
+        "position": {
+          "x": 752.5,
+          "y": -389.5
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "requester-chest",
+        "position": {
+          "x": 759.5,
+          "y": -388.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 7
+                },
+                {
+                  "index": 2,
+                  "name": "engine-unit",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "fast-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -388.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 6,
+        "name": "pipe-to-ground",
+        "position": {
+          "x": 760.5,
+          "y": -388.5
+        },
+        "direction": 8
+      },
+      {
+        "entity_number": 7,
+        "name": "requester-chest",
+        "position": {
+          "x": 745.5,
+          "y": -387.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 78
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "fast-inserter",
+        "position": {
+          "x": 746.5,
+          "y": -387.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 9,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 748.5,
+          "y": -387.5
+        },
+        "quality": "uncommon",
+        "recipe": "pipe",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 10,
+        "name": "requester-chest",
+        "position": {
+          "x": 750.5,
+          "y": -386.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 2,
+                  "name": "iron-gear-wheel",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 3,
+                  "name": "pipe",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "fast-inserter",
+        "position": {
+          "x": 750.5,
+          "y": -387.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 12,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 752.5,
+          "y": -387.5
+        },
+        "quality": "uncommon",
+        "recipe": "engine-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 13,
+        "name": "fast-inserter",
+        "position": {
+          "x": 754.5,
+          "y": -387.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 14,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 756.5,
+          "y": -387.5
+        },
+        "direction": 4,
+        "quality": "uncommon",
+        "recipe": "electric-engine-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 15,
+        "name": "pipe",
+        "position": {
+          "x": 759.5,
+          "y": -387.5
+        }
+      },
+      {
+        "entity_number": 16,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -387.5
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 759.5,
+          "y": -386.5
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "fast-inserter",
+        "position": {
+          "x": 758.5,
+          "y": -386.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 19,
+        "name": "pipe",
+        "position": {
+          "x": 760.5,
+          "y": -386.5
+        }
+      },
+      {
+        "entity_number": 20,
+        "name": "pipe",
+        "position": {
+          "x": 760.5,
+          "y": -387.5
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "fast-inserter",
+        "position": {
+          "x": 747.5,
+          "y": -385.5
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 748.5,
+          "y": -384.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "fast-inserter",
+        "position": {
+          "x": 748.5,
+          "y": -385.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 24,
+        "name": "fast-inserter",
+        "position": {
+          "x": 750.5,
+          "y": -385.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "fast-inserter",
+        "position": {
+          "x": 751.5,
+          "y": -385.5
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "fast-inserter",
+        "position": {
+          "x": 753.5,
+          "y": -385.5
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 752.5,
+          "y": -384.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "fast-inserter",
+        "position": {
+          "x": 752.5,
+          "y": -385.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 29,
+        "name": "requester-chest",
+        "position": {
+          "x": 757.5,
+          "y": -384.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "uncommon",
+                  "comparator": "=",
+                  "count": 7
+                },
+                {
+                  "index": 2,
+                  "name": "engine-unit",
+                  "quality": "uncommon",
+                  "comparator": "=",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "fast-inserter",
+        "position": {
+          "x": 756.5,
+          "y": -384.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 31,
+        "name": "pipe",
+        "position": {
+          "x": 760.5,
+          "y": -384.5
+        }
+      },
+      {
+        "entity_number": 32,
+        "name": "pipe",
+        "position": {
+          "x": 760.5,
+          "y": -385.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "requester-chest",
+        "position": {
+          "x": 743.5,
+          "y": -383.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "uncommon",
+                  "comparator": "=",
+                  "count": 78
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "fast-inserter",
+        "position": {
+          "x": 744.5,
+          "y": -383.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 35,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 746.5,
+          "y": -383.5
+        },
+        "quality": "uncommon",
+        "recipe": "pipe",
+        "recipe_quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 36,
+        "name": "requester-chest",
+        "position": {
+          "x": 748.5,
+          "y": -382.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 2,
+                  "name": "iron-gear-wheel",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 3,
+                  "name": "pipe",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "fast-inserter",
+        "position": {
+          "x": 748.5,
+          "y": -383.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 38,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 750.5,
+          "y": -383.5
+        },
+        "quality": "uncommon",
+        "recipe": "engine-unit",
+        "recipe_quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 39,
+        "name": "fast-inserter",
+        "position": {
+          "x": 752.5,
+          "y": -383.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 40,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 754.5,
+          "y": -383.5
+        },
+        "direction": 4,
+        "quality": "uncommon",
+        "recipe": "electric-engine-unit",
+        "recipe_quality": "uncommon",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 41,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "pipe",
+        "position": {
+          "x": 757.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 757.5,
+          "y": -382.5
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "fast-inserter",
+        "position": {
+          "x": 756.5,
+          "y": -382.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 45,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -382.5
+        }
+      },
+      {
+        "entity_number": 46,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "pipe",
+        "position": {
+          "x": 759.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "pipe",
+        "position": {
+          "x": 760.5,
+          "y": -383.5
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "substation",
+        "position": {
+          "x": 739,
+          "y": -381
+        }
+      },
+      {
+        "entity_number": 50,
+        "name": "fast-inserter",
+        "position": {
+          "x": 745.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 746.5,
+          "y": -380.5
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "fast-inserter",
+        "position": {
+          "x": 746.5,
+          "y": -381.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 53,
+        "name": "fast-inserter",
+        "position": {
+          "x": 748.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 54,
+        "name": "fast-inserter",
+        "position": {
+          "x": 749.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 55,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 750.5,
+          "y": -380.5
+        }
+      },
+      {
+        "entity_number": 56,
+        "name": "fast-inserter",
+        "position": {
+          "x": 751.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 57,
+        "name": "fast-inserter",
+        "position": {
+          "x": 750.5,
+          "y": -381.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 58,
+        "name": "requester-chest",
+        "position": {
+          "x": 755.5,
+          "y": -380.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "rare",
+                  "comparator": "=",
+                  "count": 7
+                },
+                {
+                  "index": 2,
+                  "name": "engine-unit",
+                  "quality": "rare",
+                  "comparator": "=",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 59,
+        "name": "fast-inserter",
+        "position": {
+          "x": 754.5,
+          "y": -380.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 60,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -380.5
+        }
+      },
+      {
+        "entity_number": 61,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -381.5
+        }
+      },
+      {
+        "entity_number": 62,
+        "name": "requester-chest",
+        "position": {
+          "x": 741.5,
+          "y": -379.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "rare",
+                  "comparator": "=",
+                  "count": 78
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 63,
+        "name": "fast-inserter",
+        "position": {
+          "x": 742.5,
+          "y": -379.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 64,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 744.5,
+          "y": -379.5
+        },
+        "quality": "uncommon",
+        "recipe": "pipe",
+        "recipe_quality": "rare",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 65,
+        "name": "requester-chest",
+        "position": {
+          "x": 746.5,
+          "y": -378.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "steel-plate",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 2,
+                  "name": "iron-gear-wheel",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 3,
+                  "name": "pipe",
+                  "quality": "normal",
+                  "comparator": "=",
+                  "count": 7
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 66,
+        "name": "fast-inserter",
+        "position": {
+          "x": 746.5,
+          "y": -379.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 67,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 748.5,
+          "y": -379.5
+        },
+        "quality": "uncommon",
+        "recipe": "engine-unit",
+        "recipe_quality": "normal",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 68,
+        "name": "fast-inserter",
+        "position": {
+          "x": 750.5,
+          "y": -379.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 69,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 752.5,
+          "y": -379.5
+        },
+        "direction": 4,
+        "quality": "uncommon",
+        "recipe": "electric-engine-unit",
+        "recipe_quality": "rare",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 70,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -379.5
+        }
+      },
+      {
+        "entity_number": 71,
+        "name": "pipe",
+        "position": {
+          "x": 755.5,
+          "y": -379.5
+        }
+      },
+      {
+        "entity_number": 72,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 755.5,
+          "y": -378.5
+        }
+      },
+      {
+        "entity_number": 73,
+        "name": "fast-inserter",
+        "position": {
+          "x": 754.5,
+          "y": -378.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 74,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -378.5
+        }
+      },
+      {
+        "entity_number": 75,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -379.5
+        }
+      },
+      {
+        "entity_number": 76,
+        "name": "pipe",
+        "position": {
+          "x": 757.5,
+          "y": -379.5
+        }
+      },
+      {
+        "entity_number": 77,
+        "name": "pipe",
+        "position": {
+          "x": 758.5,
+          "y": -379.5
+        }
+      },
+      {
+        "entity_number": 78,
+        "name": "fast-inserter",
+        "position": {
+          "x": 743.5,
+          "y": -377.5
+        }
+      },
+      {
+        "entity_number": 79,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 744.5,
+          "y": -376.5
+        }
+      },
+      {
+        "entity_number": 80,
+        "name": "fast-inserter",
+        "position": {
+          "x": 744.5,
+          "y": -377.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 81,
+        "name": "fast-inserter",
+        "position": {
+          "x": 746.5,
+          "y": -377.5
+        }
+      },
+      {
+        "entity_number": 82,
+        "name": "fast-inserter",
+        "position": {
+          "x": 747.5,
+          "y": -377.5
+        }
+      },
+      {
+        "entity_number": 83,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 748.5,
+          "y": -376.5
+        }
+      },
+      {
+        "entity_number": 84,
+        "name": "fast-inserter",
+        "position": {
+          "x": 749.5,
+          "y": -377.5
+        }
+      },
+      {
+        "entity_number": 85,
+        "name": "fast-inserter",
+        "position": {
+          "x": 748.5,
+          "y": -377.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 86,
+        "name": "requester-chest",
+        "position": {
+          "x": 753.5,
+          "y": -376.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "epic",
+                  "comparator": "=",
+                  "count": 7
+                },
+                {
+                  "index": 2,
+                  "name": "engine-unit",
+                  "quality": "epic",
+                  "comparator": "=",
+                  "count": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 87,
+        "name": "fast-inserter",
+        "position": {
+          "x": 752.5,
+          "y": -376.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 88,
+        "name": "substation",
+        "position": {
+          "x": 755,
+          "y": -377
+        }
+      },
+      {
+        "entity_number": 89,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -376.5
+        }
+      },
+      {
+        "entity_number": 90,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -377.5
+        }
+      },
+      {
+        "entity_number": 91,
+        "name": "requester-chest",
+        "position": {
+          "x": 739.5,
+          "y": -375.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "epic",
+                  "comparator": "=",
+                  "count": 78
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 92,
+        "name": "fast-inserter",
+        "position": {
+          "x": 740.5,
+          "y": -375.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 93,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 742.5,
+          "y": -375.5
+        },
+        "quality": "uncommon",
+        "recipe": "pipe",
+        "recipe_quality": "epic",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 94,
+        "name": "fast-inserter",
+        "position": {
+          "x": 744.5,
+          "y": -375.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 95,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 746.5,
+          "y": -375.5
+        },
+        "quality": "uncommon",
+        "recipe": "engine-unit",
+        "recipe_quality": "epic",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 96,
+        "name": "fast-inserter",
+        "position": {
+          "x": 748.5,
+          "y": -375.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 97,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 750.5,
+          "y": -375.5
+        },
+        "direction": 4,
+        "quality": "uncommon",
+        "recipe": "electric-engine-unit",
+        "recipe_quality": "epic",
+        "items": [
+          {
+            "id": {
+              "name": "quality-module-3",
+              "quality": "uncommon"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 98,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 753.5,
+          "y": -374.5
+        }
+      },
+      {
+        "entity_number": 99,
+        "name": "pipe",
+        "position": {
+          "x": 752.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 100,
+        "name": "pipe",
+        "position": {
+          "x": 753.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 101,
+        "name": "fast-inserter",
+        "position": {
+          "x": 752.5,
+          "y": -374.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 102,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -374.5
+        }
+      },
+      {
+        "entity_number": 103,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 104,
+        "name": "pipe",
+        "position": {
+          "x": 755.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 105,
+        "name": "pipe",
+        "position": {
+          "x": 756.5,
+          "y": -375.5
+        }
+      },
+      {
+        "entity_number": 106,
+        "name": "requester-chest",
+        "position": {
+          "x": 737.5,
+          "y": -372.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-plate",
+                  "quality": "legendary",
+                  "comparator": "=",
+                  "count": 78
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 107,
+        "name": "fast-inserter",
+        "position": {
+          "x": 738.5,
+          "y": -372.5
+        },
+        "direction": 12
+      },
+      {
+        "entity_number": 108,
+        "name": "fast-inserter",
+        "position": {
+          "x": 741.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 109,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 742.5,
+          "y": -372.5
+        }
+      },
+      {
+        "entity_number": 110,
+        "name": "fast-inserter",
+        "position": {
+          "x": 742.5,
+          "y": -373.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 111,
+        "name": "fast-inserter",
+        "position": {
+          "x": 745.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 112,
+        "name": "passive-provider-chest",
+        "position": {
+          "x": 746.5,
+          "y": -372.5
+        }
+      },
+      {
+        "entity_number": 113,
+        "name": "fast-inserter",
+        "position": {
+          "x": 746.5,
+          "y": -373.5
+        },
+        "filters": [
+          {
+            "index": 1,
+            "quality": "uncommon",
+            "comparator": ">"
+          }
+        ],
+        "use_filters": true
+      },
+      {
+        "entity_number": 114,
+        "name": "fast-inserter",
+        "position": {
+          "x": 747.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 115,
+        "name": "fast-inserter",
+        "position": {
+          "x": 750.5,
+          "y": -372.5
+        },
+        "direction": 4
+      },
+      {
+        "entity_number": 116,
+        "name": "requester-chest",
+        "position": {
+          "x": 751.5,
+          "y": -372.5
+        },
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "electronic-circuit",
+                  "quality": "legendary",
+                  "comparator": "=",
+                  "count": 3
+                },
+                {
+                  "index": 2,
+                  "name": "engine-unit",
+                  "quality": "legendary",
+                  "comparator": "=",
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "entity_number": 117,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -372.5
+        }
+      },
+      {
+        "entity_number": 118,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -373.5
+        }
+      },
+      {
+        "entity_number": 119,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 740.5,
+          "y": -371.5
+        },
+        "quality": "uncommon",
+        "recipe": "pipe",
+        "recipe_quality": "legendary"
+      },
+      {
+        "entity_number": 120,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 744.5,
+          "y": -371.5
+        },
+        "quality": "uncommon",
+        "recipe": "engine-unit",
+        "recipe_quality": "legendary",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 121,
+        "name": "assembling-machine-3",
+        "position": {
+          "x": 748.5,
+          "y": -371.5
+        },
+        "direction": 4,
+        "quality": "uncommon",
+        "recipe": "electric-engine-unit",
+        "recipe_quality": "legendary",
+        "items": [
+          {
+            "id": {
+              "name": "productivity-module-3"
+            },
+            "items": {
+              "in_inventory": [
+                {
+                  "inventory": 4,
+                  "stack": 0
+                },
+                {
+                  "inventory": 4,
+                  "stack": 1
+                },
+                {
+                  "inventory": 4,
+                  "stack": 2
+                },
+                {
+                  "inventory": 4,
+                  "stack": 3
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "entity_number": 122,
+        "name": "pipe",
+        "position": {
+          "x": 750.5,
+          "y": -371.5
+        }
+      },
+      {
+        "entity_number": 123,
+        "name": "pipe",
+        "position": {
+          "x": 751.5,
+          "y": -371.5
+        }
+      },
+      {
+        "entity_number": 124,
+        "name": "pipe",
+        "position": {
+          "x": 752.5,
+          "y": -371.5
+        }
+      },
+      {
+        "entity_number": 125,
+        "name": "pipe",
+        "position": {
+          "x": 753.5,
+          "y": -371.5
+        }
+      },
+      {
+        "entity_number": 126,
+        "name": "pipe",
+        "position": {
+          "x": 754.5,
+          "y": -371.5
+        }
+      }
+    ],
+    "wires": [
+      [
+        2,
+        5,
+        88,
+        5
+      ],
+      [
+        49,
+        5,
+        88,
+        5
+      ]
+    ],
+    "item": "blueprint",
+    "label": "Engine Ripple",
+    "version": 562949956173828
+  },
+  "index": 5
+}

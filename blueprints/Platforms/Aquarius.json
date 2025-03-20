@@ -7411,8 +7411,8 @@
               "station": "aquilo",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
                   "type": "item_count",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "name": "stone-brick"
@@ -7427,8 +7427,8 @@
               "station": "nauvis",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             },
@@ -7436,8 +7436,8 @@
               "station": "vulcanus",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             },
@@ -7445,8 +7445,8 @@
               "station": "gleba",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             },
@@ -7454,8 +7454,8 @@
               "station": "fulgora",
               "wait_conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "all_requests_satisfied"
+                  "type": "all_requests_satisfied",
+                  "compare_type": "and"
                 }
               ]
             }
@@ -7465,8 +7465,8 @@
               "name": "[item=uranium-fuel-cell] Refuel",
               "conditions": [
                 {
-                  "compare_type": "and",
                   "type": "item_count",
+                  "compare_type": "and",
                   "condition": {
                     "first_signal": {
                       "name": "uranium-fuel-cell"
@@ -7481,8 +7481,8 @@
                   "station": "nauvis",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "request_satisfied",
+                      "compare_type": "and",
                       "condition": {
                         "name": "uranium-fuel-cell"
                       }
@@ -7496,12 +7496,12 @@
               "name": "[planet=fulgora] Fulgora",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -7509,8 +7509,8 @@
                   "station": "fulgora",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "time",
+                      "compare_type": "and",
                       "ticks": 1800
                     }
                   ]
@@ -7522,12 +7522,12 @@
               "name": "[planet=gleba] Gleba",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -7535,8 +7535,8 @@
                   "station": "gleba",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "time",
+                      "compare_type": "and",
                       "ticks": 1800
                     }
                   ]
@@ -7548,12 +7548,12 @@
               "name": "[planet=nauvis] Nauvis",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -7561,8 +7561,8 @@
                   "station": "nauvis",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "time",
+                      "compare_type": "and",
                       "ticks": 1800
                     }
                   ]
@@ -7574,12 +7574,12 @@
               "name": "[planet=vulcanus] Vulcanus",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -7587,8 +7587,8 @@
                   "station": "vulcanus",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "time",
+                      "compare_type": "and",
                       "ticks": 1800
                     }
                   ]
@@ -7600,12 +7600,12 @@
               "name": "[planet=aquilo] Aquilo",
               "conditions": [
                 {
-                  "compare_type": "and",
-                  "type": "passenger_present"
+                  "type": "passenger_present",
+                  "compare_type": "and"
                 },
                 {
-                  "compare_type": "and",
-                  "type": "passenger_not_present"
+                  "type": "passenger_not_present",
+                  "compare_type": "and"
                 }
               ],
               "targets": [
@@ -7613,8 +7613,8 @@
                   "station": "aquilo",
                   "wait_conditions": [
                     {
-                      "compare_type": "and",
                       "type": "time",
+                      "compare_type": "and",
                       "ticks": 1800
                     }
                   ]
@@ -23177,7 +23177,7 @@
     ],
     "item": "blueprint",
     "label": "Aquarius",
-    "version": 562949956108288
+    "version": 562949956173828
   },
   "index": 7
 }
